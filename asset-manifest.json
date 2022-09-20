@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PokemonShinyGuide/static/css/main.39f589df.css",
+    "main.js": "/PokemonShinyGuide/static/js/main.4adf7947.js",
+    "static/js/787.4ef7427d.chunk.js": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js",
+    "index.html": "/PokemonShinyGuide/index.html",
+    "main.39f589df.css.map": "/PokemonShinyGuide/static/css/main.39f589df.css.map",
+    "main.4adf7947.js.map": "/PokemonShinyGuide/static/js/main.4adf7947.js.map",
+    "787.4ef7427d.chunk.js.map": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39f589df.css",
+    "static/js/main.4adf7947.js"
+  ]
+}
