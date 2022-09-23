@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Spiritomb from "./assets/images/Spiritomb.png";
 import Shuckle from "./assets/images/Shuckle.png";
+import MissingNo from "./assets/images/MissingNo.png";
 import { PokemonSelector } from "./components/PokemonSelector";
 //import Legendaries from "./assets/jsons/Legendaries.json";
 import { Pokemon } from "./interfaces/Pokemon";
@@ -43,7 +44,7 @@ function App(): JSX.Element {
 
     const [dexList] = useState<Pokemon[]>(testDex);
     const [spriteURL, upSprite] = useState<string>(
-        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+        "https://play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"
     );
     const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[0]);
     function selectPasser(event: ChangeEvent) {
@@ -52,10 +53,29 @@ function App(): JSX.Element {
             (poke: Pokemon): boolean => poke.species === species
         );
         updateSelect(selection[0]);
-        const newURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${selection[0].id}.png`;
-        console.log(newURL);
-        upSprite(newURL);
+        if (selection[0].id < 899) {
+            const copyName = selection[0].species;
+            let newName = copyName
+                .replaceAll(/[ ':.]/g, "")
+                .replace("♀", "f")
+                .replace("♂", "m")
+                .replaceAll("é", "e");
+            if (newName.includes("-o")) {
+                newName = newName.replace("-", "");
+            }
+            const newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
+            upSprite(newURL);
+        } else {
+            const newURL = `https://www.serebii.net/Shiny/SWSH/${selection[0].id}.png`;
+            upSprite(newURL);
+        }
     }
+
+    const imageOnErrorHandler = (
+        event: React.SyntheticEvent<HTMLImageElement, Event>
+    ) => {
+        event.currentTarget.src = MissingNo;
+    };
 
     return (
         <div className="App">
@@ -114,7 +134,11 @@ function App(): JSX.Element {
                             selectedPoke={selectedPoke.species}
                             selectPasser={selectPasser}
                         ></PokemonSelector>
-                        <img src={spriteURL} width="300px" />
+                        <img
+                            src={spriteURL}
+                            height="200px"
+                            onError={imageOnErrorHandler}
+                        />
                     </td>
                     <td width="33%"></td>
                     <td width="33%"></td>
