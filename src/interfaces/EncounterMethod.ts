@@ -7,6 +7,4 @@ export interface EncounterMethod {
     weather: string;
     season: string;
     SOS: string;
-    expectedTime: number;
-    huntingStyle: string;
 }
