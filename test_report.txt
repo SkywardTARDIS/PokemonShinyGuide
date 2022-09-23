@@ -5,8 +5,1378 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (52 ms)
+  console.log
+    [
+      {
+        species: 'Bulbasaur',
+        id: 1,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      { species: 'Ivysaur', id: 2, methods: [] },
+      { species: 'Venusaur', id: 3, methods: [] },
+      {
+        species: 'Charmander',
+        id: 4,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      { species: 'Charmeleon', id: 5, methods: [] },
+      {
+        species: 'Charizard',
+        id: 6,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Squirtle',
+        id: 7,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      { species: 'Wartortle', id: 8, methods: [] },
+      { species: 'Blastoise', id: 9, methods: [] },
+      {
+        species: 'Caterpie',
+        id: 10,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 55 more items
+        ]
+      },
+      {
+        species: 'Metapod',
+        id: 11,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 45 more items
+        ]
+      },
+      {
+        species: 'Butterfree',
+        id: 12,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 15 more items
+        ]
+      },
+      {
+        species: 'Weedle',
+        id: 13,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Kakuna',
+        id: 14,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Beedrill',
+        id: 15,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Pidgey',
+        id: 16,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 155 more items
+        ]
+      },
+      {
+        species: 'Pidgeotto',
+        id: 17,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 75 more items
+        ]
+      },
+      {
+        species: 'Pidgeot',
+        id: 18,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Rattata',
+        id: 19,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 473 more items
+        ]
+      },
+      {
+        species: 'Raticate',
+        id: 20,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 231 more items
+        ]
+      },
+      {
+        species: 'Spearow',
+        id: 21,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 159 more items
+        ]
+      },
+      {
+        species: 'Fearow',
+        id: 22,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 127 more items
+        ]
+      },
+      {
+        species: 'Ekans',
+        id: 23,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Arbok',
+        id: 24,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Pikachu',
+        id: 25,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 5 more items
+        ]
+      },
+      {
+        species: 'Raichu',
+        id: 26,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Sandshrew',
+        id: 27,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Sandslash',
+        id: 28,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Nidoran♀',
+        id: 29,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 58 more items
+        ]
+      },
+      {
+        species: 'Nidorina',
+        id: 30,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 42 more items
+        ]
+      },
+      {
+        species: 'Nidoqueen',
+        id: 31,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Nidoran♂',
+        id: 32,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 58 more items
+        ]
+      },
+      {
+        species: 'Nidorino',
+        id: 33,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 30 more items
+        ]
+      },
+      {
+        species: 'Nidoking',
+        id: 34,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Clefairy',
+        id: 35,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 55 more items
+        ]
+      },
+      {
+        species: 'Clefable',
+        id: 36,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Vulpix',
+        id: 37,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 9 more items
+        ]
+      },
+      {
+        species: 'Ninetales',
+        id: 38,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Jigglypuff',
+        id: 39,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 60 more items
+        ]
+      },
+      {
+        species: 'Wigglytuff',
+        id: 40,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Zubat',
+        id: 41,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 895 more items
+        ]
+      },
+      {
+        species: 'Golbat',
+        id: 42,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 990 more items
+        ]
+      },
+      {
+        species: 'Oddish',
+        id: 43,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 56 more items
+        ]
+      },
+      {
+        species: 'Gloom',
+        id: 44,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 53 more items
+        ]
+      },
+      {
+        species: 'Vileplume',
+        id: 45,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Paras',
+        id: 46,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Parasect',
+        id: 47,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Venonat',
+        id: 48,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Venomoth',
+        id: 49,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Diglett',
+        id: 50,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Dugtrio',
+        id: 51,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 2 more items
+        ]
+      },
+      {
+        species: 'Meowth',
+        id: 52,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 10 more items
+        ]
+      },
+      {
+        species: 'Persian',
+        id: 53,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Psyduck',
+        id: 54,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 371 more items
+        ]
+      },
+      {
+        species: 'Golduck',
+        id: 55,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 233 more items
+        ]
+      },
+      {
+        species: 'Mankey',
+        id: 56,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Primeape',
+        id: 57,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Growlithe',
+        id: 58,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Arcanine',
+        id: 59,
+        methods: [ [Object], [Object], [Object], [Object] ]
+      },
+      {
+        species: 'Poliwag',
+        id: 60,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 438 more items
+        ]
+      },
+      {
+        species: 'Poliwhirl',
+        id: 61,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 275 more items
+        ]
+      },
+      {
+        species: 'Poliwrath',
+        id: 62,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Abra',
+        id: 63,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 93 more items
+        ]
+      },
+      {
+        species: 'Kadabra',
+        id: 64,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Alakazam',
+        id: 65,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Machop',
+        id: 66,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 168 more items
+        ]
+      },
+      {
+        species: 'Machoke',
+        id: 67,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 256 more items
+        ]
+      },
+      {
+        species: 'Machamp',
+        id: 68,
+        methods: [
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Bellsprout',
+        id: 69,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 58 more items
+        ]
+      },
+      {
+        species: 'Weepinbell',
+        id: 70,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object]
+        ]
+      },
+      { species: 'Victreebel', id: 71, methods: [ [Object] ] },
+      {
+        species: 'Tentacool',
+        id: 72,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [ObFAIL src/App.test.tsx
+  ✕ renders the course name somewhere (481 ms)
 
   ● renders the course name somewhere
 
@@ -33,16 +1403,173 @@ FAIL src/App.test.tsx
               [36m/>[39m
             [36m</div>[39m
           [36m</header>[39m
-          [36m<p>[39m
-            [0mEdit [0m
-            [36m<code>[39m
-              [0msrc/App.tsx[0m
-            [36m</code>[39m
-            [0m and save. This page will automatically reload.[0m
-          [36m</p>[39m
-        [36m</div>[39m
-      [36m</div>[39m
-    [36m</body>[39m
+          [36m<body>[39m
+            [36m<div>[39m
+              [36m<table>[39m
+                [36m<td[39m
+                  [33mwidth[39m=[32m"17%"[39m
+                [36m/>[39m
+                [36m<td[39m
+                  [33mwidth[39m=[32m"66%"[39m
+                [36m>[39m
+                  [36m<p>[39m
+                    [0mWelcome to the wonderful world of Pokemon! This is a personal project I have been working on, for fun. As an avid shiny hunter, I eventually began to wonder what the optimal way to go about it was. And so, this tool was born. It collects all of the encounter information from every single Pokemon in the game, and from that calculates the fastest method by which to obtain each and every one.[0m
+                    [36m<br />[39m
+                    [0mThis tool is quite simple to use: Simply type and/or select the name of the Pokemon that you wish to shiny hunt, and put in a list of all the games you own. Additionally, there are indicators for whether or not you have acquired the Shiny and Oval Charms in each game.[0m
+                  [36m</p>[39m
+                [36m</td>[39m
+                [36m<td[39m
+                  [33mwidth[39m=[32m"17%"[39m
+                [36m/>[39m
+              [36m</table>[39m
+            [36m</div>[39m
+          [36m</body>[39m
+          [36m<div>[39m
+            [36m<div>[39m
+              [0mSelect Your Shiny Target:[0m
+            [36m</div>[39m
+            [36m<div>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"form-label"[39m
+              [36m>[39m
+                [36m<select[39m
+                  [33mclass[39m=[32m"form-select"[39m
+                [36m>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Bulbasaur"[39m
+                  [36m>[39m
+                    [0mBulbasaur[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Ivysaur"[39m
+                  [36m>[39m
+                    [0mIvysaur[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Venusaur"[39m
+                  [36m>[39m
+                    [0mVenusaur[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Charmander"[39m
+                  [36m>[39m
+                    [0mCharmander[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Charmeleon"[39m
+                  [36m>[39m
+                    [0mCharmeleon[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Charizard"[39m
+                  [36m>[39m
+                    [0mCharizard[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Squirtle"[39m
+                  [36m>[39m
+                    [0mSquirtle[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Wartortle"[39m
+                  [36m>[39m
+                    [0mWartortle[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Blastoise"[39m
+                  [36m>[39m
+                    [0mBlastoise[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Caterpie"[39m
+                  [36m>[39m
+                    [0mCaterpie[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Metapod"[39m
+                  [36m>[39m
+                    [0mMetapod[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Butterfree"[39m
+                  [36m>[39m
+                    [0mButterfree[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Weedle"[39m
+                  [36m>[39m
+                    [0mWeedle[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Kakuna"[39m
+                  [36m>[39m
+                    [0mKakuna[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Beedrill"[39m
+                  [36m>[39m
+                    [0mBeedrill[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Pidgey"[39m
+                  [36m>[39m
+                    [0mPidgey[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Pidgeotto"[39m
+                  [36m>[39m
+                    [0mPidgeotto[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Pidgeot"[39m
+                  [36m>[39m
+                    [0mPidgeot[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Rattata"[39m
+                  [36m>[39m
+                    [0mRattata[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Raticate"[39m
+                  [36m>[39m
+                    [0mRaticate[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Spearow"[39m
+                  [36m>[39m
+                    [0mSpearow[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Fearow"[39m
+                  [36m>[39m
+                    [0mFearow[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Ekans"[39m
+                  [36m>[39m
+                    [0mEkans[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Arbok"[39m
+                  [36m>[39m
+                    [0mArbok[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Pikachu"[39m
+                  [36m>[39m
+                    [0mPikachu[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Raichu"[39m
+                  [36m>[39m
+                    [0mRaichu[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Sandshrew"[39m
+                  [36m>[39m
+                    [0mSandshrew[0m
+                  [...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -62,14 +1589,648 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------|---------|----------|---------|---------|-------------------
-File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
-----------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.072 s
+Time:        3.392 s
 Ran all test suites.
+ject], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 1004 more items
+        ]
+      },
+      {
+        species: 'Tentacruel',
+        id: 73,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 352 more items
+        ]
+      },
+      {
+        species: 'Geodude',
+        id: 74,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 400 more items
+        ]
+      },
+      {
+        species: 'Graveler',
+        id: 75,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 378 more items
+        ]
+      },
+      {
+        species: 'Golem',
+        id: 76,
+        methods: [ [Object], [Object], [Object], [Object] ]
+      },
+      {
+        species: 'Ponyta',
+        id: 77,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 63 more items
+        ]
+      },
+      {
+        species: 'Rapidash',
+        id: 78,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Slowpoke',
+        id: 79,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 91 more items
+        ]
+      },
+      {
+        species: 'Slowbro',
+        id: 80,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Magnemite',
+        id: 81,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 43 more items
+        ]
+      },
+      {
+        species: 'Magneton',
+        id: 82,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: "Farfetch'd",
+        id: 83,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Doduo',
+        id: 84,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 25 more items
+        ]
+      },
+      {
+        species: 'Dodrio',
+        id: 85,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Seel',
+        id: 86,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 18 more items
+        ]
+      },
+      {
+        species: 'Dewgong',
+        id: 87,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Grimer',
+        id: 88,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 18 more items
+        ]
+      },
+      {
+        species: 'Muk',
+        id: 89,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Shellder',
+        id: 90,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 97 more items
+        ]
+      },
+      {
+        species: 'Cloyster',
+        id: 91,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object]
+        ]
+      },
+      {
+        species: 'Gastly',
+        id: 92,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 169 more items
+        ]
+      },
+      {
+        species: 'Haunter',
+        id: 93,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 127 more items
+        ]
+      },
+      {
+        species: 'Gengar',
+        id: 94,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Onix',
+        id: 95,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 300 more items
+        ]
+      },
+      {
+        species: 'Drowzee',
+        id: 96,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object]
+        ]
+      },
+      {
+        species: 'Hypno',
+        id: 97,
+        methods: [
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object], [Object], [Object],
+          [Object]
+        ]
+      },
+      {
+        species: 'Krabby',
+        id: 98,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 479 more items
+        ]
+      },
+      {
+        species: 'Kingler',
+        id: 99,
+        methods: [
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          ... 197 more items
+        ]
+      },
+      {
+        species: 'Voltorb',
+        id: 100,
+        methods: [
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object],
+          [Object], [Object], [Object], [Object]
+        ]
+      },
+      ... 805 more items
+    ]
+
+      at App (src/App.tsx:40:13)
+
+  console.error
+    Warning: validateDOMNesting(...): <td> cannot appear as a child of <table>.
+        at td
+        at table
+        at div
+        at body
+        at div
+        at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10081:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
+
+  console.error
+    Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
+        at body
+        at div
+        at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10081:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
+
+----------------------|---------|----------|---------|---------|-------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------|---------|----------|---------|---------|-------------------
+All files             |   93.75 |      100 |   85.71 |   93.75 |                   
+ src                  |     100 |      100 |     100 |     100 |                   
+  App.tsx             |     100 |      100 |     100 |     100 |                   
+ src/components       |   83.33 |      100 |      75 |   83.33 |                   
+  PokemonSelector.tsx |   83.33 |      100 |      75 |   83.33 | 19                
+ src/interfaces       |       0 |        0 |       0 |       0 |                   
+  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                   
+  Pokemon.ts          |       0 |        0 |       0 |       0 |                   
+----------------------|---------|----------|---------|---------|-------------------
