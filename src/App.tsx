@@ -83,23 +83,23 @@ function App(): JSX.Element {
                                 each and every one.
                                 <hr />
                                 This tool is quite simple to use:
-                                <table>
-                                    <td width="25%"></td>
-                                    <td width="50%">
-                                        <ul>
-                                            <li>Select your hunt target</li>
-                                            <li>
-                                                Select the list of games you own
-                                            </li>
-                                            <li>
-                                                Choose which charms you have in
-                                                each game
-                                            </li>
-                                        </ul>
-                                    </td>
-                                    <td width="25%"></td>
-                                </table>
                             </p>
+                            <table>
+                                <td width="25%"></td>
+                                <td width="50%">
+                                    <ul>
+                                        <li>Select your hunt target</li>
+                                        <li>
+                                            Select the list of games you own
+                                        </li>
+                                        <li>
+                                            Choose which charms you have in each
+                                            game
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td width="25%"></td>
+                            </table>
                         </td>
                         <td width="20%"></td>
                     </table>
@@ -111,10 +111,9 @@ function App(): JSX.Element {
                     <td width="33%">
                         <PokemonSelector
                             options={dexList}
-                            selectedPoke={selectedPoke}
+                            selectedPoke={selectedPoke.species}
                             selectPasser={selectPasser}
                         ></PokemonSelector>
-                        <br />
                         <img src={spriteURL} width="300px" />
                     </td>
                     <td width="33%"></td>

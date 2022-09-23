@@ -5,6 +5,13 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background-color: rgb(64, 64, 64);
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
 }
 
 code {
