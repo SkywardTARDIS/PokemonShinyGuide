@@ -7,7 +7,10 @@ import { PokemonSelector } from "./components/PokemonSelector";
 //import Legendaries from "./assets/jsons/Legendaries.json";
 import { Pokemon } from "./interfaces/Pokemon";
 import { EncounterMethod } from "./interfaces/EncounterMethod";
+import { GameData } from "./interfaces/GameData";
 import Pokedex from "./assets/jsons/PokedexV2.json";
+import { gameList } from "./interfaces/gameList";
+import { GameSelector } from "./components/GameSelector";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -71,6 +74,15 @@ function App(): JSX.Element {
         }
     }
 
+    const [allGames, updateGames] = useState<GameData[]>(gameList);
+    function upOwned(game: GameData) {
+        const newData: GameData = { ...game, owned: !game.owned };
+        const newList = allGames.map((aGame: GameData) =>
+            aGame.game == game.game ? { ...newData } : { ...aGame }
+        );
+        updateGames(newList);
+    }
+
     const imageOnErrorHandler = (
         event: React.SyntheticEvent<HTMLImageElement, Event>
     ) => {
@@ -127,8 +139,8 @@ function App(): JSX.Element {
             </body>
             <br />
             <body>
-                <table width="100%">
-                    <td width="33%">
+                <table className="infoTable" width="100%">
+                    <td width="33%" valign="top">
                         <PokemonSelector
                             options={dexList}
                             selectedPoke={selectedPoke.species}
@@ -140,7 +152,12 @@ function App(): JSX.Element {
                             onError={imageOnErrorHandler}
                         />
                     </td>
-                    <td width="33%"></td>
+                    <td width="33%">
+                        <GameSelector
+                            games={allGames}
+                            upOwned={upOwned}
+                        ></GameSelector>
+                    </td>
                     <td width="33%"></td>
                 </table>
                 <br />

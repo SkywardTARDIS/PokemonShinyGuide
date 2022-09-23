@@ -25,6 +25,18 @@
     color: white;
 }
 
+.noBullet {
+    list-style-type: none;
+}
+
+.gameList {
+    text-align: left;
+}
+
+.infoTable {
+    height: 50%;
+}
+
 .App-link {
     color: #61dafb;
 }
