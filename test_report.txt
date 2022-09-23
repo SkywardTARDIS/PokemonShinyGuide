@@ -12,7 +12,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:44:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:45:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -31,7 +31,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:44:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:45:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -45,7 +45,7 @@ Browserslist: caniuse-lite is outdated. Please run:
     Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:44:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:45:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -56,7 +56,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (485 ms)
+  ✕ renders the course name somewhere (411 ms)
 
   ● renders the course name somewhere
 
@@ -260,9 +260,9 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|-------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------------|---------|----------|---------|---------|-------------------
-All files             |   69.56 |      100 |      75 |   69.56 |                   
- src                  |   63.15 |      100 |      60 |   63.15 |                   
-  App.tsx             |   63.15 |      100 |      60 |   63.15 | 50-57             
+All files             |   54.83 |        0 |   66.66 |   54.83 |                   
+ src                  |   48.14 |        0 |      50 |   48.14 |                   
+  App.tsx             |   48.14 |        0 |      50 |   48.14 | 51-70,77          
  src/components       |     100 |      100 |     100 |     100 |                   
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                   
  src/interfaces       |       0 |        0 |       0 |       0 |                   
@@ -272,5 +272,5 @@ All files             |   69.56 |      100 |      75 |   69.56 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.499 s
+Time:        2.879 s
 Ran all test suites.
