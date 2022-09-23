@@ -44,9 +44,9 @@ function App(): JSX.Element {
 
     const [dexList] = useState<Pokemon[]>(testDex);
     const [spriteURL, upSprite] = useState<string>(
-        "https://play.pokemonshowdown.com/sprites/ani-shiny/bulbasaur.gif"
+        "https://play.pokemonshowdown.com/sprites/ani-shiny/celebi.gif"
     );
-    const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[0]);
+    const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[250]);
     function selectPasser(event: ChangeEvent) {
         const species: string = event.target.value;
         const selection = dexList.filter(
