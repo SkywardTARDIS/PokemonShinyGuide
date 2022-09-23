@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Spiritomb from "./assets/images/Spiritomb.png";
 import Shuckle from "./assets/images/Shuckle.png";
@@ -9,6 +9,10 @@ import { EncounterMethod } from "./interfaces/EncounterMethod";
 import Pokedex from "./assets/jsons/PokedexV2.json";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
+
+type ChangeEvent = React.ChangeEvent<
+    HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
+>;
 
 function App(): JSX.Element {
     const dexKey = Object.keys(Pokedex);
@@ -37,7 +41,22 @@ function App(): JSX.Element {
         return newPokemon;
     });
 
-    console.log(testDex);
+    const [dexList] = useState<Pokemon[]>(testDex);
+    const [spriteURL, upSprite] = useState<string>(
+        "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+    );
+    const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[0]);
+    function selectPasser(event: ChangeEvent) {
+        const species: string = event.target.value;
+        const selection = dexList.filter(
+            (poke: Pokemon): boolean => poke.species === species
+        );
+        updateSelect(selection[0]);
+        const newURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/${selection[0].id}.png`;
+        console.log(newURL);
+        upSprite(newURL);
+    }
+
     return (
         <div className="App">
             <header className="App-header">
@@ -50,8 +69,8 @@ function App(): JSX.Element {
             <body>
                 <div>
                     <table>
-                        <td width="17%"></td>
-                        <td width="66%">
+                        <td width="20%"></td>
+                        <td width="60%">
                             <p>
                                 Welcome to the wonderful world of Pokemon! This
                                 is a personal project I have been working on,
@@ -62,21 +81,47 @@ function App(): JSX.Element {
                                 single Pokemon in the game, and from that
                                 calculates the fastest method by which to obtain
                                 each and every one.
-                                <br />
-                                This tool is quite simple to use: Simply type
-                                and/or select the name of the Pokemon that you
-                                wish to shiny hunt, and put in a list of all the
-                                games you own. Additionally, there are
-                                indicators for whether or not you have acquired
-                                the Shiny and Oval Charms in each game.
+                                <hr />
+                                This tool is quite simple to use:
+                                <table>
+                                    <td width="25%"></td>
+                                    <td width="50%">
+                                        <ul>
+                                            <li>Select your hunt target</li>
+                                            <li>
+                                                Select the list of games you own
+                                            </li>
+                                            <li>
+                                                Choose which charms you have in
+                                                each game
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td width="25%"></td>
+                                </table>
                             </p>
                         </td>
-                        <td width="17%"></td>
+                        <td width="20%"></td>
                     </table>
                 </div>
             </body>
-
-            <PokemonSelector options={testDex}></PokemonSelector>
+            <br />
+            <body>
+                <table width="100%">
+                    <td width="33%">
+                        <PokemonSelector
+                            options={dexList}
+                            selectedPoke={selectedPoke}
+                            selectPasser={selectPasser}
+                        ></PokemonSelector>
+                        <br />
+                        <img src={spriteURL} width="300px" />
+                    </td>
+                    <td width="33%"></td>
+                    <td width="33%"></td>
+                </table>
+                <br />
+            </body>
         </div>
     );
 }
