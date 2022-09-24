@@ -1,22 +1,22 @@
 import React from "react";
 import { GameData } from "../interfaces/GameData";
-import { GameList } from "./GameList";
+import { CharmList } from "./CharmList";
 
-export function GameSelector({
+export function CharmInfo({
     games,
-    upOwned
+    upCharm
 }: {
     games: GameData[];
-    upOwned: (game: GameData) => void;
+    upCharm: (game: GameData, charmID: boolean) => void;
 }): JSX.Element {
     return (
         <div>
-            Select your games:
+            Select your charms:
             <hr />
             <ul>
                 {games.map((aGame: GameData) => (
                     <div key={aGame.game}>
-                        <GameList game={aGame} upOwned={upOwned}></GameList>
+                        <CharmList game={aGame} upCharm={upCharm}></CharmList>
                     </div>
                 ))}
             </ul>

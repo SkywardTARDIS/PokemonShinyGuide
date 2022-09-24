@@ -1,0 +1,13 @@
+{ "shiny": [
+	{"species": "Gyarados" , "game": "Gold", "location": "Lake of Rage"},
+	{"species": "Gyarados" , "game": "Silver", "location": "Lake of Rage"},
+	{"species": "Gyarados" , "game": "Crystal", "location": "Lake of Rage"},
+	{"species": "Gyarados" , "game": "HeartGold", "location": "Lake of Rage"},
+	{"species": "Gyarados" , "game": "SoulSilver", "location": "Lake of Rage"},
+	{"species": "Gible", "game": "Black", "location": "Flocessy Town"},
+	{"species": "Dratini", "game": "White", "location": "Flocessy Town"},
+	{"species": "Haxorus", "game": "Black 2", "location": "Nature Preserve"},
+	{"species": "Haxorus", "game": "White 2", "location": "Nature Preserve"},
+	{"species": "Ponyta", "game": "Legends: Arceus", "location": "Horseshoe Plains"}
+	]
+}

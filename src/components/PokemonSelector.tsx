@@ -22,6 +22,7 @@ export function PokemonSelector({
     return (
         <div>
             <div>Select Your Shiny Target:</div>
+            <hr />
             <Form.Group>
                 <Form.Label>
                     <Form.Select value={selectedPoke} onChange={selectPasser}>

@@ -11,6 +11,7 @@ import { GameData } from "./interfaces/GameData";
 import Pokedex from "./assets/jsons/PokedexV2.json";
 import { gameList } from "./interfaces/gameList";
 import { GameSelector } from "./components/GameSelector";
+import { CharmInfo } from "./components/CharmInfo";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -56,6 +57,7 @@ function App(): JSX.Element {
             (poke: Pokemon): boolean => poke.species === species
         );
         updateSelect(selection[0]);
+        possibleGames(selection[0]);
         if (selection[0].id < 899) {
             const copyName = selection[0].species;
             let newName = copyName
@@ -75,12 +77,68 @@ function App(): JSX.Element {
     }
 
     const [allGames, updateGames] = useState<GameData[]>(gameList);
+    const [huntableGames, updateAvailable] = useState<GameData[]>([
+        ...gameList.slice(0, 27),
+        ...gameList.slice(29)
+    ]);
+    const [selectedGames, updateSelected] = useState<GameData[]>([]);
+
+    function possibleGames(target: Pokemon) {
+        const remGen1 =
+            target.id > 151
+                ? [...allGames.slice(0, 27), ...allGames.slice(29)]
+                : [...allGames];
+        const remGen2 = target.id > 251 ? [...remGen1.slice(3)] : [...remGen1];
+        const remGen3 = target.id > 386 ? [...remGen2.slice(5)] : [...remGen2];
+        const remGen4 = target.id > 493 ? [...remGen3.slice(5)] : [...remGen3];
+        const remGen5 = target.id > 649 ? [...remGen4.slice(4)] : [...remGen4];
+        const remGen6 = target.id > 721 ? [...remGen5.slice(4)] : [...remGen5];
+        const remGen7 = target.id > 809 ? [...remGen6.slice(4)] : [...remGen6];
+        const remGen8 = target.id > 898 ? [...remGen7.slice(2)] : [...remGen7];
+        updateAvailable(remGen8);
+        const charmList = remGen8.filter(
+            (aGame: GameData): boolean => aGame.owned
+        );
+        updateSelected(charmList);
+    }
+
     function upOwned(game: GameData) {
         const newData: GameData = { ...game, owned: !game.owned };
         const newList = allGames.map((aGame: GameData) =>
             aGame.game == game.game ? { ...newData } : { ...aGame }
         );
         updateGames(newList);
+
+        const availableList = huntableGames.map((aGame: GameData) =>
+            aGame.game == game.game ? { ...newData } : { ...aGame }
+        );
+        updateAvailable(availableList);
+
+        const charmList = availableList.filter(
+            (aGame: GameData): boolean => aGame.owned
+        );
+        updateSelected(charmList);
+    }
+
+    function upCharm(game: GameData, charmID: boolean) {
+        const newData: GameData = charmID
+            ? { ...game, hasShiny: !game.hasShiny }
+            : { ...game, hasOval: !game.hasOval };
+
+        const newList = allGames.map((aGame: GameData) =>
+            aGame.game == game.game ? { ...newData } : { ...aGame }
+        );
+        updateGames(newList);
+
+        const availableList = huntableGames.map((aGame: GameData) =>
+            aGame.game == game.game ? { ...newData } : { ...aGame }
+        );
+        updateAvailable(availableList);
+
+        const charmList = availableList.filter(
+            (aGame: GameData): boolean => aGame.owned
+        );
+        updateSelected(charmList);
     }
 
     const imageOnErrorHandler = (
@@ -122,7 +180,8 @@ function App(): JSX.Element {
                                     <ul>
                                         <li>Select your hunt target</li>
                                         <li>
-                                            Select the list of games you own
+                                            Select the list of games you own or
+                                            wish to hunt in
                                         </li>
                                         <li>
                                             Choose which charms you have in each
@@ -148,15 +207,21 @@ function App(): JSX.Element {
                         ></PokemonSelector>
                         <img
                             src={spriteURL}
-                            height="200px"
+                            height="17%"
                             onError={imageOnErrorHandler}
                         />
                     </td>
-                    <td width="33%">
+                    <td width="16%">
                         <GameSelector
-                            games={allGames}
+                            games={huntableGames}
                             upOwned={upOwned}
                         ></GameSelector>
+                    </td>
+                    <td width="18%" valign="top">
+                        <CharmInfo
+                            games={selectedGames}
+                            upCharm={upCharm}
+                        ></CharmInfo>
                     </td>
                     <td width="33%"></td>
                 </table>

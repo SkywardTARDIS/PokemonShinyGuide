@@ -1,0 +1,201 @@
+G/S/C
+Walking / Grass
+Headbutt Sp.
+Headbutt N.
+Surf
+Old Rod
+Good Rod
+Super Rod
+Rock Smash
+Interact
+
+
+R/S/E/FR/LG
+Grass
+Surf
+Old Rod
+Good Rod
+Super Rod
+Rock Smash
+Interact
+Underwater
+""
+
+
+D/P/Pt
+FireRed Inserted
+FireRed
+LeafGreen Inserted
+LeafGreen
+Swarm
+Walk
+PokeRadar
+PokéRadar
+Surf
+Good Rod
+Super Rod
+Emerald Inserted
+Ruby Inserted
+Sapphire Inserted
+Ruby
+Sapphire
+Emerald
+Old Rod
+""
+Interact
+Honey Trees
+Interact At Night
+
+
+HG/SS
+Walk
+""
+MorningDetails
+DayDetails
+NightDetails
+Walk - BlocksDetails
+30
+5
+Rock Smash
+Surf
+SurfDetails
+Good Rod
+Surf - BlocksDetails
+Old Rod
+Super Rod
+Old RodDetails
+Good RodDetails
+Super RodDetails
+Old Rod - BlocksDetails
+Good Rod - BlocksDetails
+50
+Swarm
+Interact
+Super Rod - BlocksDetails
+NIght
+Swarm - Fish
+Hoenn Sound
+Swarm - Surf
+Sinnoh Sound
+
+
+B/W(2)
+Walk
+Double Grass
+Walk - Shaking Spots
+Hidden Hollow
+Swarm
+Fish
+Fish - Shaking Spots
+""
+Surf
+Surf - Shaking Spots
+Fish- Special
+Interact
+Ns Pokémon
+Walks
+Roaming
+
+
+X/Y
+Walking / Grass
+Special
+Horde
+Red Flowers
+Purple Flowers
+Yellow Flowers
+Tall Grass
+Dust
+Surf
+Old Rod
+Good Rod
+Super Rod
+""
+Rock Smash
+Water
+Interact
+Snow
+
+
+OR/AS
+DexNav
+Walking / Grass
+Horde
+Surf
+Tall Grass
+Good Rod
+Old Rod
+Rock Smash
+Interact
+Super Rod
+Special
+
+
+S/M
+Walking / Grass
+Shaking Grass
+Shaking
+Flying
+Shaking Trees
+Surf
+Weather SOS Battle
+Island Scan
+Surf Special
+Fish
+Fish Special
+Berry
+Wimpod
+From totem after completion of game
+Interact
+Roaming in Grass
+Roaming in the Cave
+Roaming in the Grass
+
+
+US/UM
+Island Scan
+Walking / Grass
+Shaking Grass
+Flying
+Shaking Trees
+Surf
+Weather SOS Battle
+Surf Special
+Fish
+Fish Special
+Interact
+Requires Entei & Raikou
+Requires Kyogre & Groudon
+Requires Dialga & Palkia
+Requires Tornadus & Thundurus
+Requires Reshiram & Zekrom
+Berry
+Wimpod
+From totem after completion of game
+Roaming in Grass
+
+
+LGP/E
+Grass - Rare Spawns
+In the Sky - Rare Spawns
+Grass
+In the Sky
+Water
+Interact
+Water - Rare Spawns
+
+
+Sw/Sh
+Random
+Curry
+Overworld
+Flying
+Wandering
+Underground
+Surf
+Wandering Surf
+Interact
+Fishing
+Swamp
+Sharpedo
+Berry Tree

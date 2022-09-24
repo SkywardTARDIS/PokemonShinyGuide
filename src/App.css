@@ -29,6 +29,11 @@
     list-style-type: none;
 }
 
+.charmList {
+    list-style-type: none;
+    text-align: center;
+}
+
 .gameList {
     text-align: left;
 }
