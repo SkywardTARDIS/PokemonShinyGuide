@@ -1,9 +1,25 @@
 import { GameData } from "./GameData";
 
-const games: string[] = [
-    "Gold",
-    "Silver",
-    "Crystal",
+export const preShinyLock: string[] = [
+    "Pokémon Gold",
+    "Pokémon Silver",
+    "Pokémon Crystal",
+    "Ruby",
+    "Sapphire",
+    "Emerald",
+    "FireRed",
+    "LeafGreen",
+    "Diamond",
+    "Pearl",
+    "Platinum",
+    "HeartGold",
+    "SoulSilver"
+];
+
+export const games: string[] = [
+    "Pokémon Gold",
+    "Pokémon Silver",
+    "Pokémon Crystal",
     "Ruby",
     "Sapphire",
     "Emerald",
@@ -26,8 +42,10 @@ const games: string[] = [
     "Moon",
     "Ultra Sun",
     "Ultra Moon",
-    "Sword",
-    "Shield",
+    "Pokémon Sword",
+    "Pokémon Shield",
+    "Pokémon Brilliant Diamond",
+    "Pokémon Shining Pearl",
     "Let's Go, Pikachu!",
     "Let's Go, Eevee!",
     "Legends: Arceus"

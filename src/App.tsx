@@ -12,6 +12,7 @@ import Pokedex from "./assets/jsons/PokedexV2.json";
 import { gameList } from "./interfaces/gameList";
 import { GameSelector } from "./components/GameSelector";
 import { CharmInfo } from "./components/CharmInfo";
+import { FinalCalcs } from "./components/FinalCalcs";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -78,19 +79,22 @@ function App(): JSX.Element {
 
     const [allGames, updateGames] = useState<GameData[]>(gameList);
     const [huntableGames, updateAvailable] = useState<GameData[]>([
-        ...gameList.slice(0, 27),
-        ...gameList.slice(29)
+        ...gameList.slice(0, 29),
+        ...gameList.slice(31)
     ]);
     const [selectedGames, updateSelected] = useState<GameData[]>([]);
 
     function possibleGames(target: Pokemon) {
         const remGen1 =
             target.id > 151
-                ? [...allGames.slice(0, 27), ...allGames.slice(29)]
+                ? [...allGames.slice(0, 29), ...allGames.slice(31)]
                 : [...allGames];
         const remGen2 = target.id > 251 ? [...remGen1.slice(3)] : [...remGen1];
         const remGen3 = target.id > 386 ? [...remGen2.slice(5)] : [...remGen2];
-        const remGen4 = target.id > 493 ? [...remGen3.slice(5)] : [...remGen3];
+        const remGen4 =
+            target.id > 493
+                ? [...remGen3.slice(5, 19), ...remGen3.slice(21)]
+                : [...remGen3];
         const remGen5 = target.id > 649 ? [...remGen4.slice(4)] : [...remGen4];
         const remGen6 = target.id > 721 ? [...remGen5.slice(4)] : [...remGen5];
         const remGen7 = target.id > 809 ? [...remGen6.slice(4)] : [...remGen6];
@@ -105,12 +109,12 @@ function App(): JSX.Element {
     function upOwned(game: GameData) {
         const newData: GameData = { ...game, owned: !game.owned };
         const newList = allGames.map((aGame: GameData) =>
-            aGame.game == game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame }
         );
         updateGames(newList);
 
         const availableList = huntableGames.map((aGame: GameData) =>
-            aGame.game == game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame }
         );
         updateAvailable(availableList);
 
@@ -126,12 +130,12 @@ function App(): JSX.Element {
             : { ...game, hasOval: !game.hasOval };
 
         const newList = allGames.map((aGame: GameData) =>
-            aGame.game == game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame }
         );
         updateGames(newList);
 
         const availableList = huntableGames.map((aGame: GameData) =>
-            aGame.game == game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame }
         );
         updateAvailable(availableList);
 
@@ -199,15 +203,15 @@ function App(): JSX.Element {
             <br />
             <body>
                 <table className="infoTable" width="100%">
-                    <td width="33%" valign="top">
+                    <td width="33%" valign="top" height="33%">
                         <PokemonSelector
                             options={dexList}
                             selectedPoke={selectedPoke.species}
                             selectPasser={selectPasser}
                         ></PokemonSelector>
                         <img
+                            className="pokeGif"
                             src={spriteURL}
-                            height="17%"
                             onError={imageOnErrorHandler}
                         />
                     </td>
@@ -223,7 +227,12 @@ function App(): JSX.Element {
                             upCharm={upCharm}
                         ></CharmInfo>
                     </td>
-                    <td width="33%"></td>
+                    <td width="33%">
+                        <FinalCalcs
+                            finalGames={selectedGames}
+                            huntTarget={selectedPoke}
+                        ></FinalCalcs>
+                    </td>
                 </table>
                 <br />
             </body>

@@ -38,66 +38,56 @@
         { "species": "Solgaleo", "game": "Pokémon Ultra Sun & Ultra Moon" },
         { "species": "Lunala", "game": "Pokémon Ultra Sun & Ultra Moon" },
         { "species": "Necrozma", "game": "Pokémon Ultra Sun & Ultra Moon" },
-        { "species": "Grookey", "game": "Pokémon Sword & Shield" },
-        { "species": "Scorbunny", "game": "Pokémon Sword & Shield" },
-        { "species": "Sobble", "game": "Pokémon Sword & Shield" },
-        { "species": "Charmander", "game": "Pokémon Sword & Shield" },
-        { "species": "Gigantamax Pikachu", "game": "Pokémon Sword & Shield" },
-        { "species": "Slowpoke", "game": "Pokémon Sword & Shield" },
-        { "species": "Gigantamax Eevee", "game": "Pokémon Sword & Shield" },
-        { "species": "Type: Null", "game": "Pokémon Sword & Shield" },
-        { "species": "Toxel", "game": "Pokémon Sword & Shield" },
-        { "species": "Zacian", "game": "Pokémon Sword & Shield" },
-        { "species": "Zamazenta", "game": "Pokémon Sword & Shield" },
-        { "species": "Eternatus", "game": "Pokémon Sword & Shield" },
         {
-            "species": "Pokémon Sword & Shield Isle of Armor",
-            "game": "Pokémon Sword & Shield"
+            "species": "Gigantamax Pikachu",
+            "game": "Pokémon Sword & Pokémon Shield"
         },
         {
+            "species": "Gigantamax Eevee",
+            "game": "Pokémon Sword & Pokémon Shield"
+        },
+        { "species": "Type: Null", "game": "Pokémon Sword & Pokémon Shield" },
+        { "species": "Toxel", "game": "Pokémon Sword & Pokémon Shield" },
+        { "species": "Zacian", "game": "Pokémon Sword & Pokémon Shield" },
+        { "species": "Zamazenta", "game": "Pokémon Sword & Pokémon Shield" },
+        { "species": "Eternatus", "game": "Pokémon Sword & Pokémon Shield" },
+        {
             "species": "Cosmog",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
             "species": "Poipole",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
             "species": "Keldeo",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
-            "species": "Articuno",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "species": "Galarian Articuno",
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
-            "species": "Zapdos",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "species": "Galarian Zapdos",
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
-            "species": "Moltres",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "species": "Galarian Moltres",
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
             "species": "Glastrier",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
             "species": "Spectrier",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {
             "species": "Calyrex",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
+            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
-        {
-            "species": "Pokémon Brilliant Diamond & Shining Pearl",
-            "game": "Pokémon Sword & Shield The Crown Tundra"
-        },
-        { "species": "Cyndaquil", "game": "Pokémon Legends: Arceus" },
-        { "species": "Oshawott", "game": "Pokémon Legends: Arceus" },
-        { "species": "Rowlet", "game": "Pokémon Legends: Arceus" },
-        { "species": "Vulpix", "game": "Pokémon Legends: Arceus" },
+        { "species": "Alolan Vulpix", "game": "Pokémon Legends: Arceus" },
         { "species": "Dialga", "game": "Pokémon Legends: Arceus" },
         { "species": "Palkia", "game": "Pokémon Legends: Arceus" },
         { "species": "Uxie", "game": "Pokémon Legends: Arceus" },

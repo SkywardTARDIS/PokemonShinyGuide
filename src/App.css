@@ -38,6 +38,11 @@
     text-align: left;
 }
 
+.pokeGif {
+    width: 100%;
+    max-width: 200px;
+}
+
 .infoTable {
     height: 50%;
 }
