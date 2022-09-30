@@ -8,7 +8,8 @@ import { PokemonSelector } from "./components/PokemonSelector";
 import { Pokemon } from "./interfaces/Pokemon";
 import { EncounterMethod } from "./interfaces/EncounterMethod";
 import { GameData } from "./interfaces/GameData";
-import Pokedex from "./assets/jsons/PokedexV2.json";
+//import Pokedex from "./assets/jsons/PokedexV2.json";
+import Pokedex from "./assets/jsons/PokedexV3.json";
 import { gameList } from "./interfaces/gameList";
 import { GameSelector } from "./components/GameSelector";
 import { CharmInfo } from "./components/CharmInfo";
@@ -29,7 +30,7 @@ function App(): JSX.Element {
                 const newEncounter: EncounterMethod = {
                     game: method.game,
                     location: method.location,
-                    rarity: method.rarity,
+                    rarity: method.rarity.toString(),
                     environment: method.environment,
                     time: method.time,
                     weather: method.weather,
@@ -42,6 +43,7 @@ function App(): JSX.Element {
         const newPokemon: Pokemon = {
             species: currPokemon.species,
             id: currPokemon.id,
+            prevolution: currPokemon.prevolution,
             methods: [...currMethods]
         };
         return newPokemon;
