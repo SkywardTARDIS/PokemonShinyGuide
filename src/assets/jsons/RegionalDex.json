@@ -1,0 +1,5702 @@
+{
+    "Rattata-Alola": {
+        "species": "Rattata-Alola",
+        "id": 19,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 1 - Hau'oli Outskirts",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 2",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 3",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 3",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 4",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Kala'e Bay",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1 - Hau'oli Outskirts",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 2",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 3",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 3",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 4",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Kala'e Bay",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "100%",
+                "environment": "Shaking",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 1",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 1",
+                "rarity": "35%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 1",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 2",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 4",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Kala'e Bay",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 1",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 1",
+                "rarity": "35%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 1",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 2",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 4",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 6",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Kala'e Bay",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Raticate-Alola": {
+        "species": "Raticate-Alola",
+        "id": 20,
+        "prevolution": "Rattata-Alola",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 10",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 11",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 15",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 16",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 17",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 17",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Akala Outskirts",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Ancient Poni Path",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Malie City - Outer Cape",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Gauntlet",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Grove",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Plains",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Plains",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Wilds",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Tapu Village",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 10",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 11",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 15",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 16",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 17",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 17",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Akala Outskirts",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Ancient Poni Path",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Malie City - Outer Cape",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Gauntlet",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Grove",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Plains",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Plains",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Wilds",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Tapu Village",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 10",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 15",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 16",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Akala Outskirts",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Plains",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Plains",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Tapu Village",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 8",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 10",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 15",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 16",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Akala Outskirts",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Plains",
+                "rarity": "70%",
+                "environment": "Shaking Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Plains",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Plains",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Tapu Village",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Raichu-Alola": {
+        "species": "Raichu-Alola",
+        "id": 26,
+        "prevolution": "Pikachu",
+        "methods": []
+    },
+    "Sandshrew-Alola": {
+        "species": "Sandshrew-Alola",
+        "id": 27,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Moon",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Mount Lanakila - Mid-Point",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila - Mid-Point",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Mount Lanakila - Outside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Sandslash-Alola": {
+        "species": "Sandslash-Alola",
+        "id": 28,
+        "prevolution": "Sandshrew-Alola",
+        "methods": []
+    },
+    "Vulpix-Alola": {
+        "species": "Vulpix-Alola",
+        "id": 37,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Mount Lanakila - Mid-Point",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila - Mountainside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila - Mid-Point",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Mount Lanakila - Outside",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Tapu Village",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Ninetales-Alola": {
+        "species": "Ninetales-Alola",
+        "id": 38,
+        "prevolution": "",
+        "methods": []
+    },
+    "Diglett-Alola": {
+        "species": "Diglett-Alola",
+        "id": 50,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 5",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 7",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Diglett's Tunnel",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Diglett's Tunnel",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Lush Jungle - Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Seaward Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Ten Carat Hill - Cave",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Ten Carat Hill - Undersea Cave",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 5",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 7",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Diglett's Tunnel",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Diglett's Tunnel",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Lush Jungle - Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Seaward Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Ten Carat Hill - Cave",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Ten Carat Hill - Undersea Cave",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 5",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 7",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Diglett's Tunnel",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Diglett's Tunnel",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "35%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 5",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 7",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Diglett's Tunnel",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Diglett's Tunnel",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Verdant Cavern - Trial Site",
+                "rarity": "35%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Dugtrio-Alola": {
+        "species": "Dugtrio-Alola",
+        "id": 51,
+        "prevolution": "Diglett-Alola",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Haina Desert",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Haina Desert",
+                "rarity": "20%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Poni Coast",
+                "rarity": "100%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Resolution Cave - B1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - Inside",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - 2F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - 2F Deep",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Vast Poni Canyon - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Haina Desert",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Haina Desert",
+                "rarity": "20%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Poni Coast",
+                "rarity": "100%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Resolution Cave - B1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - Inside",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - 2F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - 2F Deep",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Vast Poni Canyon - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Haina Desert",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Haina Desert",
+                "rarity": "20%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Lush Jungle - Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Poni Coast",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Resolution Cave - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - Inside",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - 2F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - 2F Deep",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Haina Desert",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Haina Desert",
+                "rarity": "20%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Lush Jungle - Cave",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Poni Coast",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Resolution Cave - 1F",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Resolution Cave - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - Inside",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - 2F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - 2F Deep",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "100%",
+                "environment": "Shaking Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - B1F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Vast Poni Canyon - 3F",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Meowth-Alola": {
+        "species": "Meowth-Alola",
+        "id": 52,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 1 - Trainer School",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 2",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 2",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1 - Trainer School",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 2",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 2",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Hau'oli City",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 1 - Trainer School",
+                "rarity": "50%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 1 - Trainer School",
+                "rarity": "50%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 2",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Persian-Alola": {
+        "species": "Persian-Alola",
+        "id": 53,
+        "prevolution": "Meowth-Alola",
+        "methods": [
+            {
+                "game": "Ultra Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Malie Garden",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "SOS Battle Only"
+            }
+        ]
+    },
+    "Geodude-Alola": {
+        "species": "Geodude-Alola",
+        "id": 74,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 12",
+                "rarity": "40%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 12",
+                "rarity": "40%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Blush Mountain",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Blush Mountain",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 12",
+                "rarity": "40%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 12",
+                "rarity": "40%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Blush Mountain",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Blush Mountain",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Graveler-Alola": {
+        "species": "Graveler-Alola",
+        "id": 75,
+        "prevolution": "Geodude-Alola",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 12",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Blush Mountain",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Blush Mountain",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 12",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 17",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Blush Mountain",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Blush Mountain",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Golem-Alola": {
+        "species": "Golem-Alola",
+        "id": 76,
+        "prevolution": "Graveler-Alola",
+        "methods": []
+    },
+    "Grimer-Alola": {
+        "species": "Grimer-Alola",
+        "id": 88,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Route 1 - Trainer School",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Sun",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Route 1 - Trainer School",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Hau'oli City",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "Night",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Route 1 - Trainer School",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "5%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Route 1 - Trainer School",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "10%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Hau'oli City - Shopping District",
+                "rarity": "5%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Malie City - Outer Cape",
+                "rarity": "30%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Muk-Alola": {
+        "species": "Muk-Alola",
+        "id": 89,
+        "prevolution": "Grimer-Alola",
+        "methods": []
+    },
+    "Exeggutor-Alola": {
+        "species": "Exeggutor-Alola",
+        "id": 103,
+        "prevolution": "Exeggcute",
+        "methods": [
+            {
+                "game": "Sun",
+                "location": "Exeggutor Island",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Moon",
+                "location": "Exeggutor Island",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Sun",
+                "location": "Exeggutor Island",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            },
+            {
+                "game": "Ultra Moon",
+                "location": "Exeggutor Island",
+                "rarity": "20%",
+                "environment": "Walking / Grass",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "Initial"
+            }
+        ]
+    },
+    "Marowak-Alola": {
+        "species": "Marowak-Alola",
+        "id": 105,
+        "prevolution": "Cubone",
+        "methods": []
+    },
+    "Meowth-Galar": {
+        "species": "Meowth-Galar",
+        "id": 52,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 4",
+                "rarity": "23%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 4",
+                "rarity": "35%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 4",
+                "rarity": "8.05%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 4",
+                "rarity": "23%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 4",
+                "rarity": "35%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 4",
+                "rarity": "8.05%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Ponyta-Galar": {
+        "species": "Ponyta-Galar",
+        "id": 77,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Shield",
+                "location": "Glimwood Tangle",
+                "rarity": "10%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Glimwood Tangle",
+                "rarity": "9.93%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Old Cemetery",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Rapidash-Galar": {
+        "species": "Rapidash-Galar",
+        "id": 78,
+        "prevolution": "Ponyta-Galar",
+        "methods": [
+            {
+                "game": "Pokémon Shield",
+                "location": "Old Cemetery",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Slowpoke-Galar": {
+        "species": "Slowpoke-Galar",
+        "id": 79,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Wedgehurst",
+                "rarity": "100%",
+                "environment": "Interact",
+                "time": "N/A",
+                "weather": "",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Fields of Honor",
+                "rarity": "100%",
+                "environment": "Underground",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Wedgehurst",
+                "rarity": "100%",
+                "environment": "Interact",
+                "time": "N/A",
+                "weather": "",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Fields of Honor",
+                "rarity": "100%",
+                "environment": "Underground",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Slowbro-Galar": {
+        "species": "Slowbro-Galar",
+        "id": 80,
+        "prevolution": "Slowpoke-Galar",
+        "methods": []
+    },
+    "Farfetch'd-Galar": {
+        "species": "Farfetch'd-Galar",
+        "id": 83,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 5",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Mirror",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Weezing-Galar": {
+        "species": "Weezing-Galar",
+        "id": 110,
+        "prevolution": "Koffing",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Lake of Outrage",
+                "rarity": "13%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "50%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "30%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "11.43%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "East Lake Axewell",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Lake of Outrage",
+                "rarity": "13%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "50%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "30%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "11.43%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Mr. Mime-Galar": {
+        "species": "Mr. Mime-Galar",
+        "id": 122,
+        "prevolution": "Mime Jr.",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10 - Winter Hill Station",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10",
+                "rarity": "40%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Lake of Outrage",
+                "rarity": "13%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 10 - Winter Hill Station",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 10",
+                "rarity": "40%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Lake of Outrage",
+                "rarity": "13%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Articuno-Galar": {
+        "species": "Articuno-Galar",
+        "id": 144,
+        "prevolution": "",
+        "methods": []
+    },
+    "Zapdos-Galar": {
+        "species": "Zapdos-Galar",
+        "id": 145,
+        "prevolution": "",
+        "methods": []
+    },
+    "Moltres-Galar": {
+        "species": "Moltres-Galar",
+        "id": 146,
+        "prevolution": "",
+        "methods": []
+    },
+    "Slowking-Galar": {
+        "species": "Slowking-Galar",
+        "id": 199,
+        "prevolution": "Slowpoke-Galar",
+        "methods": []
+    },
+    "Corsola-Galar": {
+        "species": "Corsola-Galar",
+        "id": 222,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 9 - Circhester Bay",
+                "rarity": "15%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "South Lake Miloch",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "25%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Fields of Honor",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Workout Sea",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 9 - Circhester Bay",
+                "rarity": "15%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "South Lake Miloch",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "25%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "5%",
+                "environment": "Surf",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "West Lake Axewell",
+                "rarity": "10%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Fields of Honor",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Workout Sea",
+                "rarity": "40%",
+                "environment": "Fishing",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Zigzagoon-Galar": {
+        "species": "Zigzagoon-Galar",
+        "id": 263,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 2 - Lakeside",
+                "rarity": "50%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 2",
+                "rarity": "2%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 3",
+                "rarity": "38%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "34%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "33%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "25%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "15%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 2 - Lakeside",
+                "rarity": "50%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 2",
+                "rarity": "2%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 3",
+                "rarity": "38%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "34%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "33%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "25%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap - Area 3",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "15%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "30%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Stony Wilderness",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Linoone-Galar": {
+        "species": "Linoone-Galar",
+        "id": 264,
+        "prevolution": "Zigzagoon-Galar",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "40%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Cap",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Giant's Bed",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Ballimere Lake",
+                "rarity": "15%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Thunderstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Bridge Field",
+                "rarity": "%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Normal Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "40%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Raining",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowing",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Cap",
+                "rarity": "5%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Fog",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Giant's Bed",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Ballimere Lake",
+                "rarity": "15%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Darumaka-Galar": {
+        "species": "Darumaka-Galar",
+        "id": 554,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 8 - Steamdrift Way",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 8 - Steamdrift Way",
+                "rarity": "27.61%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10 - Winter Hill Station",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10 - Winter Hill Station",
+                "rarity": "27.95%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 10",
+                "rarity": "21.38%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Snowslide Slope",
+                "rarity": "10%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Darmanitan-Galar": {
+        "species": "Darmanitan-Galar",
+        "id": 555,
+        "prevolution": "Darumaka-Galar",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Snowslide Slope",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "Snowstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Yamask-Galar": {
+        "species": "Yamask-Galar",
+        "id": 562,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Route 6",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Route 6",
+                "rarity": "35%",
+                "environment": "Overworld",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Stunfisk-Galar": {
+        "species": "Stunfisk-Galar",
+        "id": 618,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Pokémon Sword",
+                "location": "Dusty Bowl",
+                "rarity": "30%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Galar Mine No. 2",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Galar Mine No. 2",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Galar Mine No. 2",
+                "rarity": "14.75%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Lake of Outrage",
+                "rarity": "10%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Sword",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "21.43%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Dusty Bowl",
+                "rarity": "30%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Intense Sun",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Galar Mine No. 2",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Galar Mine No. 2",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Galar Mine No. 2",
+                "rarity": "14.75%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Lake of Outrage",
+                "rarity": "10%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "Sandstorm",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "5%",
+                "environment": "Random",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "-%",
+                "environment": "Wandering",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Pokémon Shield",
+                "location": "Slumbering Weald - Deep",
+                "rarity": "21.43%",
+                "environment": "Curry",
+                "time": "N/A",
+                "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Growlithe-Hisui": {
+        "species": "Growlithe-Hisui",
+        "id": 58,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Windbreak Stand",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Veilstone Cape",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Cobalt Coastlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Arcanine-Hisui": {
+        "species": "Arcanine-Hisui",
+        "id": 59,
+        "prevolution": "Growlithe-Hisui",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Cobalt Coastlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Voltorb-Hisui": {
+        "species": "Voltorb-Hisui",
+        "id": 100,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Sacred Plaza",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Coronet Highlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Electrode-Hisui": {
+        "species": "Electrode-Hisui",
+        "id": 101,
+        "prevolution": "Voltorb-Hisui",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Coronet Highlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Typhlosion-Hisui": {
+        "species": "Typhlosion-Hisui",
+        "id": 157,
+        "prevolution": "Quilava",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Space-time Distortion in Crimson Mirelands",
+                "rarity": "N/A",
+                "environment": "Space-time Distortion in Crimson Mirelands",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Crimson Mirelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Crimson Mirelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Qwilfish-Hisui": {
+        "species": "Qwilfish-Hisui",
+        "id": 211,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Obsidian Fieldlands",
+                "rarity": "N/A",
+                "environment": "Ramanas Island",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Tranquility Cove",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Lunker's Lair",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Islespy Shore",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Cobalt Coastlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Sneasel-Hisui": {
+        "species": "Sneasel-Hisui",
+        "id": 215,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Celestica Trail",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Primeval Grotto",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Avalugg's Legacy",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Glacier Terrace",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Coronet Highlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Samurott-Hisui": {
+        "species": "Samurott-Hisui",
+        "id": 503,
+        "prevolution": "Dewott",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Space-time Distortion in Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Space-time Distortion in Alabaster Icelands",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Lilligant-Hisui": {
+        "species": "Lilligant-Hisui",
+        "id": 549,
+        "prevolution": "Petilil",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Crimson Mirelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Crimson Mirelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Zorua-Hisui": {
+        "species": "Zorua-Hisui",
+        "id": 570,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Bonechill Wastes",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Icepeak Cavern",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Obsidian Fieldlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Obsidian Fieldlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Zoroark-Hisui": {
+        "species": "Zoroark-Hisui",
+        "id": 571,
+        "prevolution": "Zorua-Hisui",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Bonechill Wastes",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Icepeak Cavern",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Obsidian Fieldlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Obsidian Fieldlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Braviary-Hisui": {
+        "species": "Braviary-Hisui",
+        "id": 628,
+        "prevolution": "Rufflet",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Lake Acuity",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Sliggoo-Hisui": {
+        "species": "Sliggoo-Hisui",
+        "id": 705,
+        "prevolution": "Goomy",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Crimson Mirelands",
+                "rarity": "N/A",
+                "environment": "Holm of Trials",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Ancient Quarry",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Crimson Mirelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Crimson Mirelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Goodra-Hisui": {
+        "species": "Goodra-Hisui",
+        "id": 706,
+        "prevolution": "Sliggoo-Hisui",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Obsidian Fieldlands",
+                "rarity": "N/A",
+                "environment": "Lake Verity (Story)",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Ancient Quarry",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Crimson Mirelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Crimson Mirelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Avalugg-Hisui": {
+        "species": "Avalugg-Hisui",
+        "id": 713,
+        "prevolution": "Bergmite",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Avalugg's Legacy",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Decidueye-Hisui": {
+        "species": "Decidueye-Hisui",
+        "id": 724,
+        "prevolution": "Dartrix",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Space-time Distortion in Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Space-time Distortion in Coronet Highlands",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Coronet Highlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    }
+}

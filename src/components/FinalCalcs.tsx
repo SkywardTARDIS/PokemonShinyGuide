@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
 import { Pokemon } from "../interfaces/Pokemon";
@@ -10,7 +10,7 @@ import galarDex from "../assets/jsons/GalarDex.json";
 /*
 import guaranteed from "../assets/jsons/Guaranteed.json";
 import hisuiDex from "../assets/jsons/HisuiDex.json";
-import Pokedex from "../assets/jsons/PokedexV2.json";
+import Pokedex from "../assets/jsons/PokedexV3.json";
 */
 import { sLockInterface } from "../interfaces/sLockInterface";
 import shinyLock from "../assets/jsons/ShinyLock.json";
@@ -18,14 +18,17 @@ import shinyLock from "../assets/jsons/ShinyLock.json";
 
 export function FinalCalcs({
     finalGames,
+    fullDex,
     huntTarget
 }: {
     finalGames: GameData[];
+    fullDex: Pokemon[];
     huntTarget: Pokemon;
 }): JSX.Element {
-    const oldOdds = 8092;
+    const oldOdds = 8192;
     const newOdds = 4096;
-    function calculation(): Pokemon {
+    const [foundOdds, updateOdds] = useState<Pokemon[]>([]);
+    function calculation(target: Pokemon): Pokemon[] {
         //const Legends: string[] = Legendaries.Legendaries;
         //const Mythicals: string[] = Legendaries.Mythicals;
         const allLocks = [...shinyLock.ShinyLocked].filter(
@@ -33,7 +36,7 @@ export function FinalCalcs({
         );
         const partialLocks = [...shinyLock.ShinyLocked].filter(
             (aLock: sLockInterface): boolean =>
-                aLock.game !== "All" && aLock.species === huntTarget.species
+                aLock.game !== "All" && aLock.species === target.species
         );
         const lockGames = partialLocks.map(
             (aLock: sLockInterface): string => aLock.game
@@ -42,24 +45,25 @@ export function FinalCalcs({
         if (
             allLocks
                 .map((aLock: sLockInterface): string => aLock.species)
-                .includes(huntTarget.species)
+                .includes(target.species)
         ) {
-            return { ...huntTarget, methods: [] };
+            return [{ ...target, methods: [] }];
         }
 
         const getGames = [...finalGames].map(
             (aGame: GameData): string => aGame.game
         );
 
-        const stripMethods = [...huntTarget.methods].filter(
+        const stripMethods = [...target.methods].filter(
             (aMeth: EncounterMethod): boolean => getGames.includes(aMeth.game)
         );
 
         let addDyna = [...stripMethods];
         if (
             getGames.includes("Pokémon Sword") &&
-            !huntTarget.species.includes("Regi") &&
-            Legendaries.Legendaries.includes(huntTarget.species)
+            !target.species.includes("Regi") &&
+            !target.species.includes("ion") &&
+            Legendaries.Legendaries.includes(target.species)
         ) {
             addDyna = [
                 ...addDyna,
@@ -77,9 +81,9 @@ export function FinalCalcs({
         }
         if (
             getGames.includes("Pokémon Shield") &&
-            !huntTarget.species.includes("Regi") &&
-            !huntTarget.species.includes("ion") &&
-            Legendaries.Legendaries.includes(huntTarget.species)
+            !target.species.includes("Regi") &&
+            !target.species.includes("ion") &&
+            Legendaries.Legendaries.includes(target.species)
         ) {
             addDyna = [
                 ...addDyna,
@@ -131,12 +135,19 @@ export function FinalCalcs({
         //adds Masuda for every game it exists in
         let addMasuda = [...stripLocks];
         if (
-            !noEggs.noEggFound.includes(huntTarget.species) ||
-            techEggs.includes(huntTarget.species)
+            !noEggs.noEggFound.includes(target.species) ||
+            techEggs.includes(target.species)
         ) {
             const eggGames = [...getGames].filter(
                 (aGame: string): boolean =>
-                    !(getGen(aGame) < 4 || aGame.includes("Legends"))
+                    !(
+                        getGen(aGame) < 4 ||
+                        aGame.includes("Legends") ||
+                        target.species.includes("Hisui") ||
+                        (target.species.includes("Galar") &&
+                            getGen(aGame) < 8) ||
+                        (target.species.includes("Alola") && getGen(aGame) < 7)
+                    )
             );
 
             const masudaExists = [...eggGames].map(function (
@@ -162,12 +173,12 @@ export function FinalCalcs({
                     (aMeth.game.includes("Sword") ||
                         aMeth.game.includes("Shield")) &&
                     aMeth.environment.includes("Masuda") &&
-                    !galarDex.Galar.includes(huntTarget.species)
+                    !galarDex.Galar.includes(target.species)
                 )
         );
 
         let addSafari = [...galarFix];
-        if (FriendSafari.FriendSafari.includes(huntTarget.species)) {
+        if (FriendSafari.FriendSafari.includes(target.species)) {
             const xy = [...getGames].filter(
                 (aGame: string): boolean => aGame === "X" || aGame === "Y"
             );
@@ -195,20 +206,32 @@ export function FinalCalcs({
         const finalOdds = [...addSafari].map(function (
             aMeth: EncounterMethod
         ): EncounterMethod {
-            return finalCalc(aMeth);
+            return finalCalc(aMeth, target);
         });
 
         const revizedPoke: Pokemon = {
-            ...huntTarget,
+            ...target,
             methods: [...finalOdds]
         };
-        console.log(revizedPoke);
-
-        return huntTarget;
+        //console.log(revizedPoke);
+        let targetList = [revizedPoke];
+        if (target.prevolution !== "") {
+            const newTarget = [...fullDex].filter(
+                (aPoke: Pokemon): boolean =>
+                    aPoke.species === target.prevolution
+            );
+            targetList = [...targetList, ...calculation(newTarget[0])];
+        }
+        console.log(targetList);
+        updateOdds(targetList);
+        return targetList;
     }
 
     //the official function for calculating the time of each method
-    function finalCalc(aMeth: EncounterMethod): EncounterMethod {
+    function finalCalc(
+        aMeth: EncounterMethod,
+        target: Pokemon
+    ): EncounterMethod {
         const shinyCharm =
             finalGames.filter(
                 (aGame: GameData): boolean =>
@@ -278,12 +301,12 @@ export function FinalCalcs({
                 newMeth.game.includes("Platinum")
             ) {
                 if (
-                    huntTarget.species === "Feebas" ||
-                    huntTarget.species === "Mesprit" ||
-                    huntTarget.species === "Articuno" ||
-                    huntTarget.species === "Zapdos" ||
-                    huntTarget.species === "Moltres" ||
-                    huntTarget.species === "Cresselia" ||
+                    target.species === "Feebas" ||
+                    target.species === "Mesprit" ||
+                    target.species === "Articuno" ||
+                    target.species === "Zapdos" ||
+                    target.species === "Moltres" ||
+                    target.species === "Cresselia" ||
                     newMeth.environment.includes("Trees")
                 ) {
                     newMeth.rarity = 1000000000;
@@ -291,6 +314,7 @@ export function FinalCalcs({
                     radarLocation(newMeth.location, newMeth.environment)
                 ) {
                     newMeth.rarity = 3600 + 50 * 20;
+                    newMeth.environment = "PokeRadar";
                 } else {
                     newMeth.rarity = (30 * oldOdds) / numRarity;
                 }
@@ -346,6 +370,7 @@ export function FinalCalcs({
                     newMeth.environment.includes("Grass") ||
                     newMeth.environment.includes("Surf")
                 ) {
+                    newMeth.environment = newMeth.environment + " - Dexnav";
                     newMeth.rarity =
                         (35 * newOdds) / (4 + shinyCharm) / numRarity;
                 } else {
@@ -386,8 +411,8 @@ export function FinalCalcs({
                 newMeth.game.includes("Pearl")
             ) {
                 if (
-                    huntTarget.species === "Feebas" ||
-                    huntTarget.species === "Mesprit" ||
+                    target.species === "Feebas" ||
+                    target.species === "Mesprit" ||
                     newMeth.environment.includes("Trees")
                 ) {
                     newMeth.rarity = 1000000000;
@@ -395,6 +420,7 @@ export function FinalCalcs({
                     radarLocation(newMeth.location, newMeth.environment)
                 ) {
                     newMeth.rarity = 3600 + 50 * 20;
+                    newMeth.environment = "PokeRadar";
                 } else {
                     newMeth.rarity = (30 * newOdds) / numRarity;
                 }
@@ -487,7 +513,19 @@ export function FinalCalcs({
     return (
         <div>
             Optimal Method: <hr />
-            <Button onClick={calculation}>Calculate</Button>
+            <Button onClick={() => calculation(huntTarget)}>Calculate</Button>
+            <br />
+            <ul>
+                <div>
+                    {foundOdds.map(
+                        (aPoke: Pokemon): JSX.Element => (
+                            <div key={aPoke.species}>
+                                <li>{aPoke.species}</li>
+                            </div>
+                        )
+                    )}
+                </div>
+            </ul>
         </div>
     );
 }

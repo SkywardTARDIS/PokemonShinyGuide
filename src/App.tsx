@@ -10,6 +10,7 @@ import { EncounterMethod } from "./interfaces/EncounterMethod";
 import { GameData } from "./interfaces/GameData";
 //import Pokedex from "./assets/jsons/PokedexV2.json";
 import Pokedex from "./assets/jsons/PokedexV3.json";
+import RegionalDex from "./assets/jsons/RegionalDex.json";
 import { gameList } from "./interfaces/gameList";
 import { GameSelector } from "./components/GameSelector";
 import { CharmInfo } from "./components/CharmInfo";
@@ -48,18 +49,50 @@ function App(): JSX.Element {
         };
         return newPokemon;
     });
+    const regionDexKey = Object.keys(RegionalDex);
+    const regionDex: Pokemon[] = regionDexKey.map(function (key: string) {
+        const currPokemon: Pokemon =
+            RegionalDex[key as keyof typeof RegionalDex];
+        const currMethods: EncounterMethod[] = currPokemon.methods.map(
+            function (method: EncounterMethod) {
+                const newEncounter: EncounterMethod = {
+                    game: method.game,
+                    location: method.location,
+                    rarity: method.rarity.toString(),
+                    environment: method.environment,
+                    time: method.time,
+                    weather: method.weather,
+                    season: method.season,
+                    SOS: method.SOS
+                };
+                return newEncounter;
+            }
+        );
+        const newPokemon: Pokemon = {
+            species: currPokemon.species,
+            id: currPokemon.id,
+            prevolution: currPokemon.prevolution,
+            methods: [...currMethods]
+        };
+        return newPokemon;
+    });
 
     const [dexList] = useState<Pokemon[]>(testDex);
+    const [regionals] = useState<Pokemon[]>(regionDex);
+    const [trueFullDex] = useState<Pokemon[]>([...dexList, ...regionals]);
     const [spriteURL, upSprite] = useState<string>(
         "https://play.pokemonshowdown.com/sprites/ani-shiny/celebi.gif"
     );
+    const [regionSelect, updateRegionSelect] = useState<Pokemon>(regionals[0]);
     const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[250]);
+    const [trueSelected, updateTrueSelect] = useState<Pokemon>(testDex[250]);
     function selectPasser(event: ChangeEvent) {
         const species: string = event.target.value;
         const selection = dexList.filter(
             (poke: Pokemon): boolean => poke.species === species
         );
         updateSelect(selection[0]);
+        updateTrueSelect(selection[0]);
         possibleGames(selection[0]);
         if (selection[0].id < 899) {
             const copyName = selection[0].species;
@@ -77,6 +110,27 @@ function App(): JSX.Element {
             const newURL = `https://www.serebii.net/Shiny/SWSH/${selection[0].id}.png`;
             upSprite(newURL);
         }
+    }
+
+    function selectRegionPasser(event: ChangeEvent) {
+        const species: string = event.target.value;
+        const selection = regionals.filter(
+            (poke: Pokemon): boolean => poke.species === species
+        );
+        updateRegionSelect(selection[0]);
+        updateTrueSelect(selection[0]);
+        possibleGames(selection[0]);
+        const copyName = selection[0].species;
+        const newName = copyName.replaceAll(/[ ':.]/g, "");
+        let newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
+        if (copyName.includes("Hisui")) {
+            let newID = selection[0].id.toString();
+            if (newID.length === 2) {
+                newID = "0" + newID;
+            }
+            newURL = `https://www.serebii.net/Shiny/SWSH/${newID}-h.png`;
+        }
+        upSprite(newURL);
     }
 
     const [allGames, updateGames] = useState<GameData[]>(gameList);
@@ -208,8 +262,11 @@ function App(): JSX.Element {
                     <td width="33%" valign="top" height="33%">
                         <PokemonSelector
                             options={dexList}
+                            regions={regionals}
                             selectedPoke={selectedPoke.species}
+                            regionSelected={regionSelect.species}
                             selectPasser={selectPasser}
+                            regionPasser={selectRegionPasser}
                         ></PokemonSelector>
                         <img
                             className="pokeGif"
@@ -232,7 +289,8 @@ function App(): JSX.Element {
                     <td width="33%">
                         <FinalCalcs
                             finalGames={selectedGames}
-                            huntTarget={selectedPoke}
+                            fullDex={trueFullDex}
+                            huntTarget={trueSelected}
                         ></FinalCalcs>
                     </td>
                 </table>
