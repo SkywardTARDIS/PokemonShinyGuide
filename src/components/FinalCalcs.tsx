@@ -14,7 +14,7 @@ import Pokedex from "../assets/jsons/PokedexV2.json";
 */
 import { sLockInterface } from "../interfaces/sLockInterface";
 import shinyLock from "../assets/jsons/ShinyLock.json";
-import { gameList } from "../interfaces/gameList";
+//import { gameList } from "../interfaces/gameList";
 
 export function FinalCalcs({
     finalGames,
