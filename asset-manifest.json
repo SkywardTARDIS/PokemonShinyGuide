@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PokemonShinyGuide/static/css/main.171f1459.css",
-    "main.js": "/PokemonShinyGuide/static/js/main.66d80d5c.js",
+    "main.js": "/PokemonShinyGuide/static/js/main.7da3d655.js",
     "static/js/787.4ef7427d.chunk.js": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js",
     "static/media/MMO.jpeg": "/PokemonShinyGuide/static/media/MMO.a3eaaa982820a9b91c4f.jpeg",
     "static/media/FriendSafari.jpeg": "/PokemonShinyGuide/static/media/FriendSafari.19d8bb125a676da604f1.jpeg",
@@ -17,11 +17,11 @@
     "static/media/PokeRadar.png": "/PokemonShinyGuide/static/media/PokeRadar.2dcd85cedd8547f3b77a.png",
     "index.html": "/PokemonShinyGuide/index.html",
     "main.171f1459.css.map": "/PokemonShinyGuide/static/css/main.171f1459.css.map",
-    "main.66d80d5c.js.map": "/PokemonShinyGuide/static/js/main.66d80d5c.js.map",
+    "main.7da3d655.js.map": "/PokemonShinyGuide/static/js/main.7da3d655.js.map",
     "787.4ef7427d.chunk.js.map": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.171f1459.css",
-    "static/js/main.66d80d5c.js"
+    "static/js/main.7da3d655.js"
   ]
 }
