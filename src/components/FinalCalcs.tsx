@@ -296,15 +296,15 @@ export function FinalCalcs({
                 (aGame: GameData): boolean =>
                     aGame.game === aMeth.game && aGame.hasShiny
             ).length > 0
-                ? 0
-                : 2;
+                ? 2
+                : 0;
         const ovalCharm =
             finalGames.filter(
                 (aGame: GameData): boolean =>
                     aGame.game === aMeth.game && aGame.hasOval
             ).length > 0
-                ? 0
-                : 1;
+                ? 1
+                : 0;
         const newMeth = { ...aMeth };
         const gen = getGen(aMeth.game);
         if (newMeth.environment === "Masuda Method") {
