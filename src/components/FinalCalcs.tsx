@@ -64,6 +64,7 @@ export function FinalCalcs({
             getGames.includes("Pokémon Sword") &&
             !target.species.includes("Regi") &&
             !target.species.includes("ion") &&
+            target.species !== "Silvally" &&
             Legendaries.Legendaries.includes(target.species)
         ) {
             addDyna = [
@@ -84,6 +85,7 @@ export function FinalCalcs({
             getGames.includes("Pokémon Shield") &&
             !target.species.includes("Regi") &&
             !target.species.includes("ion") &&
+            target.species !== "Silvally" &&
             Legendaries.Legendaries.includes(target.species)
         ) {
             addDyna = [

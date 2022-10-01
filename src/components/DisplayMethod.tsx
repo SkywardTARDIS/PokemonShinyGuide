@@ -10,6 +10,7 @@ import Dexnav from "../assets/images/Dexnav.jpg";
 import ChainFish from "../assets/images/ChainFishing.jpg";
 import Horde from "../assets/images/Horde.jpg";
 import MissingNo from "../assets/images/MissingNo.png";
+import Dynamax from "../assets/images/Dynamax.jpg";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
@@ -21,7 +22,10 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = Radar;
         } else if (display.methods[0].environment.includes("Friend Safari")) {
             methodImage = FriendSafari;
-        } else if (display.methods[0].SOS !== "N/A") {
+        } else if (
+            display.methods[0].SOS !== "N/A" &&
+            display.methods[0].SOS !== ""
+        ) {
             methodImage = SOS;
         } else if (display.methods[0].environment.includes("Dexnav")) {
             methodImage = Dexnav;
@@ -29,6 +33,8 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = MMO;
         } else if (display.methods[0].environment.includes("Horde")) {
             methodImage = Horde;
+        } else if (display.methods[0].environment.includes("Max Raid")) {
+            methodImage = Dynamax;
         } else if (
             display.methods[0].environment.includes("Rod") &&
             (display.methods[0].game === "X" ||
