@@ -66,8 +66,8 @@ const fullData: GameData[] = games.map(function (theGame: string) {
 const gameList = fullData.map((currElement: GameData, index: number) => {
     return {
         ...currElement,
-        sExists: index > 12 ? true : false,
-        oExists: index > 12 && index < 27 ? true : false
+        sExists: index > 14 ? true : false,
+        oExists: index > 14 && index < 27 ? true : false
     };
 });
 
