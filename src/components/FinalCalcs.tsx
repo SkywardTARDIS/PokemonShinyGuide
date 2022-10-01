@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
 import { Pokemon } from "../interfaces/Pokemon";
 import { EncounterMethod } from "../interfaces/EncounterMethod";
+import { DisplayMethod } from "./DisplayMethod";
 import Legendaries from "../assets/jsons/Legendaries.json";
 import noEggs from "../assets/jsons/NoEggs.json";
 import FriendSafari from "../assets/jsons/FriendSafari.json";
@@ -146,7 +147,10 @@ export function FinalCalcs({
                         target.species.includes("Hisui") ||
                         (target.species.includes("Galar") &&
                             getGen(aGame) < 8) ||
-                        (target.species.includes("Alola") && getGen(aGame) < 7)
+                        (target.species.includes("Alola") &&
+                            (getGen(aGame) < 7 ||
+                                aGame.includes("Diamond") ||
+                                aGame.includes("Pearl")))
                     )
             );
 
@@ -200,10 +204,32 @@ export function FinalCalcs({
                 addSafari = [...addSafari, ...newSafari];
             }
         }
+        let addLgpeAlola = [...addSafari];
+        console.log([...getGames]);
+        const LGPEGames = [...getGames].filter((aGame: string): boolean =>
+            aGame.includes("Let's Go")
+        );
+        if (LGPEGames.length > 0 && huntTarget.species.includes("Alola")) {
+            const newLGPE = [...LGPEGames].map(function (
+                aGame: string
+            ): EncounterMethod {
+                return {
+                    game: aGame,
+                    location: "Trade with trainer",
+                    rarity: "--%",
+                    environment: "Trade",
+                    time: "N/A",
+                    weather: "N/A",
+                    season: "N/A",
+                    SOS: "N/A"
+                };
+            });
+            addLgpeAlola = [...addLgpeAlola, ...newLGPE];
+        }
 
         //all proper methods are now included or excluded
         //mapping all methods to include time to hunt, via calls to finalCalc
-        const finalOdds = [...addSafari].map(function (
+        const finalOdds = [...addLgpeAlola].map(function (
             aMeth: EncounterMethod
         ): EncounterMethod {
             return finalCalc(aMeth, target);
@@ -223,8 +249,39 @@ export function FinalCalcs({
             targetList = [...targetList, ...calculation(newTarget[0])];
         }
         console.log(targetList);
-        updateOdds(targetList);
         return targetList;
+    }
+
+    function returnTop(thePoke: Pokemon) {
+        const allMeth = calculation(thePoke);
+        const filterMeth = allMeth.map(function (aPoke: Pokemon): Pokemon {
+            let theMeth = [...aPoke.methods];
+            if (aPoke.methods.length > 0) {
+                theMeth = [...aPoke.methods].sort(
+                    (a, b) => Number(a.rarity) - Number(b.rarity)
+                );
+            } else {
+                const noMethods: EncounterMethod = {
+                    game: "None",
+                    location: "None",
+                    rarity: "--%",
+                    environment: "None",
+                    time: "N/A",
+                    weather: "N/A",
+                    season: "N/A",
+                    SOS: "N/A"
+                };
+                theMeth = [noMethods];
+            }
+            const bestMeth = [...theMeth][0];
+            const newPoke = { ...aPoke, methods: [bestMeth] };
+            return newPoke;
+        });
+        const sortFilter = filterMeth.sort(
+            (a, b) => Number(a.methods[0].rarity) - Number(b.methods[0].rarity)
+        );
+        console.log(sortFilter);
+        updateOdds(sortFilter);
     }
 
     //the official function for calculating the time of each method
@@ -269,6 +326,8 @@ export function FinalCalcs({
                 newMeth.rarity = 1000000000;
             } else if (newMeth.environment.includes("- Rare")) {
                 newMeth.rarity = (40 * newOdds) / (13 + shinyCharm);
+            } else if (newMeth.environment.includes("Trade")) {
+                newMeth.rarity = (30 * newOdds) / (1 + shinyCharm);
             } else {
                 newMeth.rarity = (10 * newOdds) / (13 + shinyCharm);
             }
@@ -405,7 +464,12 @@ export function FinalCalcs({
                 newMeth.game.includes("Sword") ||
                 newMeth.game.includes("Shield")
             ) {
-                newMeth.rarity = (30 * newOdds) / (2 + shinyCharm) / numRarity;
+                if (newMeth.environment.includes("Curry")) {
+                    newMeth.rarity = 1000000000;
+                } else {
+                    newMeth.rarity =
+                        (30 * newOdds) / (2 + shinyCharm) / numRarity;
+                }
             } else if (
                 newMeth.game.includes("Diamond") ||
                 newMeth.game.includes("Pearl")
@@ -513,17 +577,18 @@ export function FinalCalcs({
     return (
         <div>
             Optimal Method: <hr />
-            <Button onClick={() => calculation(huntTarget)}>Calculate</Button>
+            <Button onClick={() => returnTop(huntTarget)}>Calculate</Button>
+            <br />
             <br />
             <ul>
                 <div>
-                    {foundOdds.map(
-                        (aPoke: Pokemon): JSX.Element => (
-                            <div key={aPoke.species}>
-                                <li>{aPoke.species}</li>
-                            </div>
-                        )
-                    )}
+                    {foundOdds.map((aPoke: Pokemon) => (
+                        <div key={aPoke.species}>
+                            <DisplayMethod display={aPoke}></DisplayMethod>
+                            <br />
+                            <br />
+                        </div>
+                    ))}
                 </div>
             </ul>
         </div>
