@@ -408,6 +408,17 @@ export function FinalCalcs({
                     newMeth.rarity =
                         700 + (28 * newOdds) / (41 + shinyCharm) / numRarity;
                 } else if (
+                    newMeth.environment.includes("Rock Smash") ||
+                    newMeth.environment.includes("Special") ||
+                    newMeth.environment.includes("Surf") ||
+                    newMeth.environment.includes("Tall Grass") ||
+                    newMeth.environment.includes("Snow") ||
+                    newMeth.environment.includes("Dust") ||
+                    newMeth.location.includes("Route 9")
+                ) {
+                    newMeth.rarity =
+                        (30 * newOdds) / (1 + shinyCharm) / numRarity;
+                } else if (
                     XYradarLocation(newMeth.location, newMeth.environment)
                 ) {
                     newMeth.rarity = 3600 + 50 * 20;
@@ -514,13 +525,8 @@ export function FinalCalcs({
     function radarLocation(location: string, environment: string): boolean {
         return (
             !environment.includes("Cave") &&
-            !environment.includes("Rock Smash") &&
-            !environment.includes("Special") &&
             !environment.includes("Surf") &&
             !environment.includes("Tall Grass") &&
-            !environment.includes("Snow") &&
-            !environment.includes("Dust") &&
-            !location.includes("Route 9") &&
             (environment.includes("Radar") ||
                 environment.includes("Ruby") ||
                 environment.includes("Sapphire") ||
