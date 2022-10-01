@@ -411,6 +411,7 @@ export function FinalCalcs({
                     XYradarLocation(newMeth.location, newMeth.environment)
                 ) {
                     newMeth.rarity = 3600 + 50 * 20;
+                    newMeth.environment = newMeth.environment + " - PokeRadar";
                 } else if (newMeth.environment === "Friend Safari") {
                     newMeth.rarity = 30 * 512;
                 } else {
@@ -513,6 +514,13 @@ export function FinalCalcs({
     function radarLocation(location: string, environment: string): boolean {
         return (
             !environment.includes("Cave") &&
+            !environment.includes("Rock Smash") &&
+            !environment.includes("Special") &&
+            !environment.includes("Surf") &&
+            !environment.includes("Tall Grass") &&
+            !environment.includes("Snow") &&
+            !environment.includes("Dust") &&
+            !location.includes("Route 9") &&
             (environment.includes("Radar") ||
                 environment.includes("Ruby") ||
                 environment.includes("Sapphire") ||
