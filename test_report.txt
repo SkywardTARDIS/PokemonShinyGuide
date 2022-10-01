@@ -986,7 +986,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (894 ms)
+  ✕ renders the course name somewhere (613 ms)
 
   ● renders the course name somewhere
 
@@ -1189,13 +1189,14 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|--------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 ----------------------|---------|----------|---------|---------|--------------------
-All files             |   16.44 |     2.36 |   27.86 |   16.44 |                    
+All files             |   14.28 |     2.05 |      25 |   14.28 |                    
  src                  |   30.76 |        0 |      25 |   30.76 |                    
   App.tsx             |   30.76 |        0 |      25 |   30.76 | 90-133,145-201,207 
- src/components       |    7.28 |        0 |   25.64 |    7.28 |                    
+ src/components       |    5.95 |        0 |   21.73 |    5.95 |                    
   CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                 
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48              
-  FinalCalcs.tsx      |     2.1 |        0 |       4 |     2.1 | 34-509,516-522     
+  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 15-42              
+  FinalCalcs.tsx      |    1.85 |        0 |    3.22 |    1.85 | 35-573,580-586     
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                 
   GameSelector.tsx    |     100 |      100 |     100 |     100 |                    
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                    
@@ -1209,5 +1210,5 @@ All files             |   16.44 |     2.36 |   27.86 |   16.44 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        5.14 s
+Time:        3.827 s
 Ran all test suites.

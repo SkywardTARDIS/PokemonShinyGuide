@@ -1,18 +1,27 @@
 {
   "files": {
     "main.css": "/PokemonShinyGuide/static/css/main.171f1459.css",
-    "main.js": "/PokemonShinyGuide/static/js/main.e7dd0fb8.js",
+    "main.js": "/PokemonShinyGuide/static/js/main.d615d78a.js",
     "static/js/787.4ef7427d.chunk.js": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js",
+    "static/media/MMO.jpeg": "/PokemonShinyGuide/static/media/MMO.a3eaaa982820a9b91c4f.jpeg",
+    "static/media/FriendSafari.jpeg": "/PokemonShinyGuide/static/media/FriendSafari.19d8bb125a676da604f1.jpeg",
+    "static/media/FullOdds.jpg": "/PokemonShinyGuide/static/media/FullOdds.4199385bc1a0a0b6997c.jpg",
+    "static/media/Horde.jpg": "/PokemonShinyGuide/static/media/Horde.d90e8f28158e9234f7c6.jpg",
     "static/media/Spiritomb.png": "/PokemonShinyGuide/static/media/Spiritomb.1af2c1c6dda2a034f323.png",
+    "static/media/Egg.jpg": "/PokemonShinyGuide/static/media/Egg.b29b194dd5ec7b7497ea.jpg",
     "static/media/Shuckle.png": "/PokemonShinyGuide/static/media/Shuckle.59d93f16fbc39f738821.png",
+    "static/media/Dexnav.jpg": "/PokemonShinyGuide/static/media/Dexnav.6cd719fbe057acd3f57c.jpg",
+    "static/media/SOS.jpg": "/PokemonShinyGuide/static/media/SOS.506cf9744fafe9cd099b.jpg",
+    "static/media/ChainFishing.jpg": "/PokemonShinyGuide/static/media/ChainFishing.0817eecc69c4bf6a09eb.jpg",
     "static/media/MissingNo.png": "/PokemonShinyGuide/static/media/MissingNo.163cb81787b4a1cd6daa.png",
+    "static/media/PokeRadar.png": "/PokemonShinyGuide/static/media/PokeRadar.2dcd85cedd8547f3b77a.png",
     "index.html": "/PokemonShinyGuide/index.html",
     "main.171f1459.css.map": "/PokemonShinyGuide/static/css/main.171f1459.css.map",
-    "main.e7dd0fb8.js.map": "/PokemonShinyGuide/static/js/main.e7dd0fb8.js.map",
+    "main.d615d78a.js.map": "/PokemonShinyGuide/static/js/main.d615d78a.js.map",
     "787.4ef7427d.chunk.js.map": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.171f1459.css",
-    "static/js/main.e7dd0fb8.js"
+    "static/js/main.d615d78a.js"
   ]
 }
