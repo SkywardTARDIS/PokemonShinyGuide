@@ -29,6 +29,10 @@ export function FinalCalcs({
     const oldOdds = 8192;
     const newOdds = 4096;
     const [foundOdds, updateOdds] = useState<Pokemon[]>([]);
+    const [method, upMethod] = useState<string>("");
+    function passMethod(aMethod: string) {
+        upMethod(aMethod);
+    }
     function calculation(target: Pokemon): Pokemon[] {
         //const Legends: string[] = Legendaries.Legendaries;
         //const Mythicals: string[] = Legendaries.Mythicals;
@@ -636,6 +640,12 @@ export function FinalCalcs({
             return 6;
         } else if (game.includes("Sun") || game.includes("Moon")) {
             return 7;
+        } else if (
+            game.includes("Sword") ||
+            game.includes("Shield") ||
+            game.includes("Legends")
+        ) {
+            return 8;
         } else {
             return 8;
         }
@@ -651,7 +661,11 @@ export function FinalCalcs({
                 <div>
                     {foundOdds.map((aPoke: Pokemon) => (
                         <div key={aPoke.species}>
-                            <DisplayMethod display={aPoke}></DisplayMethod>
+                            <DisplayMethod
+                                display={aPoke}
+                                methPass={method}
+                                upMethod={passMethod}
+                            ></DisplayMethod>
                             <br />
                             <br />
                         </div>
