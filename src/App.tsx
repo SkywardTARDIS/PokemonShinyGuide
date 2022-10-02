@@ -86,6 +86,8 @@ function App(): JSX.Element {
     const [regionSelect, updateRegionSelect] = useState<Pokemon>(regionals[0]);
     const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[250]);
     const [trueSelected, updateTrueSelect] = useState<Pokemon>(testDex[250]);
+    const [allSelected, updateAllGames] = useState<boolean>(false);
+
     function selectPasser(event: ChangeEvent) {
         const species: string = event.target.value;
         const selection = dexList.filter(
@@ -166,6 +168,9 @@ function App(): JSX.Element {
     }
 
     function upOwned(game: GameData) {
+        if (game.owned === true) {
+            updateAllGames(false);
+        }
         const newData: GameData = { ...game, owned: !game.owned };
         const newList = allGames.map((aGame: GameData) =>
             aGame.game === game.game ? { ...newData } : { ...aGame }
@@ -181,6 +186,35 @@ function App(): JSX.Element {
             (aGame: GameData): boolean => aGame.owned
         );
         updateSelected(charmList);
+    }
+
+    function addAll(currentState: boolean) {
+        let newList = [...allGames];
+        let charmList = [...allGames];
+        let availableList = [...huntableGames];
+        if (!currentState) {
+            newList = allGames.map(function (aGame: GameData) {
+                return { ...aGame, owned: true };
+            });
+            availableList = [...huntableGames].map(function (aGame: GameData) {
+                return { ...aGame, owned: true };
+            });
+            charmList = availableList;
+        } else {
+            newList = allGames.map(function (aGame: GameData) {
+                return { ...aGame, owned: false };
+            });
+            availableList = [...huntableGames].map(function (aGame: GameData) {
+                return { ...aGame, owned: false };
+            });
+            charmList = [...availableList].filter(
+                (aGame: GameData): boolean => aGame.owned
+            );
+        }
+        updateGames(newList);
+        updateAvailable(availableList);
+        updateSelected(charmList);
+        updateAllGames(!currentState);
     }
 
     function upCharm(game: GameData, charmID: boolean) {
@@ -281,6 +315,8 @@ function App(): JSX.Element {
                         <GameSelector
                             games={huntableGames}
                             upOwned={upOwned}
+                            allSelect={allSelected}
+                            addAll={addAll}
                         ></GameSelector>
                     </td>
                     <td width="18%" valign="top">
