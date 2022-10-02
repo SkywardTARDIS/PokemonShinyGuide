@@ -12,6 +12,7 @@ import Horde from "../assets/images/Horde.jpg";
 import MissingNo from "../assets/images/MissingNo.png";
 import Dynamax from "../assets/images/Dynamax.jpg";
 import Starter from "../assets/images/starters.jpg";
+import Mystery from "../assets/images/MysteryBox.png";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
@@ -41,6 +42,8 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = Starter;
         } else if (display.methods[0].environment.includes("Max Raid")) {
             methodImage = Dynamax;
+        } else if (display.species === "Meltan") {
+            methodImage = Mystery;
         } else if (
             display.methods[0].environment.includes("Rod") &&
             (display.methods[0].game === "X" ||

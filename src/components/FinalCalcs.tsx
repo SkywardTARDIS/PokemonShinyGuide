@@ -56,7 +56,8 @@ export function FinalCalcs({
         );
 
         const stripMethods = [...target.methods].filter(
-            (aMeth: EncounterMethod): boolean => getGames.includes(aMeth.game)
+            (aMeth: EncounterMethod): boolean =>
+                getGames.includes(aMeth.game) || aMeth.game === "Pokémon GO"
         );
 
         let addDyna = [...stripMethods];
@@ -288,7 +289,7 @@ export function FinalCalcs({
                 const noMethods: EncounterMethod = {
                     game: "None",
                     location: "None",
-                    rarity: "--%",
+                    rarity: 100000000000,
                     environment: "None",
                     time: "N/A",
                     weather: "N/A",
@@ -396,8 +397,36 @@ export function FinalCalcs({
                 } else if (
                     radarLocation(newMeth.location, newMeth.environment)
                 ) {
-                    newMeth.rarity = 3600 + 50 * 20;
-                    newMeth.environment = "PokeRadar";
+                    const isGameInserted = [...finalGames].map(
+                        (aGame: GameData): string => aGame.game
+                    );
+                    const gen3Games = [...isGameInserted].filter(
+                        (aGame: string): boolean => getGen(aGame) === 3
+                    );
+                    if (
+                        (newMeth.environment.includes("FireRed") ||
+                            newMeth.environment.includes("LeafGreen") ||
+                            newMeth.environment.includes("Ruby") ||
+                            newMeth.environment.includes("Sapphire") ||
+                            newMeth.environment.includes("Emerald")) &&
+                        isGameInserted.length > 0
+                    ) {
+                        const filterGame = [...gen3Games].filter(
+                            (aGame: string): boolean =>
+                                newMeth.environment.includes(aGame)
+                        );
+                        if (filterGame.length > 0) {
+                            newMeth.rarity = 3600 + 50 * 20;
+                            newMeth.environment =
+                                newMeth.environment + "- PokeRadar";
+                        } else {
+                            newMeth.rarity = (30 * oldOdds) / numRarity;
+                        }
+                    } else {
+                        newMeth.rarity = 3600 + 50 * 20;
+                        newMeth.environment =
+                            newMeth.environment + "- PokeRadar";
+                    }
                 } else {
                     newMeth.rarity = (30 * oldOdds) / numRarity;
                 }
