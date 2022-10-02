@@ -986,7 +986,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (661 ms)
+  ✕ renders the course name somewhere (765 ms)
 
   ● renders the course name somewhere
 
@@ -1186,29 +1186,29 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------------------|---------|----------|---------|---------|--------------------
-File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
-----------------------|---------|----------|---------|---------|--------------------
-All files             |   12.53 |     1.74 |   22.36 |   12.53 |                    
- src                  |    30.1 |        0 |      25 |    30.1 |                    
-  App.tsx             |    30.1 |        0 |      25 |    30.1 | 90-136,148-204,210 
- src/components       |    5.21 |        0 |   18.51 |    5.21 |                    
-  CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                 
-  CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48              
-  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 28-86              
-  FinalCalcs.tsx      |    2.03 |        0 |    2.56 |    2.03 | 34-666,673-679     
-  GameList.tsx        |      50 |      100 |      50 |      50 | 24                 
-  GameSelector.tsx    |     100 |      100 |     100 |     100 |                    
-  PokemonSelector.tsx |     100 |      100 |     100 |     100 |                    
- src/interfaces       |     100 |      100 |     100 |     100 |                    
-  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                    
-  GameData.ts         |       0 |        0 |       0 |       0 |                    
-  Pokemon.ts          |       0 |        0 |       0 |       0 |                    
-  gameList.ts         |     100 |      100 |     100 |     100 |                    
-  sLockInterface.ts   |       0 |        0 |       0 |       0 |                    
-----------------------|---------|----------|---------|---------|--------------------
+----------------------|---------|----------|---------|---------|----------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
+----------------------|---------|----------|---------|---------|----------------------
+All files             |   12.07 |     1.69 |   22.66 |   12.07 |                      
+ src                  |    30.1 |        0 |      25 |    30.1 |                      
+  App.tsx             |    30.1 |        0 |      25 |    30.1 | 90-136,148-204,210   
+ src/components       |    4.77 |        0 |   18.86 |    4.77 |                      
+  CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                   
+  CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                
+  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 23-88                
+  FinalCalcs.tsx      |    1.61 |        0 |    2.63 |    1.61 | 21-63,82-666,693-699 
+  GameList.tsx        |      50 |      100 |      50 |      50 | 24                   
+  GameSelector.tsx    |     100 |      100 |     100 |     100 |                      
+  PokemonSelector.tsx |     100 |      100 |     100 |     100 |                      
+ src/interfaces       |     100 |      100 |     100 |     100 |                      
+  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                      
+  GameData.ts         |       0 |        0 |       0 |       0 |                      
+  Pokemon.ts          |       0 |        0 |       0 |       0 |                      
+  gameList.ts         |     100 |      100 |     100 |     100 |                      
+  sLockInterface.ts   |       0 |        0 |       0 |       0 |                      
+----------------------|---------|----------|---------|---------|----------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.396 s
+Time:        4.94 s
 Ran all test suites.
