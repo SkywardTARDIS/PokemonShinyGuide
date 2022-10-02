@@ -60,7 +60,7 @@ export function getGen(game: string): number {
     ) {
         return 8;
     } else {
-        return 8;
+        return -1;
     }
 }
 

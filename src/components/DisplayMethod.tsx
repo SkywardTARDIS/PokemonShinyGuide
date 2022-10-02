@@ -1,8 +1,15 @@
 import React from "react";
 import { Pokemon } from "../interfaces/Pokemon";
-//import { getGen } from "./FinalCalcs";
+import { getGen } from "./FinalCalcs";
 import Egg from "../assets/images/Egg.jpg";
-import fullOdds from "../assets/images/FullOdds.jpg";
+import Gen1 from "../assets/images/Gen1.png";
+import Gen2 from "../assets/images/Gen2.png";
+import Gen3 from "../assets/images/Gen3.png";
+import Gen4 from "../assets/images/Gen4.png";
+import Gen5 from "../assets/images/Gen5.png";
+import Gen6 from "../assets/images/Gen6.png";
+import Gen7 from "../assets/images/FullOdds.jpg";
+import Gen8 from "../assets/images/Gen8.png";
 import MMO from "../assets/images/MMO.jpeg";
 import SOS from "../assets/images/SOS.jpg";
 import FriendSafari from "../assets/images/FriendSafari.jpeg";
@@ -23,7 +30,23 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
     let methodString = "Not Obtainable";
     if (display.methods[0].environment !== "None") {
-        methodImage = fullOdds;
+        if (getGen(display.methods[0].game) === 1) {
+            methodImage = Gen1;
+        } else if (getGen(display.methods[0].game) === 2) {
+            methodImage = Gen2;
+        } else if (getGen(display.methods[0].game) === 3) {
+            methodImage = Gen3;
+        } else if (getGen(display.methods[0].game) === 4) {
+            methodImage = Gen4;
+        } else if (getGen(display.methods[0].game) === 5) {
+            methodImage = Gen5;
+        } else if (getGen(display.methods[0].game) === 6) {
+            methodImage = Gen6;
+        } else if (getGen(display.methods[0].game) === 7) {
+            methodImage = Gen7;
+        } else if (getGen(display.methods[0].game) === 8) {
+            methodImage = Gen8;
+        }
         methodString = "Full Odds";
         if (
             display.methods[0].environment.includes("Masuda") ||
