@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/PokemonShinyGuide/static/css/main.171f1459.css",
-    "main.js": "/PokemonShinyGuide/static/js/main.de6d2fcc.js",
+    "main.js": "/PokemonShinyGuide/static/js/main.d339ecee.js",
     "static/js/787.4ef7427d.chunk.js": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js",
+    "static/media/Gen2.png": "/PokemonShinyGuide/static/media/Gen2.43d6858a3332ff083763.png",
     "static/media/MMO.jpeg": "/PokemonShinyGuide/static/media/MMO.a3eaaa982820a9b91c4f.jpeg",
+    "static/media/Gen8.png": "/PokemonShinyGuide/static/media/Gen8.4ad53a4339e651daee5a.png",
     "static/media/FriendSafari.jpeg": "/PokemonShinyGuide/static/media/FriendSafari.19d8bb125a676da604f1.jpeg",
     "static/media/Dynamax.jpg": "/PokemonShinyGuide/static/media/Dynamax.d75cba8f551839213935.jpg",
+    "static/media/Gen1.png": "/PokemonShinyGuide/static/media/Gen1.117042c4c6571ae1decd.png",
     "static/media/FullOdds.jpg": "/PokemonShinyGuide/static/media/FullOdds.4199385bc1a0a0b6997c.jpg",
     "static/media/Horde.jpg": "/PokemonShinyGuide/static/media/Horde.d90e8f28158e9234f7c6.jpg",
+    "static/media/Gen5.png": "/PokemonShinyGuide/static/media/Gen5.71b7a1f55f8dcb3ee850.png",
+    "static/media/Gen6.png": "/PokemonShinyGuide/static/media/Gen6.d398701ec7fd778f8322.png",
     "static/media/Spiritomb.png": "/PokemonShinyGuide/static/media/Spiritomb.1af2c1c6dda2a034f323.png",
     "static/media/Egg.jpg": "/PokemonShinyGuide/static/media/Egg.b29b194dd5ec7b7497ea.jpg",
     "static/media/Jirachi.jpg": "/PokemonShinyGuide/static/media/Jirachi.1cfeccc41771f832b8db.jpg",
@@ -16,17 +21,18 @@
     "static/media/Dexnav.jpg": "/PokemonShinyGuide/static/media/Dexnav.6cd719fbe057acd3f57c.jpg",
     "static/media/SOS.jpg": "/PokemonShinyGuide/static/media/SOS.506cf9744fafe9cd099b.jpg",
     "static/media/ChainFishing.jpg": "/PokemonShinyGuide/static/media/ChainFishing.0817eecc69c4bf6a09eb.jpg",
+    "static/media/Gen4.png": "/PokemonShinyGuide/static/media/Gen4.958367a45840892a63b7.png",
     "static/media/MysteryBox.png": "/PokemonShinyGuide/static/media/MysteryBox.4bb8cba3e3a6c9942f14.png",
     "static/media/MissingNo.png": "/PokemonShinyGuide/static/media/MissingNo.163cb81787b4a1cd6daa.png",
     "static/media/PokeRadar.png": "/PokemonShinyGuide/static/media/PokeRadar.2dcd85cedd8547f3b77a.png",
     "static/media/Manaphy.png": "/PokemonShinyGuide/static/media/Manaphy.75e417181981bb48838e.png",
     "index.html": "/PokemonShinyGuide/index.html",
     "main.171f1459.css.map": "/PokemonShinyGuide/static/css/main.171f1459.css.map",
-    "main.de6d2fcc.js.map": "/PokemonShinyGuide/static/js/main.de6d2fcc.js.map",
+    "main.d339ecee.js.map": "/PokemonShinyGuide/static/js/main.d339ecee.js.map",
     "787.4ef7427d.chunk.js.map": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.171f1459.css",
-    "static/js/main.de6d2fcc.js"
+    "static/js/main.d339ecee.js"
   ]
 }
