@@ -119,5 +119,14 @@
         "Articuno-Galar",
         "Zapdos-Galar",
         "Moltres-Galar"
+    ],
+    "OddEggSpecies": [
+        "Pichu",
+        "Cleffa",
+        "Igglybuff",
+        "Tyrogue",
+        "Smoochum",
+        "Elekid",
+        "Magby"
     ]
 }

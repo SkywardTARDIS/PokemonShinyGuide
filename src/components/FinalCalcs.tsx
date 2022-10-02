@@ -17,6 +17,53 @@ import { sLockInterface } from "../interfaces/sLockInterface";
 import shinyLock from "../assets/jsons/ShinyLock.json";
 //import { gameList } from "../interfaces/gameList";
 
+export function getGen(game: string): number {
+    if (game.includes("Let's Go")) {
+        return 1;
+    } else if (
+        game === "Pokémon Gold" ||
+        game === "Pokémon Silver" ||
+        game === "Pokémon Crystal"
+    ) {
+        return 2;
+    } else if (
+        game === "Ruby" ||
+        game === "Sapphire" ||
+        game === "Emerald" ||
+        game === "FireRed" ||
+        game === "LeafGreen"
+    ) {
+        return 3;
+    } else if (
+        game === "Diamond" ||
+        game === "Pearl" ||
+        game === "Platinum" ||
+        game === "HeartGold" ||
+        game === "SoulSilver"
+    ) {
+        return 4;
+    } else if (game.includes("Black") || game.includes("White")) {
+        return 5;
+    } else if (
+        game === "X" ||
+        game === "Y" ||
+        game === "Omega Ruby" ||
+        game === "Alpha Sapphire"
+    ) {
+        return 6;
+    } else if (game.includes("Sun") || game.includes("Moon")) {
+        return 7;
+    } else if (
+        game.includes("Sword") ||
+        game.includes("Shield") ||
+        game.includes("Legends")
+    ) {
+        return 8;
+    } else {
+        return 8;
+    }
+}
+
 export function FinalCalcs({
     finalGames,
     fullDex,
@@ -29,10 +76,6 @@ export function FinalCalcs({
     const oldOdds = 8192;
     const newOdds = 4096;
     const [foundOdds, updateOdds] = useState<Pokemon[]>([]);
-    const [method, upMethod] = useState<string>("");
-    function passMethod(aMethod: string) {
-        upMethod(aMethod);
-    }
     function calculation(target: Pokemon): Pokemon[] {
         //const Legends: string[] = Legendaries.Legendaries;
         //const Mythicals: string[] = Legendaries.Mythicals;
@@ -199,7 +242,7 @@ export function FinalCalcs({
                 };
             });
 
-            const noMasuda = [...preMasuda].map(function (
+            let noMasuda = [...preMasuda].map(function (
                 aGame: string
             ): EncounterMethod {
                 return {
@@ -214,6 +257,24 @@ export function FinalCalcs({
                 };
             });
 
+            if (
+                noEggs.OddEggSpecies.includes(target.species) &&
+                getGames.includes("Pokémon Crystal")
+            ) {
+                noMasuda = [
+                    ...noMasuda,
+                    {
+                        game: "Pokémon Crystal",
+                        location: "Day Care Center",
+                        rarity: "--%",
+                        environment: "Hatch the Odd Egg",
+                        time: "N/A",
+                        weather: "N/A",
+                        season: "N/A",
+                        SOS: "N/A"
+                    }
+                ];
+            }
             addMasuda = [...stripLocks, ...masudaExists, ...noMasuda];
         }
 
@@ -378,12 +439,18 @@ export function FinalCalcs({
             }
             return newMeth;
         } else if (gen === 2) {
-            let rarity = newMeth.rarity.toString().replaceAll(/[^0-9]/gi, "");
-            if (rarity === "") {
-                rarity = "100";
+            if (newMeth.environment.includes("Odd Egg")) {
+                newMeth.rarity = 100 * 300;
+            } else {
+                let rarity = newMeth.rarity
+                    .toString()
+                    .replaceAll(/[^0-9]/gi, "");
+                if (rarity === "") {
+                    rarity = "100";
+                }
+                const numRarity = Number(rarity) / 100;
+                newMeth.rarity = (30 * oldOdds) / numRarity;
             }
-            const numRarity = Number(rarity) / 100;
-            newMeth.rarity = (30 * oldOdds) / numRarity;
             return newMeth;
         } else if (gen === 3) {
             let rarity = newMeth.rarity.toString().replaceAll(/[^0-9]/gi, "");
@@ -620,53 +687,6 @@ export function FinalCalcs({
         );
     }
 
-    function getGen(game: string): number {
-        if (game.includes("Let's Go")) {
-            return 1;
-        } else if (
-            game === "Pokémon Gold" ||
-            game === "Pokémon Silver" ||
-            game === "Pokémon Crystal"
-        ) {
-            return 2;
-        } else if (
-            game === "Ruby" ||
-            game === "Sapphire" ||
-            game === "Emerald" ||
-            game === "FireRed" ||
-            game === "LeafGreen"
-        ) {
-            return 3;
-        } else if (
-            game === "Diamond" ||
-            game === "Pearl" ||
-            game === "Platinum" ||
-            game === "HeartGold" ||
-            game === "SoulSilver"
-        ) {
-            return 4;
-        } else if (game.includes("Black") || game.includes("White")) {
-            return 5;
-        } else if (
-            game === "X" ||
-            game === "Y" ||
-            game === "Omega Ruby" ||
-            game === "Alpha Sapphire"
-        ) {
-            return 6;
-        } else if (game.includes("Sun") || game.includes("Moon")) {
-            return 7;
-        } else if (
-            game.includes("Sword") ||
-            game.includes("Shield") ||
-            game.includes("Legends")
-        ) {
-            return 8;
-        } else {
-            return 8;
-        }
-    }
-
     return (
         <div>
             Optimal Method: <hr />
@@ -677,11 +697,7 @@ export function FinalCalcs({
                 <div>
                     {foundOdds.map((aPoke: Pokemon) => (
                         <div key={aPoke.species}>
-                            <DisplayMethod
-                                display={aPoke}
-                                methPass={method}
-                                upMethod={passMethod}
-                            ></DisplayMethod>
+                            <DisplayMethod display={aPoke}></DisplayMethod>
                             <br />
                             <br />
                         </div>

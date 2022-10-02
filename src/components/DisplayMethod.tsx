@@ -1,5 +1,6 @@
 import React from "react";
 import { Pokemon } from "../interfaces/Pokemon";
+//import { getGen } from "./FinalCalcs";
 import Egg from "../assets/images/Egg.jpg";
 import fullOdds from "../assets/images/FullOdds.jpg";
 import MMO from "../assets/images/MMO.jpeg";
@@ -15,57 +16,56 @@ import Starter from "../assets/images/starters.jpg";
 import Mystery from "../assets/images/MysteryBox.png";
 import Jirachi from "../assets/images/Jirachi.jpg";
 import Manaphy from "../assets/images/Manaphy.png";
+import IlexForest from "../assets/images/IlexForest.png";
+import OddEgg from "../assets/images/OddEgg.jpg";
 
-export function DisplayMethod({
-    display,
-    methPass,
-    upMethod
-}: {
-    display: Pokemon;
-    methPass: string;
-    upMethod: (aMethod: string) => void;
-}): JSX.Element {
+export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
-    upMethod("Not Obtainable");
+    let methodString = "Not Obtainable";
     if (display.methods[0].environment !== "None") {
         methodImage = fullOdds;
-        upMethod("Full Odds");
+        methodString = "Full Odds";
         if (
             display.methods[0].environment.includes("Masuda") ||
             display.methods[0].environment.includes("Egg")
         ) {
-            methodImage = Egg;
-            upMethod("Eggs");
+            if (display.methods[0].environment.includes("Odd")) {
+                methodImage = OddEgg;
+                methodString = "Odd Egg";
+            } else {
+                methodImage = Egg;
+                methodString = "Eggs";
+            }
         } else if (display.methods[0].environment.includes("Radar")) {
             methodImage = Radar;
-            upMethod("PokeRadar");
+            methodString = "PokeRadar";
         } else if (display.methods[0].environment.includes("Friend Safari")) {
             methodImage = FriendSafari;
-            upMethod("Friend Safari");
+            methodString = "Friend Safari";
         } else if (
             display.methods[0].SOS !== "N/A" &&
             display.methods[0].SOS !== ""
         ) {
             methodImage = SOS;
-            upMethod("SOS Chaining");
+            methodString = "SOS Chaining";
         } else if (display.methods[0].environment.includes("Dexnav")) {
             methodImage = Dexnav;
-            upMethod("Dexnav Chaining");
+            methodString = "Dexnav Chaining";
         } else if (display.methods[0].environment.includes("Massive Mass")) {
             methodImage = MMO;
-            upMethod("Massive Mass Outbreaks");
+            methodString = "Massive Mass Outbreaks";
         } else if (display.methods[0].environment.includes("Horde")) {
             methodImage = Horde;
-            upMethod("Horde Encounters");
+            methodString = "Horde Encounters";
         } else if (display.methods[0].environment.includes("Starter")) {
             methodImage = Starter;
-            upMethod("Starter Reset");
+            methodString = "Starter Reset";
         } else if (display.methods[0].environment.includes("Max Raid")) {
             methodImage = Dynamax;
-            upMethod("Dynamax Adventures");
+            methodString = "Dynamax Adventures";
         } else if (display.species === "Meltan") {
             methodImage = Mystery;
-            upMethod("Mystery Box");
+            methodString = "Mystery Box";
         } else if (
             display.methods[0].environment.includes("Rod") &&
             (display.methods[0].game === "X" ||
@@ -74,19 +74,21 @@ export function DisplayMethod({
                 display.methods[0].game === "Alpha Sapphire")
         ) {
             methodImage = ChainFish;
-            upMethod("Chain Fishing");
+            methodString = "Chain Fishing";
         } else if (display.species === "Manaphy") {
             methodImage = Manaphy;
-            upMethod("Egg Hatching Purgatory");
+            methodString = "Egg Hatching Purgatory";
         } else if (display.species === "Jirachi") {
             methodImage = Jirachi;
-            upMethod("Reset the entire game");
+            methodString = "Game Resetting Purgatory";
+        } else if (display.species === "Celebi") {
+            methodImage = IlexForest;
         }
     }
     return (
         <div>
             <h5>{display.species}</h5>
-            Hunt Method: {methPass}
+            Hunt Method: {methodString}
             <div>
                 <img className="pokeGif" src={methodImage}></img>
             </div>
