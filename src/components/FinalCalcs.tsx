@@ -144,7 +144,6 @@ export function FinalCalcs({
             const eggGames = [...getGames].filter(
                 (aGame: string): boolean =>
                     !(
-                        getGen(aGame) < 4 ||
                         aGame.includes("Legends") ||
                         target.species.includes("Hisui") ||
                         (target.species.includes("Galar") &&
@@ -156,7 +155,14 @@ export function FinalCalcs({
                     )
             );
 
-            const masudaExists = [...eggGames].map(function (
+            const masudaGames = [...eggGames].filter(
+                (aGame: string): boolean => getGen(aGame) > 3
+            );
+            const preMasuda = [...eggGames].filter(
+                (aGame: string): boolean => getGen(aGame) < 4
+            );
+
+            const masudaExists = [...masudaGames].map(function (
                 aGame: string
             ): EncounterMethod {
                 return {
@@ -170,7 +176,23 @@ export function FinalCalcs({
                     SOS: "N/A"
                 };
             });
-            addMasuda = [...stripLocks, ...masudaExists];
+
+            const noMasuda = [...preMasuda].map(function (
+                aGame: string
+            ): EncounterMethod {
+                return {
+                    game: aGame,
+                    location: "Day Care Center",
+                    rarity: "--%",
+                    environment: "Hatch an Egg",
+                    time: "N/A",
+                    weather: "N/A",
+                    season: "N/A",
+                    SOS: "N/A"
+                };
+            });
+
+            addMasuda = [...stripLocks, ...masudaExists, ...noMasuda];
         }
 
         const galarFix = [...addMasuda].filter(

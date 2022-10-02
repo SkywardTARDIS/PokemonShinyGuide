@@ -11,12 +11,16 @@ import ChainFish from "../assets/images/ChainFishing.jpg";
 import Horde from "../assets/images/Horde.jpg";
 import MissingNo from "../assets/images/MissingNo.png";
 import Dynamax from "../assets/images/Dynamax.jpg";
+import Starter from "../assets/images/starters.jpg";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
     if (display.methods[0].environment !== "None") {
         methodImage = fullOdds;
-        if (display.methods[0].environment.includes("Masuda")) {
+        if (
+            display.methods[0].environment.includes("Masuda") ||
+            display.methods[0].environment.includes("Egg")
+        ) {
             methodImage = Egg;
         } else if (display.methods[0].environment.includes("Radar")) {
             methodImage = Radar;
@@ -33,6 +37,8 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = MMO;
         } else if (display.methods[0].environment.includes("Horde")) {
             methodImage = Horde;
+        } else if (display.methods[0].environment.includes("Starter")) {
+            methodImage = Starter;
         } else if (display.methods[0].environment.includes("Max Raid")) {
             methodImage = Dynamax;
         } else if (
