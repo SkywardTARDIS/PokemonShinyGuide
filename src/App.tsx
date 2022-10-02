@@ -104,6 +104,9 @@ function App(): JSX.Element {
             if (newName.includes("-o")) {
                 newName = newName.replace("-", "");
             }
+            if (newName === "Unown") {
+                newName = newName + "-question";
+            }
             const newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
             upSprite(newURL);
         } else {
