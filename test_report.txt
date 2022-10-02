@@ -986,7 +986,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (634 ms)
+  ✕ renders the course name somewhere (622 ms)
 
   ● renders the course name somewhere
 
@@ -1189,14 +1189,14 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|--------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s  
 ----------------------|---------|----------|---------|---------|--------------------
-All files             |   13.77 |     1.92 |   23.94 |   13.77 |                    
+All files             |   13.29 |     1.84 |   22.97 |   13.29 |                    
  src                  |   30.76 |        0 |      25 |   30.76 |                    
   App.tsx             |   30.76 |        0 |      25 |   30.76 | 90-133,145-201,207 
- src/components       |    5.66 |        0 |    20.4 |    5.66 |                    
+ src/components       |    5.39 |        0 |   19.23 |    5.39 |                    
   CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                 
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48              
-  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 17-54              
-  FinalCalcs.tsx      |    1.77 |        0 |    2.94 |    1.77 | 35-611,618-624     
+  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 18-57              
+  FinalCalcs.tsx      |    1.69 |        0 |     2.7 |    1.69 | 35-640,647-653     
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                 
   GameSelector.tsx    |     100 |      100 |     100 |     100 |                    
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                    
@@ -1210,5 +1210,5 @@ All files             |   13.77 |     1.92 |   23.94 |   13.77 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.048 s
+Time:        3.929 s
 Ran all test suites.
