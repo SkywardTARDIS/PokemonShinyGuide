@@ -65,13 +65,9 @@ Browserslist: caniuse-lite is outdated. Please run:
         at /home/runner/work/PokemonShinyGuide/PokemonShinyGuide/node_modules/react-bootstrap/cjs/FormGroup.js:19:3
         at td
         at table
-        at li
         at div
-        at GameList (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameList.tsx:6:5)
         at div
-        at ul
-        at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -102,7 +98,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -133,7 +129,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -164,7 +160,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -195,7 +191,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -226,7 +222,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -257,7 +253,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -288,7 +284,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -319,7 +315,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -350,7 +346,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -381,7 +377,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -412,7 +408,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -443,7 +439,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -474,7 +470,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -505,7 +501,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -536,7 +532,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -567,7 +563,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -598,7 +594,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -629,7 +625,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -660,7 +656,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -691,7 +687,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -722,7 +718,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -753,7 +749,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -784,7 +780,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -815,7 +811,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -846,7 +842,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -877,7 +873,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -908,7 +904,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -939,7 +935,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -970,7 +966,38 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at ul
         at div
-        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:6:5)
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
+        at td
+        at table
+        at body
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at checkControlledValueProps (node_modules/react-dom/cjs/react-dom.development.js:1327:7)
+      at initWrapperState (node_modules/react-dom/cjs/react-dom.development.js:1495:5)
+      at setInitialProperties (node_modules/react-dom/cjs/react-dom.development.js:9099:7)
+      at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
+
+  console.error
+    Warning: You provided a `checked` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultChecked`. Otherwise, set either `onChange` or `readOnly`.
+        at input
+        at /home/runner/work/PokemonShinyGuide/PokemonShinyGuide/node_modules/react-bootstrap/cjs/FormCheckInput.js:23:3
+        at div
+        at /home/runner/work/PokemonShinyGuide/PokemonShinyGuide/node_modules/react-bootstrap/cjs/FormCheck.js:31:3
+        at div
+        at /home/runner/work/PokemonShinyGuide/PokemonShinyGuide/node_modules/react-bootstrap/cjs/FormGroup.js:19:3
+        at td
+        at table
+        at li
+        at div
+        at GameList (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameList.tsx:6:5)
+        at div
+        at ul
+        at div
+        at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
         at body
@@ -986,7 +1013,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (765 ms)
+  ✕ renders the course name somewhere (696 ms)
 
   ● renders the course name somewhere
 
@@ -1189,16 +1216,16 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|----------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
 ----------------------|---------|----------|---------|---------|----------------------
-All files             |   12.07 |     1.69 |   22.66 |   12.07 |                      
- src                  |    30.1 |        0 |      25 |    30.1 |                      
-  App.tsx             |    30.1 |        0 |      25 |    30.1 | 90-136,148-204,210   
- src/components       |    4.77 |        0 |   18.86 |    4.77 |                      
+All files             |   11.67 |     1.68 |   20.73 |   11.67 |                      
+ src                  |   25.21 |        0 |   19.23 |   25.21 |                      
+  App.tsx             |   25.21 |        0 |   19.23 |   25.21 | 92-138,150-238,244   
+ src/components       |    4.76 |        0 |   18.51 |    4.76 |                      
   CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                   
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                
   DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 23-88                
   FinalCalcs.tsx      |    1.61 |        0 |    2.63 |    1.61 | 21-63,82-666,693-699 
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                   
-  GameSelector.tsx    |     100 |      100 |     100 |     100 |                      
+  GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                   
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                      
  src/interfaces       |     100 |      100 |     100 |     100 |                      
   EncounterMethod.ts  |       0 |        0 |       0 |       0 |                      
@@ -1210,5 +1237,5 @@ All files             |   12.07 |     1.69 |   22.66 |   12.07 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.94 s
+Time:        4.11 s
 Ran all test suites.
