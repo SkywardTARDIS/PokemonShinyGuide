@@ -114,7 +114,11 @@ export function FinalCalcs({
                 (aMeth: EncounterMethod): boolean =>
                     [...lockGames].filter(
                         (aGame: string): boolean => !aGame.includes(aMeth.game)
-                    ).length > 0
+                    ).length > 0 &&
+                    !(
+                        lockGames.includes("Pokémon Ultra Sun & Ultra Moon") &&
+                        aMeth.game.includes("Ultra")
+                    )
             );
         }
 
@@ -234,7 +238,6 @@ export function FinalCalcs({
             }
         }
         let addLgpeAlola = [...addSafari];
-        console.log([...getGames]);
         const LGPEGames = [...getGames].filter((aGame: string): boolean =>
             aGame.includes("Let's Go")
         );

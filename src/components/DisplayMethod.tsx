@@ -13,6 +13,8 @@ import MissingNo from "../assets/images/MissingNo.png";
 import Dynamax from "../assets/images/Dynamax.jpg";
 import Starter from "../assets/images/starters.jpg";
 import Mystery from "../assets/images/MysteryBox.png";
+import Jirachi from "../assets/images/Jirachi.jpg";
+import Manaphy from "../assets/images/Manaphy.png";
 
 export function DisplayMethod({
     display,
@@ -73,6 +75,12 @@ export function DisplayMethod({
         ) {
             methodImage = ChainFish;
             upMethod("Chain Fishing");
+        } else if (display.species === "Manaphy") {
+            methodImage = Manaphy;
+            upMethod("Egg Hatching Purgatory");
+        } else if (display.species === "Jirachi") {
+            methodImage = Jirachi;
+            upMethod("Reset the entire game");
         }
     }
     return (
