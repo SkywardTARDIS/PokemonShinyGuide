@@ -52,7 +52,20 @@ export function FinalCalcs({
                 .map((aLock: sLockInterface): string => aLock.species)
                 .includes(target.species)
         ) {
-            return [{ ...target, methods: [] }];
+            const revizedPoke: Pokemon = {
+                ...target,
+                methods: []
+            };
+            let targetList = [revizedPoke];
+            if (target.prevolution !== "") {
+                const newTarget = [...fullDex].filter(
+                    (aPoke: Pokemon): boolean =>
+                        aPoke.species === target.prevolution
+                );
+                targetList = [...targetList, ...calculation(newTarget[0])];
+            }
+            console.log(targetList);
+            return targetList;
         }
 
         const getGames = [...finalGames].map(
