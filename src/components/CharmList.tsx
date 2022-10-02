@@ -15,7 +15,7 @@ export function CharmList({
                 <table width="150">
                     <tr>
                         <td colSpan={2}>
-                            <h5>{game.game}</h5>
+                            <h5>{game.game.replace("Pokémon ", "")}</h5>
                         </td>
                     </tr>
                     <tr>

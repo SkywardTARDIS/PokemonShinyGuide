@@ -13,7 +13,7 @@ export function GameList({
         <div>
             <li className="noBullet">
                 <table width="100%">
-                    <td width="10%">
+                    <td width="10%" valign="middle">
                         <Form.Group>
                             <Form.Label></Form.Label>
                             <Form.Check
@@ -26,7 +26,7 @@ export function GameList({
                         </Form.Group>
                     </td>
                     <td width="90%" className="gameList" valign="bottom">
-                        {game.game}
+                        {game.game.replace("Pokémon ", "")}
                     </td>
                 </table>
             </li>
