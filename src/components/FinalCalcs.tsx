@@ -658,7 +658,7 @@ export function FinalCalcs({
         return (
             location.includes("Route") ||
             (location.includes("Village") && environment.includes("Flowers")) ||
-            environment.includes("Walking")
+            (environment.includes("Walking") && !location.includes("Cave"))
         );
     }
 
