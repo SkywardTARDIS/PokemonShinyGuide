@@ -666,6 +666,7 @@ export function FinalCalcs({
     function radarLocation(location: string, environment: string): boolean {
         return (
             !environment.includes("Cave") &&
+            !location.includes("Chateau") &&
             !environment.includes("Surf") &&
             !environment.includes("Tall Grass") &&
             (environment.includes("Radar") ||
@@ -682,7 +683,6 @@ export function FinalCalcs({
                         location.includes("Valley") ||
                         location.includes("Forest") ||
                         location.includes("Fuego") ||
-                        location.includes("Chateau") ||
                         location.includes("Trophy") ||
                         location.includes("Coronet - Top") ||
                         location.includes("Coronet - Snow"))))
