@@ -224,7 +224,8 @@ export function FinalCalcs({
                 (aGame: string): boolean => getGen(aGame) > 3
             );
             const preMasuda = [...eggGames].filter(
-                (aGame: string): boolean => getGen(aGame) < 4
+                (aGame: string): boolean =>
+                    getGen(aGame) < 4 && getGen(aGame) !== 1
             );
 
             const masudaExists = [...masudaGames].map(function (
