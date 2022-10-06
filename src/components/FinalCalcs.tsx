@@ -682,6 +682,7 @@ export function FinalCalcs({
                         location.includes("Valley") ||
                         location.includes("Forest") ||
                         location.includes("Fuego") ||
+                        location.includes("Chateau") ||
                         location.includes("Trophy") ||
                         location.includes("Coronet - Top") ||
                         location.includes("Coronet - Snow"))))
