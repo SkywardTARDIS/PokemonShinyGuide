@@ -56,6 +56,8 @@ export function getGen(game: string): number {
     } else if (
         game.includes("Sword") ||
         game.includes("Shield") ||
+        game.includes("Diamond") ||
+        game.includes("Pearl") ||
         game.includes("Legends")
     ) {
         return 8;
@@ -637,7 +639,7 @@ export function FinalCalcs({
                     radarLocation(newMeth.location, newMeth.environment)
                 ) {
                     newMeth.rarity = 3600 + 50 * 20;
-                    newMeth.environment = "PokeRadar";
+                    newMeth.environment = newMeth.environment + " - PokeRadar";
                 } else {
                     newMeth.rarity = (30 * newOdds) / numRarity;
                 }
