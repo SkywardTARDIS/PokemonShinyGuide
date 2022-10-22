@@ -126,9 +126,15 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             <div>Game: {display.methods[0].game}</div>
             <div>Location: {display.methods[0].location}</div>
             <div>Environment: {display.methods[0].environment}</div>
-            <div>SOS: {display.methods[0].SOS}</div>
-            <div>Weather: {display.methods[0].weather}</div>
-            <div>Time: {display.methods[0].time}</div>
+            {display.methods[0].SOS !== "N/A" && (
+                <div>SOS: {display.methods[0].SOS}</div>
+            )}
+            {display.methods[0].weather !== "N/A" && (
+                <div>Weather: {display.methods[0].weather}</div>
+            )}
+            {display.methods[0].time !== "N/A" && (
+                <div>Time: {display.methods[0].time}</div>
+            )}
             {(display.methods[0].game.includes("Black") ||
                 display.methods[0].game.includes("White")) && (
                 <div>Season: {display.methods[0].season}</div>
