@@ -1013,7 +1013,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (679 ms)
+  ✕ renders the course name somewhere (641 ms)
 
   ● renders the course name somewhere
 
@@ -1216,17 +1216,18 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|----------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
 ----------------------|---------|----------|---------|---------|----------------------
-All files             |    11.2 |     1.54 |   20.73 |    11.2 |                      
+All files             |   11.23 |     1.52 |   20.48 |   11.23 |                      
  src                  |   25.21 |        0 |   19.23 |   25.21 |                      
   App.tsx             |   25.21 |        0 |   19.23 |   25.21 | 92-138,150-238,244   
- src/components       |     4.5 |        0 |   18.51 |     4.5 |                      
+ src/components       |    4.69 |        0 |   18.18 |    4.69 |                      
   CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                   
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                
   DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 31-119               
-  FinalCalcs.tsx      |    1.61 |        0 |    2.63 |    1.61 | 21-65,84-669,697-703 
+  FinalCalcs.tsx      |    1.95 |        0 |    2.56 |    1.95 | 23-67,87-686,714-720 
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                   
   GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                   
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                      
+  SOSRateInterface.ts |       0 |        0 |       0 |       0 |                      
  src/interfaces       |     100 |      100 |     100 |     100 |                      
   EncounterMethod.ts  |       0 |        0 |       0 |       0 |                      
   GameData.ts         |       0 |        0 |       0 |       0 |                      
@@ -1237,5 +1238,5 @@ All files             |    11.2 |     1.54 |   20.73 |    11.2 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.497 s
+Time:        4.429 s
 Ran all test suites.
