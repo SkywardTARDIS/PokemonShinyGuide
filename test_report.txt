@@ -1013,7 +1013,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (864 ms)
+  ✕ renders the course name somewhere (679 ms)
 
   ● renders the course name somewhere
 
@@ -1216,7 +1216,7 @@ FAIL src/App.test.tsx
 ----------------------|---------|----------|---------|---------|----------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
 ----------------------|---------|----------|---------|---------|----------------------
-All files             |    11.2 |     1.56 |   20.73 |    11.2 |                      
+All files             |    11.2 |     1.54 |   20.73 |    11.2 |                      
  src                  |   25.21 |        0 |   19.23 |   25.21 |                      
   App.tsx             |   25.21 |        0 |   19.23 |   25.21 | 92-138,150-238,244   
  src/components       |     4.5 |        0 |   18.51 |     4.5 |                      
@@ -1237,5 +1237,5 @@ All files             |    11.2 |     1.56 |   20.73 |    11.2 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        5.691 s
+Time:        4.497 s
 Ran all test suites.
