@@ -12,7 +12,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -31,7 +31,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -45,7 +45,7 @@ Browserslist: caniuse-lite is outdated. Please run:
     Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -72,7 +72,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -103,7 +103,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -134,7 +134,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -165,7 +165,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -196,7 +196,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -227,7 +227,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -258,7 +258,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -289,7 +289,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -320,7 +320,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -351,7 +351,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -382,7 +382,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -413,7 +413,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -444,7 +444,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -475,7 +475,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -506,7 +506,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -537,7 +537,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -568,7 +568,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -599,7 +599,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -630,7 +630,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -661,7 +661,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -692,7 +692,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -723,7 +723,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -754,7 +754,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -785,7 +785,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -816,7 +816,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -847,7 +847,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -878,7 +878,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -909,7 +909,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -940,7 +940,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -971,7 +971,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1002,7 +1002,7 @@ Browserslist: caniuse-lite is outdated. Please run:
         at table
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:80:23)
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:82:23)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1013,7 +1013,7 @@ Browserslist: caniuse-lite is outdated. Please run:
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (641 ms)
+  ✕ renders the course name somewhere (706 ms)
 
   ● renders the course name somewhere
 
@@ -1213,30 +1213,31 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------------------|---------|----------|---------|---------|----------------------
-File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s    
-----------------------|---------|----------|---------|---------|----------------------
-All files             |   11.23 |     1.52 |   20.48 |   11.23 |                      
- src                  |   25.21 |        0 |   19.23 |   25.21 |                      
-  App.tsx             |   25.21 |        0 |   19.23 |   25.21 | 92-138,150-238,244   
- src/components       |    4.69 |        0 |   18.18 |    4.69 |                      
-  CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                   
-  CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                
-  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 31-119               
-  FinalCalcs.tsx      |    1.95 |        0 |    2.56 |    1.95 | 23-67,87-686,714-720 
-  GameList.tsx        |      50 |      100 |      50 |      50 | 24                   
-  GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                   
-  PokemonSelector.tsx |     100 |      100 |     100 |     100 |                      
-  SOSRateInterface.ts |       0 |        0 |       0 |       0 |                      
- src/interfaces       |     100 |      100 |     100 |     100 |                      
-  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                      
-  GameData.ts         |       0 |        0 |       0 |       0 |                      
-  Pokemon.ts          |       0 |        0 |       0 |       0 |                      
-  gameList.ts         |     100 |      100 |     100 |     100 |                      
-  sLockInterface.ts   |       0 |        0 |       0 |       0 |                      
-----------------------|---------|----------|---------|---------|----------------------
+----------------------|---------|----------|---------|---------|------------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
+----------------------|---------|----------|---------|---------|------------------------
+All files             |   11.37 |     1.77 |      20 |   11.37 |                        
+ src                  |   25.64 |     2.38 |   18.51 |   25.64 |                        
+  App.tsx             |   25.64 |     2.38 |   18.51 |   25.64 | 94-140,152-240,246,342 
+ src/components       |    4.67 |        0 |   17.85 |    4.67 |                        
+  ChangeLog.tsx       |       0 |      100 |       0 |       0 | 4                      
+  CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                     
+  CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                  
+  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 31-119                 
+  FinalCalcs.tsx      |    1.95 |        0 |    2.56 |    1.95 | 23-67,87-686,714-720   
+  GameList.tsx        |      50 |      100 |      50 |      50 | 24                     
+  GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                     
+  PokemonSelector.tsx |     100 |      100 |     100 |     100 |                        
+ src/interfaces       |     100 |      100 |     100 |     100 |                        
+  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                        
+  GameData.ts         |       0 |        0 |       0 |       0 |                        
+  Pokemon.ts          |       0 |        0 |       0 |       0 |                        
+  SOSRateInterface.ts |       0 |        0 |       0 |       0 |                        
+  gameList.ts         |     100 |      100 |     100 |     100 |                        
+  sLockInterface.ts   |       0 |        0 |       0 |       0 |                        
+----------------------|---------|----------|---------|---------|------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.429 s
+Time:        4.549 s
 Ran all test suites.
