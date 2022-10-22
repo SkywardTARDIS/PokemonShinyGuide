@@ -15,6 +15,8 @@ import { gameList } from "./interfaces/gameList";
 import { GameSelector } from "./components/GameSelector";
 import { CharmInfo } from "./components/CharmInfo";
 import { FinalCalcs } from "./components/FinalCalcs";
+import { Button } from "react-bootstrap";
+import { ChangeLog } from "./components/ChangeLog";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -244,6 +246,8 @@ function App(): JSX.Element {
         event.currentTarget.src = MissingNo;
     };
 
+    const [toggleChangeLog, updateToggle] = useState<boolean>(false);
+
     return (
         <div className="App">
             <header className="App-header">
@@ -334,6 +338,11 @@ function App(): JSX.Element {
                     </td>
                 </table>
                 <br />
+                <hr />
+                <Button onClick={() => updateToggle(!toggleChangeLog)}>
+                    View Change Log:
+                </Button>
+                {toggleChangeLog && <ChangeLog></ChangeLog>}
             </body>
         </div>
     );

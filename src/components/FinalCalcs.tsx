@@ -15,7 +15,7 @@ import Pokedex from "../assets/jsons/PokedexV3.json";
 */
 import { sLockInterface } from "../interfaces/sLockInterface";
 import shinyLock from "../assets/jsons/ShinyLock.json";
-import { SOSRate } from "./SOSRateInterface";
+import { SOSRate } from "../interfaces/SOSRateInterface";
 import SOSRates from "../assets/jsons/SOSRates.json";
 //import { gameList } from "../interfaces/gameList";
 
