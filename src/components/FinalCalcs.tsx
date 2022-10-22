@@ -15,6 +15,8 @@ import Pokedex from "../assets/jsons/PokedexV3.json";
 */
 import { sLockInterface } from "../interfaces/sLockInterface";
 import shinyLock from "../assets/jsons/ShinyLock.json";
+import { SOSRate } from "./SOSRateInterface";
+import SOSRates from "../assets/jsons/SOSRates.json";
 //import { gameList } from "../interfaces/gameList";
 
 export function getGen(game: string): number {
@@ -78,12 +80,14 @@ export function FinalCalcs({
     const oldOdds = 8192;
     const newOdds = 4096;
     const [foundOdds, updateOdds] = useState<Pokemon[]>([]);
+    const SOSCalls: SOSRate[] = [...SOSRates.SOSRates];
     function calculation(target: Pokemon): Pokemon[] {
         //const Legends: string[] = Legendaries.Legendaries;
         //const Mythicals: string[] = Legendaries.Mythicals;
         const allLocks = [...shinyLock.ShinyLocked].filter(
             (aLock: sLockInterface): boolean => aLock.game === "All"
         );
+
         const partialLocks = [...shinyLock.ShinyLocked].filter(
             (aLock: sLockInterface): boolean =>
                 aLock.game !== "All" && aLock.species === target.species
@@ -599,11 +603,24 @@ export function FinalCalcs({
                 rarity = "100";
             }
             const numRarity = Number(rarity) / 100;
-            if (!(newMeth.SOS === "N/A")) {
+            if (newMeth.SOS !== "N/A") {
+                const getSOS = SOSCalls.filter(
+                    (aCall: SOSRate): boolean =>
+                        aCall.species === target.species
+                );
+                let filterSOS = 100;
+                if (getSOS.length !== 0) {
+                    filterSOS = Number(getSOS[0].rate);
+                }
                 if (newMeth.SOS.includes("Initial")) {
-                    newMeth.rarity = (30 * newOdds) / (13 + shinyCharm);
+                    newMeth.rarity =
+                        (30 * newOdds * (100 / filterSOS)) / (13 + shinyCharm);
                 } else {
-                    newMeth.rarity = (30 * 5 * newOdds) / (13 + shinyCharm);
+                    newMeth.rarity =
+                        (30 * newOdds) / (13 + shinyCharm) / numRarity;
+                }
+                if (!newMeth.game.includes("Ultra")) {
+                    newMeth.rarity = newMeth.rarity + 1000;
                 }
             } else {
                 newMeth.rarity = (30 * newOdds) / (1 + shinyCharm) / numRarity;
