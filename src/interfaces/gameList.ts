@@ -67,7 +67,7 @@ const gameList = fullData.map((currElement: GameData, index: number) => {
     return {
         ...currElement,
         sExists: index > 14 ? true : false,
-        oExists: index > 14 && index < 27 ? true : false
+        oExists: index > 14 && index < 29 ? true : false
     };
 });
 

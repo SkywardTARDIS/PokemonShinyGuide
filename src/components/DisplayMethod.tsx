@@ -25,13 +25,22 @@ import Jirachi from "../assets/images/Jirachi.jpg";
 import Manaphy from "../assets/images/Manaphy.png";
 import IlexForest from "../assets/images/IlexForest.png";
 import OddEgg from "../assets/images/OddEgg.jpg";
+import Chaining from "../assets/images/Chaining.png";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
     let methodString = "Not Obtainable";
     if (display.methods[0].environment !== "None") {
+        methodString = "Full Odds";
         if (getGen(display.methods[0].game) === 1) {
             methodImage = Gen1;
+            if (
+                display.methods[0].environment !== "Interact" &&
+                !display.methods[0].environment.includes("Trade")
+            ) {
+                methodString = "Catch Chaining";
+                methodImage = Chaining;
+            }
         } else if (getGen(display.methods[0].game) === 2) {
             methodImage = Gen2;
         } else if (getGen(display.methods[0].game) === 3) {
@@ -47,7 +56,6 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
         } else if (getGen(display.methods[0].game) === 8) {
             methodImage = Gen8;
         }
-        methodString = "Full Odds";
         if (
             display.methods[0].environment.includes("Masuda") ||
             display.methods[0].environment.includes("Egg")
