@@ -128,9 +128,15 @@
         { "species": "Thundurus", "game": "Pokémon Legends: Arceus" },
         { "species": "Landorus", "game": "Pokémon Legends: Arceus" },
         { "species": "Enamorus", "game": "Pokémon Legends: Arceus" },
-        {
-            "species": "Pokémon in forced battles in Requests & Missions are locked as well",
-            "game": "Pokémon Legends: Arceus"
-        }
+        { "species": "Gimmighoul", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Gholdengo", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Wo-Chien", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Chien-Pao", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Ting-Lu", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Chi-Yu", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Koraidon", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Miraidon", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Walking Wake", "game": "Pokémon Scarlet & Violet" },
+        { "species": "Iron Leaves", "game": "Pokémon Scarlet & Violet" }
     ]
 }

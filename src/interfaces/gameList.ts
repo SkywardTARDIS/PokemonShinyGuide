@@ -48,7 +48,9 @@ export const games: string[] = [
     "Pokémon Shining Pearl",
     "Let's Go, Pikachu!",
     "Let's Go, Eevee!",
-    "Legends: Arceus"
+    "Legends: Arceus",
+    "Scarlet",
+    "Violet"
 ];
 
 const fullData: GameData[] = games.map(function (theGame: string) {

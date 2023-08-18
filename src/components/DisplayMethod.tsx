@@ -10,6 +10,8 @@ import Gen5 from "../assets/images/Gen5.png";
 import Gen6 from "../assets/images/Gen6.png";
 import Gen7 from "../assets/images/FullOdds.jpg";
 import Gen8 from "../assets/images/Gen8.png";
+import Gen9 from "../assets/images/Gen9.png";
+import SVOutbreak from "../assets/images/SVOutbreak.png";
 import MMO from "../assets/images/MMO.jpeg";
 import SOS from "../assets/images/SOS.jpg";
 import FriendSafari from "../assets/images/FriendSafari.jpeg";
@@ -55,6 +57,8 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = Gen7;
         } else if (getGen(display.methods[0].game) === 8) {
             methodImage = Gen8;
+        } else if (getGen(display.methods[0].game) === 9) {
+            methodImage = Gen9;
         }
         if (
             display.methods[0].environment.includes("Masuda") ||
@@ -85,6 +89,9 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
         } else if (display.methods[0].environment.includes("Massive Mass")) {
             methodImage = MMO;
             methodString = "Massive Mass Outbreaks";
+        } else if (display.methods[0].environment.includes("SV Outbreak")) {
+            methodImage = SVOutbreak;
+            methodString = "Mass Outbreaks";
         } else if (display.methods[0].environment.includes("Horde")) {
             methodImage = Horde;
             methodString = "Horde Encounters";

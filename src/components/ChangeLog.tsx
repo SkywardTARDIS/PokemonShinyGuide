@@ -10,6 +10,7 @@ export function ChangeLog(): JSX.Element {
                 <li>Added FRLG starter soft reset</li>
                 <li>Added SOS call rates for species</li>
                 <li>Added change log</li>
+                <li>Working on framework for Scarlet/Violet</li>
             </ul>
         </div>
     );

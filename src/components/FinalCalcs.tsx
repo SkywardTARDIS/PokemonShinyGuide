@@ -8,6 +8,8 @@ import Legendaries from "../assets/jsons/Legendaries.json";
 import noEggs from "../assets/jsons/NoEggs.json";
 import FriendSafari from "../assets/jsons/FriendSafari.json";
 import galarDex from "../assets/jsons/GalarDex.json";
+import paldeaDex from "../assets/jsons/PaldeaDex.json";
+import paldeaOutbreak from "../assets/jsons/PaldeaOutbreak.json";
 /*
 import guaranteed from "../assets/jsons/Guaranteed.json";
 import hisuiDex from "../assets/jsons/HisuiDex.json";
@@ -63,6 +65,8 @@ export function getGen(game: string): number {
         game.includes("Legends")
     ) {
         return 8;
+    } else if (game.includes("Scarlet") || game.includes("Violet")) {
+        return 9;
     } else {
         return -1;
     }
@@ -222,7 +226,8 @@ export function FinalCalcs({
                         (target.species.includes("Alola") &&
                             (getGen(aGame) < 7 ||
                                 aGame.includes("Diamond") ||
-                                aGame.includes("Pearl")))
+                                aGame.includes("Pearl"))) ||
+                        (target.species.includes("Paldea") && getGen(aGame) < 9)
                     )
             );
 
@@ -237,16 +242,29 @@ export function FinalCalcs({
             const masudaExists = [...masudaGames].map(function (
                 aGame: string
             ): EncounterMethod {
-                return {
-                    game: aGame,
-                    location: "Day Care Center",
-                    rarity: "--%",
-                    environment: "Masuda Method",
-                    time: "N/A",
-                    weather: "N/A",
-                    season: "N/A",
-                    SOS: "N/A"
-                };
+                if (getGen(aGame) <= 8) {
+                    return {
+                        game: aGame,
+                        location: "Day Care Center",
+                        rarity: "--%",
+                        environment: "Masuda Method",
+                        time: "N/A",
+                        weather: "N/A",
+                        season: "N/A",
+                        SOS: "N/A"
+                    };
+                } else {
+                    return {
+                        game: aGame,
+                        location: "Picnics",
+                        rarity: "--%",
+                        environment: "Masuda Method",
+                        time: "N/A",
+                        weather: "N/A",
+                        season: "N/A",
+                        SOS: "N/A"
+                    };
+                }
             });
 
             let noMasuda = [...preMasuda].map(function (
@@ -295,7 +313,18 @@ export function FinalCalcs({
                 )
         );
 
-        let addSafari = [...galarFix];
+        //Add function to filter out for Paldea, identical to above Galar filter
+        const paldeaFix = [...galarFix].filter(
+            (aMeth: EncounterMethod): boolean =>
+                !(
+                    (aMeth.game.includes("Scarlet") ||
+                        aMeth.game.includes("Violet")) &&
+                    aMeth.environment.includes("Masuda") &&
+                    !paldeaDex.Paldea.includes(target.species)
+                )
+        );
+
+        let addSafari = [...paldeaFix];
         if (FriendSafari.FriendSafari.includes(target.species)) {
             const xy = [...getGames].filter(
                 (aGame: string): boolean => aGame === "X" || aGame === "Y"
@@ -340,9 +369,34 @@ export function FinalCalcs({
             addLgpeAlola = [...addLgpeAlola, ...newLGPE];
         }
 
+        //adds Paldea Outbreaks to method list,if applicable
+        let PalOutbreak = [...addLgpeAlola];
+        const PaldeaGames = [...getGames].filter(
+            (aGame: string): boolean =>
+                (aGame.includes("Scarlet") || aGame.includes("Violet")) &&
+                paldeaOutbreak.Outbreaks.includes(target.species)
+        );
+        if (PaldeaGames.length > 0) {
+            const newPal = [...PaldeaGames].map(function (
+                aGame: string
+            ): EncounterMethod {
+                return {
+                    game: aGame,
+                    location: "Mass Outbreaks",
+                    rarity: "--%",
+                    environment: "SV Outbreak",
+                    time: "N/A",
+                    weather: "N/A",
+                    season: "N/A",
+                    SOS: "N/A"
+                };
+            });
+            PalOutbreak = [...PalOutbreak, ...newPal];
+        }
+
         //all proper methods are now included or excluded
         //mapping all methods to include time to hunt, via calls to finalCalc
-        const finalOdds = [...addLgpeAlola].map(function (
+        const finalOdds = [...PalOutbreak].map(function (
             aMeth: EncounterMethod
         ): EncounterMethod {
             return finalCalc(aMeth, target);
@@ -611,8 +665,10 @@ export function FinalCalcs({
                 let filterSOS = 100;
                 if (getSOS.length !== 0) {
                     filterSOS = Number(getSOS[0].rate);
+                } else {
+                    newMeth.SOS = "N/A";
                 }
-                if (newMeth.SOS.includes("Initial")) {
+                if (newMeth.SOS.includes("Initial") && getSOS.length !== 0) {
                     newMeth.rarity =
                         (30 * newOdds * (100 / filterSOS)) / (13 + shinyCharm);
                 } else {
@@ -664,8 +720,20 @@ export function FinalCalcs({
                 if (newMeth.environment.includes("Mass Outbreak")) {
                     newMeth.rarity = 60 * 60 * 2;
                 } else {
-                    newMeth.rarity = newMeth.rarity =
+                    newMeth.rarity =
                         (20 * newOdds) / (1 + shinyCharm) / numRarity;
+                }
+            }
+            return newMeth;
+        } else if (gen === 9) {
+            if (
+                newMeth.game.includes("Scarlet") ||
+                newMeth.game.includes("Violet")
+            ) {
+                if (newMeth.environment.includes("Outbreak")) {
+                    newMeth.rarity = (4 * newOdds) / (3 + shinyCharm);
+                } else {
+                    newMeth.rarity = (10 * newOdds) / (1 + shinyCharm);
                 }
             }
             return newMeth;

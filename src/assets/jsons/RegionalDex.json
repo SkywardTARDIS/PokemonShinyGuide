@@ -5698,5 +5698,539 @@
                 "SOS": "N/A"
             }
         ]
+    },
+    "Tauros-Paldea": {
+        "species": "Tauros-Paldea",
+        "id": 128,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Scarlet",
+                "location": "Asado Desert",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area One",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "West Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "Asado Desert",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "West Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area One",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "4 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "5 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "6 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "Asado Desert",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area One",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "West Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "Asado Desert",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "West Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area One",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Two",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "4 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "5 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "6 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Grass",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
+    "Wooper-Paldea": {
+        "species": "Wooper-Paldea",
+        "id": 194,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Scarlet",
+                "location": "Alfornada Cavern",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "Glaseado Mountain",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "North Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "South Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "South Province Area Four",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "South Province Area Five",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "South Province Area Six",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "Tagtree Thicket",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "West Province Area Three",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "South Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Scarlet",
+                "location": "1 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "Alfornada Cavern",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "East Province Area Three",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "Glaseado Mountain",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "North Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "South Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "South Province Area Four",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "South Province Area Five",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "South Province Area Six",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "Tagtree Thicket",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "West Province Area Three",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "South Province Area One",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Violet",
+                "location": "1 Star Raid Battles",
+                "rarity": "N/A",
+                "environment": "Lake, Swamp",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
     }
 }
