@@ -1074,8 +1074,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (727 ms)
+FAIL src/App.test.tsx (5.834 s)
+  ✕ renders the course name somewhere (1191 ms)
 
   ● renders the course name somewhere
 
@@ -1301,5 +1301,5 @@ All files             |   10.67 |     1.59 |   19.31 |   10.67 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        4.67 s
+Time:        6.792 s
 Ran all test suites.
