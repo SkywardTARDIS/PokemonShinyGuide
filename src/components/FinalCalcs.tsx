@@ -735,6 +735,8 @@ export function FinalCalcs({
             ) {
                 if (newMeth.environment.includes("Outbreak")) {
                     newMeth.rarity = (4 * newOdds) / (3 + shinyCharm);
+                } else if (newMeth.location.includes("Raid")) {
+                    newMeth.rarity = 300 * newOdds;
                 } else {
                     newMeth.rarity = (10 * newOdds) / (1 + shinyCharm);
                 }
