@@ -10,7 +10,10 @@ export function ChangeLog(): JSX.Element {
                 <li>Added FRLG starter soft reset</li>
                 <li>Added SOS call rates for species</li>
                 <li>Added change log</li>
-                <li>Working on framework for Scarlet/Violet</li>
+                <li>Completed framework for Scarlet/Violet</li>
+                <li>
+                    Added gifs for all Paldean Pokemon. Credits to adamsb0303
+                </li>
             </ul>
         </div>
     );

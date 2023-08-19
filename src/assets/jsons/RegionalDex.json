@@ -5450,6 +5450,73 @@
             }
         ]
     },
+    "Basculin-Hisui": {
+        "species": "Basculin-Hisui",
+        "id": 550,
+        "prevolution": "",
+        "methods": [
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Tranquility Cove",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands",
+                "rarity": "N/A",
+                "environment": "Islespy Shore",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Coronet Highlands",
+                "rarity": "N/A",
+                "environment": "Fabled Spring",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Lake Acuity",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Alabaster Icelands",
+                "rarity": "N/A",
+                "environment": "Heart's Crag",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Legends: Arceus",
+                "location": "Cobalt Coastlands: Massive Mass Outbreak",
+                "rarity": "N/A",
+                "environment": "Cobalt Coastlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
+    },
     "Zorua-Hisui": {
         "species": "Zorua-Hisui",
         "id": 570,

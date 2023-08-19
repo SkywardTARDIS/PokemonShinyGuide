@@ -17,6 +17,7 @@ import { CharmInfo } from "./components/CharmInfo";
 import { FinalCalcs } from "./components/FinalCalcs";
 import { Button } from "react-bootstrap";
 import { ChangeLog } from "./components/ChangeLog";
+import paldeaGifs from "./assets/jsons/paldeaGifs.json";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -119,7 +120,9 @@ function App(): JSX.Element {
             const newURL = `https://www.serebii.net/Shiny/SWSH/${selection[0].id}.png`;
             upSprite(newURL);
         } else {
-            const newURL = `https://www.serebii.net/Shiny/SV/new/${selection[0].id}.png`;
+            //const newURL = `https://www.serebii.net/Shiny/SV/new/${selection[0].id}.png`;
+            const newURL =
+                paldeaGifs[selection[0].id.toString() as keyof unknown];
             upSprite(newURL);
         }
     }
@@ -140,17 +143,19 @@ function App(): JSX.Element {
             if (newID.length === 2) {
                 newID = "0" + newID;
             }
-            newURL = `https://www.serebii.net/Shiny/SWSH/${newID}-h.png`;
+            if (selection[0].id !== 550) {
+                newURL = `https://www.serebii.net/Shiny/SWSH/${newID}-h.png`;
+            } else {
+                newURL = `https://www.serebii.net/Shiny/SWSH/${newID}-w.png`;
+            }
         }
-        if (
-            copyName.includes("Paldea") &&
-            !hisuiGif.includes(selection[0].id)
-        ) {
+        if (copyName.includes("Paldea")) {
             let newID = selection[0].id.toString();
             if (newID.length === 2) {
                 newID = "0" + newID;
             }
-            newURL = `https://www.serebii.net/Shiny/SV/new/${newID}-p.png`;
+            //newURL = `https://www.serebii.net/Shiny/SV/new/${newID}-p.png`;
+            newURL = paldeaGifs[selection[0].id.toString() as keyof unknown];
         }
         upSprite(newURL);
     }
