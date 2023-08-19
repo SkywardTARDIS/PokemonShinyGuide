@@ -1074,8 +1074,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (5.057 s)
-  ✕ renders the course name somewhere (902 ms)
+FAIL src/App.test.tsx
+  ✕ renders the course name somewhere (727 ms)
 
   ● renders the course name somewhere
 
@@ -1278,15 +1278,15 @@ FAIL src/App.test.tsx (5.057 s)
 ----------------------|---------|----------|---------|---------|------------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
 ----------------------|---------|----------|---------|---------|------------------------
-All files             |   10.71 |     1.59 |   19.31 |   10.71 |                        
+All files             |   10.67 |     1.59 |   19.31 |   10.67 |                        
  src                  |   24.21 |     1.92 |   18.51 |   24.21 |                        
   App.tsx             |   24.21 |     1.92 |   18.51 |   24.21 | 97-160,172-260,266,362 
- src/components       |    4.33 |        0 |   16.94 |    4.33 |                        
+ src/components       |    4.31 |        0 |   16.94 |    4.31 |                        
   ChangeLog.tsx       |       0 |      100 |       0 |       0 | 4                      
   CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                     
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                  
   DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 33-126                 
-  FinalCalcs.tsx      |    1.79 |        0 |    2.38 |    1.79 | 25-71,91-757,785-791   
+  FinalCalcs.tsx      |    1.78 |        0 |    2.38 |    1.78 | 25-71,91-759,787-793   
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                     
   GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                     
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                        
@@ -1301,5 +1301,5 @@ All files             |   10.71 |     1.59 |   19.31 |   10.71 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        5.868 s
+Time:        4.67 s
 Ran all test suites.
