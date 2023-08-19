@@ -681,6 +681,9 @@ export function FinalCalcs({
             } else {
                 newMeth.rarity = (30 * newOdds) / (1 + shinyCharm) / numRarity;
             }
+            if (newMeth.environment.includes("Island")) {
+                newMeth.rarity = (40 * newOdds) / (1 + shinyCharm);
+            }
             return newMeth;
         } else if (gen === 8) {
             let rarity = newMeth.rarity.toString().replaceAll(/[^0-9]/gi, "");
