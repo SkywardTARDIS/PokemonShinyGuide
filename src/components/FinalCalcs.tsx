@@ -721,7 +721,7 @@ export function FinalCalcs({
                 }
             } else {
                 if (newMeth.environment.includes("Mass Outbreak")) {
-                    newMeth.rarity = 60 * 60 * 2;
+                    newMeth.rarity = 60 * 60;
                 } else {
                     newMeth.rarity =
                         (20 * newOdds) / (1 + shinyCharm) / numRarity;
