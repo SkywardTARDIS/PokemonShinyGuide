@@ -28,6 +28,7 @@ import Manaphy from "../assets/images/Manaphy.png";
 import IlexForest from "../assets/images/IlexForest.png";
 import OddEgg from "../assets/images/OddEgg.jpg";
 import Chaining from "../assets/images/Chaining.png";
+import Legendaries from "../assets/jsons/Legendaries.json";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
     let methodImage = MissingNo;
@@ -121,6 +122,11 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodString = "Game Resetting Purgatory";
         } else if (display.species === "Celebi") {
             methodImage = IlexForest;
+        } else if (
+            display.methods[0].location.includes("Ultra Space") &&
+            !Legendaries.Legendaries.includes(display.species)
+        ) {
+            methodString = "Wormhole Hunt";
         }
     }
     return (

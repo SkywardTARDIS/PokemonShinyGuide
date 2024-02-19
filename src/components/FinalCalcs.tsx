@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
 import { Pokemon } from "../interfaces/Pokemon";
+import { PokemonExport } from "../interfaces/PokemonExport";
 import { EncounterMethod } from "../interfaces/EncounterMethod";
 import { DisplayMethod } from "./DisplayMethod";
 import Legendaries from "../assets/jsons/Legendaries.json";
@@ -20,6 +21,8 @@ import shinyLock from "../assets/jsons/ShinyLock.json";
 import { SOSRate } from "../interfaces/SOSRateInterface";
 import SOSRates from "../assets/jsons/SOSRates.json";
 //import { gameList } from "../interfaces/gameList";
+import { ExportPokedex } from "./ExportPokedex";
+//import dexJSON from "../assets/exports/MethodsTableTemplate.json";
 
 export function getGen(game: string): number {
     if (game.includes("Let's Go")) {
@@ -351,7 +354,8 @@ export function FinalCalcs({
         const LGPEGames = [...getGames].filter((aGame: string): boolean =>
             aGame.includes("Let's Go")
         );
-        if (LGPEGames.length > 0 && huntTarget.species.includes("Alola")) {
+        //In line below, changed huntTarget to target?  Does this break anything?
+        if (LGPEGames.length > 0 && target.species.includes("Alola")) {
             const newLGPE = [...LGPEGames].map(function (
                 aGame: string
             ): EncounterMethod {
@@ -419,7 +423,7 @@ export function FinalCalcs({
         return targetList;
     }
 
-    function returnTop(thePoke: Pokemon) {
+    function returnTop(thePoke: Pokemon, update: boolean): Pokemon[] {
         const allMeth = calculation(thePoke);
         const filterMeth = allMeth.map(function (aPoke: Pokemon): Pokemon {
             let theMeth = [...aPoke.methods];
@@ -447,8 +451,11 @@ export function FinalCalcs({
         const sortFilter = filterMeth.sort(
             (a, b) => Number(a.methods[0].rarity) - Number(b.methods[0].rarity)
         );
-        console.log(sortFilter);
-        updateOdds(sortFilter);
+        if (update) {
+            console.log(sortFilter);
+            updateOdds(sortFilter);
+        }
+        return sortFilter;
     }
 
     //the official function for calculating the time of each method
@@ -487,12 +494,13 @@ export function FinalCalcs({
             return newMeth;
         }
         if (gen === 1) {
+            //catch chain only affects the shiny odds of the next pokemon generated
             if (newMeth.environment === "Interact") {
                 newMeth.rarity = (30 * newOdds) / (1 + shinyCharm);
             } else if (newMeth.environment.includes("Sky -")) {
                 newMeth.rarity = 1000000000;
             } else if (newMeth.environment.includes("- Rare")) {
-                newMeth.rarity = (40 * newOdds) / (13 + shinyCharm);
+                newMeth.rarity = (20 * newOdds) / (13 + shinyCharm);
             } else if (newMeth.environment.includes("Trade")) {
                 newMeth.rarity = (30 * newOdds) / (1 + shinyCharm);
             } else {
@@ -625,7 +633,7 @@ export function FinalCalcs({
                     newMeth.rarity = 3600 + 50 * 20;
                     newMeth.environment = newMeth.environment + " - PokeRadar";
                 } else if (newMeth.environment === "Friend Safari") {
-                    newMeth.rarity = 30 * 512;
+                    newMeth.rarity = (20 * 512) / 0.33;
                 } else {
                     newMeth.rarity =
                         (30 * newOdds) / (1 + shinyCharm) / numRarity;
@@ -676,10 +684,19 @@ export function FinalCalcs({
                         (30 * newOdds) / (13 + shinyCharm) / numRarity;
                 }
                 if (!newMeth.game.includes("Ultra")) {
+                    //For weighting Ultra as better than base games, since SOS chain doesn't reset in Ultra
                     newMeth.rarity = newMeth.rarity + 1000;
                 }
             } else {
-                newMeth.rarity = (30 * newOdds) / (1 + shinyCharm) / numRarity;
+                if (
+                    newMeth.environment.includes("Ultra Space") &&
+                    !Legendaries.Legendaries.includes(target.species)
+                ) {
+                    newMeth.rarity = (300 * 5) / 0.25;
+                } else {
+                    newMeth.rarity =
+                        (30 * newOdds) / (1 + shinyCharm) / numRarity;
+                }
             }
             if (newMeth.environment.includes("Island")) {
                 newMeth.rarity = (40 * newOdds) / (1 + shinyCharm);
@@ -781,10 +798,32 @@ export function FinalCalcs({
         );
     }
 
+    function mapFullDex(dexList: string[]): PokemonExport[] {
+        const fullMethods = dexList.map(function (
+            currentPoke: string
+        ): PokemonExport {
+            console.log(currentPoke);
+            const optimalMethod = returnTop(
+                fullDex.filter(
+                    (aPoke: Pokemon): boolean => aPoke.species == currentPoke
+                )[0],
+                false
+            )[0];
+            return {
+                species: currentPoke,
+                target: optimalMethod.species,
+                methods: [optimalMethod.methods[0]]
+            };
+        });
+        return fullMethods;
+    }
+
     return (
         <div>
             Optimal Method: <hr />
-            <Button onClick={() => returnTop(huntTarget)}>Calculate</Button>
+            <Button onClick={() => returnTop(huntTarget, true)}>
+                Calculate Selected Species
+            </Button>
             <br />
             <br />
             <ul>
@@ -798,6 +837,7 @@ export function FinalCalcs({
                     ))}
                 </div>
             </ul>
+            <ExportPokedex mapFullDex={mapFullDex}></ExportPokedex>
         </div>
     );
 }

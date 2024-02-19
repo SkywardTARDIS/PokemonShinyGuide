@@ -17,7 +17,8 @@ import { CharmInfo } from "./components/CharmInfo";
 import { FinalCalcs } from "./components/FinalCalcs";
 import { Button } from "react-bootstrap";
 import { ChangeLog } from "./components/ChangeLog";
-import paldeaGifs from "./assets/jsons/paldeaGifs.json";
+//import paldeaGifs from "./assets/jsons/paldeaGifs.json";
+import gifs from "./assets/gifs/exportGifs";
 //import sLock from "./assets/jsons/ShinyLock.json";
 //import { EncounterMethod } from "./interfaces/EncounterMethod";
 
@@ -86,7 +87,7 @@ function App(): JSX.Element {
     const [spriteURL, upSprite] = useState<string>(
         "https://play.pokemonshowdown.com/sprites/ani-shiny/celebi.gif"
     );
-    const hisuiGif = [157, 503, 570, 571, 724];
+    //const hisuiGif = [157, 503, 570, 571, 724];
 
     const [regionSelect, updateRegionSelect] = useState<Pokemon>(regionals[0]);
     const [selectedPoke, updateSelect] = useState<Pokemon>(testDex[250]);
@@ -101,7 +102,7 @@ function App(): JSX.Element {
         updateSelect(selection[0]);
         updateTrueSelect(selection[0]);
         possibleGames(selection[0]);
-        if (selection[0].id < 899) {
+        if (selection[0].id < 906) {
             const copyName = selection[0].species;
             let newName = copyName
                 .replaceAll(/[ ':.]/g, "")
@@ -116,13 +117,15 @@ function App(): JSX.Element {
             }
             const newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
             upSprite(newURL);
-        } else if (selection[0].id < 905) {
+        } else if (selection[0].id <= 907) {
             const newURL = `https://www.serebii.net/Shiny/SWSH/${selection[0].id}.png`;
             upSprite(newURL);
         } else {
             //const newURL = `https://www.serebii.net/Shiny/SV/new/${selection[0].id}.png`;
+            //const newURL = paldeaGifs[selection[0].id.toString() as keyof unknown];
             const newURL =
-                paldeaGifs[selection[0].id.toString() as keyof unknown];
+                gifs[("p" + selection[0].id.toString()) as keyof unknown];
+            console.log(newURL);
             upSprite(newURL);
         }
     }
@@ -138,6 +141,13 @@ function App(): JSX.Element {
         const copyName = selection[0].species;
         const newName = copyName.replaceAll(/[ ':.]/g, "");
         let newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
+        if (copyName.includes("Basculin")) {
+            newURL =
+                "https://play.pokemonshowdown.com/sprites/ani-shiny/basculin-whitestriped.gif";
+        } else if (copyName.includes("Qwilfish")) {
+            newURL = "https://www.serebii.net/Shiny/SWSH/211-h.png";
+        }
+        /*
         if (copyName.includes("Hisui") && !hisuiGif.includes(selection[0].id)) {
             let newID = selection[0].id.toString();
             if (newID.length === 2) {
@@ -149,13 +159,15 @@ function App(): JSX.Element {
                 newURL = `https://www.serebii.net/Shiny/SWSH/${newID}-w.png`;
             }
         }
+        */
         if (copyName.includes("Paldea")) {
             let newID = selection[0].id.toString();
             if (newID.length === 2) {
                 newID = "0" + newID;
             }
             //newURL = `https://www.serebii.net/Shiny/SV/new/${newID}-p.png`;
-            newURL = paldeaGifs[selection[0].id.toString() as keyof unknown];
+            //newURL = paldeaGifs[selection[0].id.toString() as keyof unknown];
+            newURL = gifs[("p" + selection[0].id.toString()) as keyof unknown];
         }
         upSprite(newURL);
     }

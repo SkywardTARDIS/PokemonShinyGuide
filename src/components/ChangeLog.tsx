@@ -12,8 +12,11 @@ export function ChangeLog(): JSX.Element {
                 <li>Added change log</li>
                 <li>Completed framework for Scarlet/Violet</li>
                 <li>
-                    Added gifs for all Paldean Pokemon. Credits to adamsb0303
+                    Added gifs for all Paldean Pokemon. Credits to adamsb0303.
+                    Was broken because of cookies, but is fixed now
                 </li>
+                <li>Added function to export entire Pokedex as CSV</li>
+                <li>Added all DLC outbreak Pokemon</li>
             </ul>
         </div>
     );
