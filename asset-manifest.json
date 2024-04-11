@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PokemonShinyGuide/static/css/main.171f1459.css",
-    "main.js": "/PokemonShinyGuide/static/js/main.9de53518.js",
+    "main.js": "/PokemonShinyGuide/static/js/main.62e820fa.js",
     "static/js/787.4ef7427d.chunk.js": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js",
     "static/media/1007.gif": "/PokemonShinyGuide/static/media/1007.30b3c3a360429de0449b.gif",
     "static/media/954.gif": "/PokemonShinyGuide/static/media/954.9195f4f8609d430dfef7.gif",
@@ -38,6 +38,7 @@
     "static/media/1006.gif": "/PokemonShinyGuide/static/media/1006.b2dd67661a43646cb4c3.gif",
     "static/media/1009.gif": "/PokemonShinyGuide/static/media/1009.f949575d1699a7b51fbe.gif",
     "static/media/983.gif": "/PokemonShinyGuide/static/media/983.ee998c2a7d2357b7f660.gif",
+    "static/media/211.gif": "/PokemonShinyGuide/static/media/211.890b317f86330de1471c.gif",
     "static/media/943.gif": "/PokemonShinyGuide/static/media/943.c783a6256be6989175e5.gif",
     "static/media/1010.gif": "/PokemonShinyGuide/static/media/1010.9b90e3f1cb07f30a915c.gif",
     "static/media/980.gif": "/PokemonShinyGuide/static/media/980.541d6c9bf788cc296cb4.gif",
@@ -138,11 +139,11 @@
     "static/media/Manaphy.png": "/PokemonShinyGuide/static/media/Manaphy.75e417181981bb48838e.png",
     "index.html": "/PokemonShinyGuide/index.html",
     "main.171f1459.css.map": "/PokemonShinyGuide/static/css/main.171f1459.css.map",
-    "main.9de53518.js.map": "/PokemonShinyGuide/static/js/main.9de53518.js.map",
+    "main.62e820fa.js.map": "/PokemonShinyGuide/static/js/main.62e820fa.js.map",
     "787.4ef7427d.chunk.js.map": "/PokemonShinyGuide/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.171f1459.css",
-    "static/js/main.9de53518.js"
+    "static/js/main.62e820fa.js"
   ]
 }

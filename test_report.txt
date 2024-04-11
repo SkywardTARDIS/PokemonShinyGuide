@@ -1074,8 +1074,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (7.941 s)
-  ✕ renders the course name somewhere (529 ms)
+FAIL src/App.test.tsx (8.034 s)
+  ✕ renders the course name somewhere (542 ms)
 
   ● renders the course name somewhere
 
@@ -1278,9 +1278,9 @@ FAIL src/App.test.tsx (7.941 s)
 ----------------------|---------|----------|---------|---------|------------------------
 File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
 ----------------------|---------|----------|---------|---------|------------------------
-All files             |   10.35 |     1.56 |   18.36 |   10.35 |                        
- src                  |      24 |     2.08 |   18.51 |      24 |                        
-  App.tsx             |      24 |     2.08 |   18.51 |      24 | 98-172,184-272,278,374 
+All files             |   10.29 |     1.55 |   18.36 |   10.29 |                        
+ src                  |   23.43 |        2 |   18.51 |   23.43 |                        
+  App.tsx             |   23.43 |        2 |   18.51 |   23.43 | 98-178,190-278,284,380 
  src/assets/gifs      |     100 |      100 |     100 |     100 |                        
   exportGifs.ts       |     100 |      100 |     100 |     100 |                        
  src/components       |    4.27 |        0 |   15.94 |    4.27 |                        
@@ -1289,7 +1289,7 @@ All files             |   10.35 |     1.56 |   18.36 |   10.35 |
   CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                  
   DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 34-132                 
   ExportPokedex.tsx   |    6.66 |        0 |   14.28 |    6.66 | 12-63,67               
-  FinalCalcs.tsx      |    1.72 |        0 |    2.22 |    1.72 | 28-74,94-818,824-832   
+  FinalCalcs.tsx      |    1.72 |        0 |    2.22 |    1.72 | 28-74,94-819,825-833   
   GameList.tsx        |      50 |      100 |      50 |      50 | 24                     
   GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                     
   PokemonSelector.tsx |     100 |      100 |     100 |     100 |                        
@@ -1305,5 +1305,5 @@ All files             |   10.35 |     1.56 |   18.36 |   10.35 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        9.243 s
+Time:        9.231 s
 Ran all test suites.
