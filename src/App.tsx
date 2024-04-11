@@ -117,17 +117,23 @@ function App(): JSX.Element {
             }
             const newURL = `https://play.pokemonshowdown.com/sprites/ani-shiny/${newName.toLocaleLowerCase()}.gif`;
             upSprite(newURL);
-        } else if (selection[0].id <= 907) {
+        } else if (selection[0].id <= 905) {
             const newURL = `https://www.serebii.net/Shiny/SWSH/${selection[0].id}.png`;
             upSprite(newURL);
-        } else {
+        } else if (selection[0].id <= 1010) {
             //const newURL = `https://www.serebii.net/Shiny/SV/new/${selection[0].id}.png`;
             //const newURL = paldeaGifs[selection[0].id.toString() as keyof unknown];
             const newURL =
                 gifs[("p" + selection[0].id.toString()) as keyof unknown];
             console.log(newURL);
             upSprite(newURL);
+        } else {
+            const newURL = `https://img.pokemondb.net/sprites/home/shiny/${selection[0].species
+                .toLowerCase()
+                .replaceAll(" ", "-")}.png`;
+            upSprite(newURL);
         }
+        //git commit -m "updated images/gifs, added new Indigo Disk species"
     }
 
     function selectRegionPasser(event: ChangeEvent) {
@@ -145,7 +151,7 @@ function App(): JSX.Element {
             newURL =
                 "https://play.pokemonshowdown.com/sprites/ani-shiny/basculin-whitestriped.gif";
         } else if (copyName.includes("Qwilfish")) {
-            newURL = "https://www.serebii.net/Shiny/SWSH/211-h.png";
+            newURL = gifs["p211"];
         }
         /*
         if (copyName.includes("Hisui") && !hisuiGif.includes(selection[0].id)) {

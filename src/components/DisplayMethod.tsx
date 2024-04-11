@@ -77,7 +77,7 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodString = "PokeRadar";
         } else if (display.methods[0].environment.includes("Friend Safari")) {
             methodImage = FriendSafari;
-            methodString = "Friend Safari";
+            methodString = "Friend Safari - Function no longer available";
         } else if (
             display.methods[0].SOS !== "N/A" &&
             display.methods[0].SOS !== ""
@@ -116,7 +116,7 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodString = "Chain Fishing";
         } else if (display.species === "Manaphy") {
             methodImage = Manaphy;
-            methodString = "Egg Hatching Purgatory";
+            methodString = "Egg Hatching Purgatory/ACE";
         } else if (display.species === "Jirachi") {
             methodImage = Jirachi;
             methodString = "Game Resetting Purgatory";

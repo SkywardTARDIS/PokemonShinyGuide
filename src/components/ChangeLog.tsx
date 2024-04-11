@@ -17,6 +17,10 @@ export function ChangeLog(): JSX.Element {
                 </li>
                 <li>Added function to export entire Pokedex as CSV</li>
                 <li>Added all DLC outbreak Pokemon</li>
+                <li>
+                    Added final wave of DLC Pokemon, updated shiny gifs/images
+                    where applicable
+                </li>
             </ul>
         </div>
     );

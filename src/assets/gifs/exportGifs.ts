@@ -1,5 +1,6 @@
 import p128 from "./128.gif";
 import p194 from "./194.gif";
+import p211 from "./211.gif";
 import p906 from "./906.gif";
 import p907 from "./907.gif";
 import p908 from "./908.gif";
@@ -109,6 +110,7 @@ import p1010 from "./1010.gif";
 const gifs = {
     p128: p128,
     p194: p194,
+    p211: p211,
     p906: p906,
     p907: p907,
     p908: p908,

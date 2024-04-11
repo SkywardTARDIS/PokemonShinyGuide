@@ -633,7 +633,8 @@ export function FinalCalcs({
                     newMeth.rarity = 3600 + 50 * 20;
                     newMeth.environment = newMeth.environment + " - PokeRadar";
                 } else if (newMeth.environment === "Friend Safari") {
-                    newMeth.rarity = (20 * 512) / 0.33;
+                    //newMeth.rarity = (20 * 512) / 0.33;
+                    newMeth.rarity = 100000000000000; //Friend Safari no longer accessible without 3DS online servers
                 } else {
                     newMeth.rarity =
                         (30 * newOdds) / (1 + shinyCharm) / numRarity;
