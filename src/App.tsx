@@ -133,7 +133,6 @@ function App(): JSX.Element {
                 .replaceAll(" ", "-")}.png`;
             upSprite(newURL);
         }
-        //git commit -m "updated images/gifs, added new Indigo Disk species"
     }
 
     function selectRegionPasser(event: ChangeEvent) {
