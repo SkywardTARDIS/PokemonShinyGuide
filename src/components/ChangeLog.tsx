@@ -21,6 +21,9 @@ export function ChangeLog(): JSX.Element {
                     Added final wave of DLC Pokemon, updated shiny gifs/images
                     where applicable
                 </li>
+                <li>
+                    Updated Friend Safari to reflect end of 3DS online services
+                </li>
             </ul>
         </div>
     );

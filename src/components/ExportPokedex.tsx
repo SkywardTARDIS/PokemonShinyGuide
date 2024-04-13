@@ -65,6 +65,11 @@ export function ExportPokedex({
     return (
         <div>
             <Button onClick={() => exportFile()}>Calculate Full Pokedex</Button>
+            <br />
+            <div>
+                Note: Let&apos;s GO Pikachu and Let&apos;s GO Eevee will not
+                show up for selection unless a Gen 1 Pokemon is selected
+            </div>
         </div>
     );
 }
