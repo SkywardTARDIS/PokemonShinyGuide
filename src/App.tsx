@@ -129,7 +129,7 @@ function App(): JSX.Element {
             upSprite(newURL);
         } else {
             const newURL = `https://img.pokemondb.net/sprites/home/shiny/${selection[0].species
-                .toLowerCase()
+                .toLocaleLowerCase()
                 .replaceAll(" ", "-")}.png`;
             upSprite(newURL);
         }
