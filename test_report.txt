@@ -1176,8 +1176,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.526 s)
-  ✕ renders the course name somewhere (571 ms)
+FAIL src/App.test.tsx (8.482 s)
+  ✕ renders the course name somewhere (575 ms)
 
   ● renders the course name somewhere
 
@@ -1374,9 +1374,9 @@ FAIL src/App.test.tsx (8.526 s)
 ------------------------|---------|----------|---------|---------|-----------------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                             
 ------------------------|---------|----------|---------|---------|-----------------------------------------------
-All files               |    9.77 |     1.78 |   12.29 |    9.78 |                                               
- src                    |   12.99 |     5.63 |    8.51 |   13.06 |                                               
-  App.tsx               |   12.99 |     5.63 |    8.51 |   13.06 | 30-34,105-237,257-297,302-430,440-505,517-592 
+All files               |    9.54 |      1.7 |   11.82 |    9.58 |                                               
+ src                    |   11.73 |     4.16 |     7.4 |   11.91 |                                               
+  App.tsx               |   11.73 |     4.16 |     7.4 |   11.91 | 30-34,105-262,283-325,330-477,487-552,564-639 
  src/assets/gifs        |     100 |      100 |     100 |     100 |                                               
   exportGifs.ts         |     100 |      100 |     100 |     100 |                                               
  src/components         |    7.51 |        0 |    12.3 |    7.51 |                                               
@@ -1395,7 +1395,7 @@ All files               |    9.77 |     1.78 |   12.29 |    9.78 |
   GameSelector.tsx      |   66.66 |      100 |   66.66 |   66.66 | 31                                            
   GenderDisplay.tsx     |       0 |      100 |       0 |       0 | 14-19                                         
   ImportJson.tsx        |       0 |        0 |       0 |       0 | 10-43                                         
-  LivingDexWrapper.tsx  |       0 |        0 |       0 |       0 | 48-139                                        
+  LivingDexWrapper.tsx  |       0 |        0 |       0 |       0 | 44-139                                        
   PokemonSelector.tsx   |     100 |      100 |     100 |     100 |                                               
   SpeciesDisplay.tsx    |       0 |        0 |       0 |       0 | 38-149                                        
  src/interfaces         |     100 |      100 |     100 |     100 |                                               
@@ -1413,5 +1413,5 @@ All files               |    9.77 |     1.78 |   12.29 |    9.78 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        9.897 s
+Time:        9.773 s
 Ran all test suites.
