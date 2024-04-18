@@ -47,8 +47,27 @@
     height: 50%;
 }
 
+.shinyGame {
+    text-align: center;
+}
+
 .App-link {
     color: #61dafb;
+}
+
+.partialShiny {
+    color: #00cbe6;
+    text-align: left;
+}
+
+.fullShiny {
+    color: #30da3b;
+    text-align: left;
+}
+
+.noShiny {
+    color: red;
+    text-align: left;
 }
 
 @keyframes App-logo-spin {
