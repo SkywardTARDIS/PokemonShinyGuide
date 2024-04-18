@@ -12,7 +12,8 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -31,7 +32,8 @@ Browserslist: caniuse-lite is outdated. Please run:
         at div
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -45,7 +47,8 @@ Browserslist: caniuse-lite is outdated. Please run:
     Warning: validateDOMNesting(...): <body> cannot appear as a child of <div>.
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -70,9 +73,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -101,9 +107,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -132,9 +141,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -163,9 +175,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -194,9 +209,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -225,9 +243,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -256,9 +277,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -287,9 +311,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -318,9 +345,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -349,9 +379,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -380,9 +413,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -411,9 +447,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -442,9 +481,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -473,9 +515,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -504,9 +549,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -535,9 +583,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -566,9 +617,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -597,9 +651,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -628,9 +685,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -659,9 +719,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -690,9 +753,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -721,9 +787,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -752,9 +821,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -783,9 +855,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -814,9 +889,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -845,9 +923,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -876,9 +957,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -907,9 +991,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -938,9 +1025,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -969,9 +1059,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1000,9 +1093,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1031,9 +1127,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1062,9 +1161,12 @@ Browserslist: caniuse-lite is outdated. Please run:
         at GameSelector (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/GameSelector.tsx:7:5)
         at td
         at table
+        at div
+        at CalculatorWrapper (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/components/CalculatorWrapper.tsx:75:23)
         at body
         at div
-        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:84:23)
+        at div
+        at App (/home/runner/work/PokemonShinyGuide/PokemonShinyGuide/src/App.tsx:19:45)
 
       at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
       at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
@@ -1074,8 +1176,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.044 s)
-  ✕ renders the course name somewhere (528 ms)
+FAIL src/App.test.tsx (8.444 s)
+  ✕ renders the course name somewhere (567 ms)
 
   ● renders the course name somewhere
 
@@ -1102,160 +1204,154 @@ FAIL src/App.test.tsx (8.044 s)
               [36m/>[39m
             [36m</div>[39m
           [36m</header>[39m
-          [36m<body>[39m
-            [36m<div>[39m
-              [36m<table>[39m
-                [36m<td[39m
-                  [33mwidth[39m=[32m"20%"[39m
-                [36m/>[39m
-                [36m<td[39m
-                  [33mwidth[39m=[32m"60%"[39m
-                [36m>[39m
-                  [36m<p>[39m
-                    [0mWelcome to the wonderful world of Pokemon! This is a personal project I have been working on, for fun. As an avid shiny hunter, I eventually began to wonder what the optimal way to go about it was. And so, this tool was born. It collects all of the encounter information from every single Pokemon in the game, and from that calculates the fastest method by which to obtain each and every one.[0m
-                    [36m<hr />[39m
-                    [0mThis tool is quite simple to use:[0m
-                  [36m</p>[39m
-                  [36m<table>[39m
-                    [36m<td[39m
-                      [33mwidth[39m=[32m"25%"[39m
-                    [36m/>[39m
-                    [36m<td[39m
-                      [33mwidth[39m=[32m"50%"[39m
-                    [36m>[39m
-                      [36m<ul>[39m
-                        [36m<li>[39m
-                          [0mSelect your hunt target[0m
-                        [36m</li>[39m
-                        [36m<li>[39m
-                          [0mSelect the list of games you own or wish to hunt in[0m
-                        [36m</li>[39m
-                        [36m<li>[39m
-                          [0mChoose which charms you have in each game[0m
-                        [36m</li>[39m
-                      [36m</ul>[39m
-                    [36m</td>[39m
-                    [36m<td[39m
-                      [33mwidth[39m=[32m"25%"[39m
-                    [36m/>[39m
-                  [36m</table>[39m
-                [36m</td>[39m
-                [36m<td[39m
-                  [33mwidth[39m=[32m"20%"[39m
-                [36m/>[39m
-              [36m</table>[39m
-            [36m</div>[39m
-          [36m</body>[39m
-          [36m<br />[39m
-          [36m<body>[39m
-            [36m<table[39m
-              [33mclass[39m=[32m"infoTable"[39m
-              [33mwidth[39m=[32m"100%"[39m
-            [36m>[39m
-              [36m<td[39m
-                [33mheight[39m=[32m"33%"[39m
-                [33mvalign[39m=[32m"top"[39m
-                [33mwidth[39m=[32m"33%"[39m
-              [36m>[39m
-                [36m<div>[39m
-                  [36m<div>[39m
-                    [0mSelect Your Shiny Target:[0m
-                  [36m</div>[39m
-                  [36m<hr />[39m
-                  [36m<div>[39m
-                    [36m<label[39m
-                      [33mclass[39m=[32m"form-label"[39m
-                    [36m>[39m
-                      [36m<select[39m
-                        [33mclass[39m=[32m"form-select"[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mMethod Calculator[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn btn-primary"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mDex Tracker[0m
+          [36m</button>[39m
+          [36m<hr />[39m
+          [36m<div>[39m
+            [36m<body>[39m
+              [36m<div>[39m
+                [36m<table>[39m
+                  [36m<td[39m
+                    [33mwidth[39m=[32m"20%"[39m
+                  [36m/>[39m
+                  [36m<td[39m
+                    [33mwidth[39m=[32m"60%"[39m
+                  [36m>[39m
+                    [36m<p>[39m
+                      [0mWelcome to the wonderful world of Pokemon! This is a personal project I have been working on, for fun. As an avid shiny hunter, I eventually began to wonder what the optimal way to go about it was. And so, this tool was born. It collects all of the encounter information from every single Pokemon in the game, and from that calculates the fastest method by which to obtain each and every one.[0m
+                      [36m<hr />[39m
+                      [0mThis tool is quite simple to use:[0m
+                    [36m</p>[39m
+                    [36m<table>[39m
+                      [36m<td[39m
+                        [33mwidth[39m=[32m"25%"[39m
+                      [36m/>[39m
+                      [36m<td[39m
+                        [33mwidth[39m=[32m"50%"[39m
                       [36m>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Bulbasaur"[39m
+                        [36m<ul>[39m
+                          [36m<li>[39m
+                            [0mSelect your hunt target[0m
+                          [36m</li>[39m
+                          [36m<li>[39m
+                            [0mSelect the list of games you own or wish to hunt in[0m
+                          [36m</li>[39m
+                          [36m<li>[39m
+                            [0mChoose which charms you have in each game[0m
+                          [36m</li>[39m
+                        [36m</ul>[39m
+                      [36m</td>[39m
+                      [36m<td[39m
+                        [33mwidth[39m=[32m"25%"[39m
+                      [36m/>[39m
+                    [36m</table>[39m
+                  [36m</td>[39m
+                  [36m<td[39m
+                    [33mwidth[39m=[32m"20%"[39m
+                  [36m/>[39m
+                [36m</table>[39m
+              [36m</div>[39m
+            [36m</body>[39m
+            [36m<br />[39m
+            [36m<body>[39m
+              [36m<div>[39m
+                [36m<table[39m
+                  [33mclass[39m=[32m"infoTable"[39m
+                  [33mwidth[39m=[32m"100%"[39m
+                [36m>[39m
+                  [36m<td[39m
+                    [33mheight[39m=[32m"33%"[39m
+                    [33mvalign[39m=[32m"top"[39m
+                    [33mwidth[39m=[32m"33%"[39m
+                  [36m>[39m
+                    [36m<div>[39m
+                      [36m<div>[39m
+                        [0mSelect Your Shiny Target:[0m
+                      [36m</div>[39m
+                      [36m<hr />[39m
+                      [36m<div>[39m
+                        [36m<label[39m
+                          [33mclass[39m=[32m"form-label"[39m
                         [36m>[39m
-                          [0mBulbasaur[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Ivysaur"[39m
-                        [36m>[39m
-                          [0mIvysaur[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Venusaur"[39m
-                        [36m>[39m
-                          [0mVenusaur[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Charmander"[39m
-                        [36m>[39m
-                          [0mCharmander[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Charmeleon"[39m
-                        [36m>[39m
-                          [0mCharmeleon[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Charizard"[39m
-                        [36m>[39m
-                          [0mCharizard[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Squirtle"[39m
-                        [36m>[39m
-                          [0mSquirtle[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Wartortle"[39m
-                        [36m>[39m
-                          [0mWartortle[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Blastoise"[39m
-                        [36m>[39m
-                          [0mBlastoise[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Caterpie"[39m
-                        [36m>[39m
-                          [0mCaterpie[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Metapod"[39m
-                        [36m>[39m
-                          [0mMetapod[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Butterfree"[39m
-                        [36m>[39m
-                          [0mButterfree[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Weedle"[39m
-                        [36m>[39m
-                          [0mWeedle[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Kakuna"[39m
-                        [36m>[39m
-                          [0mKakuna[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Beedrill"[39m
-                        [36m>[39m
-                          [0mBeedrill[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Pidgey"[39m
-                        [36m>[39m
-                          [0mPidgey[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Pidgeotto"[39m
-                        [36m>[39m
-                          [0mPidgeotto[0m
-                        [36m</option>[39m
-                        [36m<option[39m
-                          [33mvalue[39m=[32m"Pidgeot"...
+                          [36m<select[39m
+                            [33mclass[39m=[32m"form-select"[39m
+                          [36m>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Bulbasaur"[39m
+                            [36m>[39m
+                              [0mBulbasaur[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Ivysaur"[39m
+                            [36m>[39m
+                              [0mIvysaur[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Venusaur"[39m
+                            [36m>[39m
+                              [0mVenusaur[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Charmander"[39m
+                            [36m>[39m
+                              [0mCharmander[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Charmeleon"[39m
+                            [36m>[39m
+                              [0mCharmeleon[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Charizard"[39m
+                            [36m>[39m
+                              [0mCharizard[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Squirtle"[39m
+                            [36m>[39m
+                              [0mSquirtle[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Wartortle"[39m
+                            [36m>[39m
+                              [0mWartortle[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Blastoise"[39m
+                            [36m>[39m
+                              [0mBlastoise[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Caterpie"[39m
+                            [36m>[39m
+                              [0mCaterpie[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Metapod"[39m
+                            [36m>[39m
+                              [0mMetapod[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Butterfree"[39m
+                            [36m>[39m
+                              [0mButterfree[0m
+                            [36m</option>[39m
+                            [36m<option[39m
+                              [33mvalue[39m=[32m"Weedle"[39m
+                            [36m>[39m
+                              [0mWeedle[0m
+                            [36m</option>[39m
+                            ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -1275,35 +1371,46 @@ FAIL src/App.test.tsx (8.044 s)
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------------------|---------|----------|---------|---------|------------------------
-File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s      
-----------------------|---------|----------|---------|---------|------------------------
-All files             |   10.29 |     1.55 |   18.36 |   10.29 |                        
- src                  |   23.43 |        2 |   18.51 |   23.43 |                        
-  App.tsx             |   23.43 |        2 |   18.51 |   23.43 | 98-177,189-277,283,379 
- src/assets/gifs      |     100 |      100 |     100 |     100 |                        
-  exportGifs.ts       |     100 |      100 |     100 |     100 |                        
- src/components       |    4.27 |        0 |   15.94 |    4.27 |                        
-  ChangeLog.tsx       |       0 |      100 |       0 |       0 | 4                      
-  CharmInfo.tsx       |      50 |      100 |      50 |      50 | 18                     
-  CharmList.tsx       |       0 |        0 |       0 |       0 | 12-48                  
-  DisplayMethod.tsx   |       0 |        0 |       0 |       0 | 34-132                 
-  ExportPokedex.tsx   |    6.66 |        0 |   14.28 |    6.66 | 12-63,67               
-  FinalCalcs.tsx      |    1.72 |        0 |    2.22 |    1.72 | 28-74,94-819,825-833   
-  GameList.tsx        |      50 |      100 |      50 |      50 | 24                     
-  GameSelector.tsx    |   66.66 |      100 |   66.66 |   66.66 | 31                     
-  PokemonSelector.tsx |     100 |      100 |     100 |     100 |                        
- src/interfaces       |     100 |      100 |     100 |     100 |                        
-  EncounterMethod.ts  |       0 |        0 |       0 |       0 |                        
-  GameData.ts         |       0 |        0 |       0 |       0 |                        
-  Pokemon.ts          |       0 |        0 |       0 |       0 |                        
-  PokemonExport.ts    |       0 |        0 |       0 |       0 |                        
-  SOSRateInterface.ts |       0 |        0 |       0 |       0 |                        
-  gameList.ts         |     100 |      100 |     100 |     100 |                        
-  sLockInterface.ts   |       0 |        0 |       0 |       0 |                        
-----------------------|---------|----------|---------|---------|------------------------
+------------------------|---------|----------|---------|---------|---------------------------------------
+File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                     
+------------------------|---------|----------|---------|---------|---------------------------------------
+All files               |    9.32 |     1.81 |   11.76 |    9.33 |                                       
+ src                    |   11.25 |     6.66 |    5.26 |   11.33 |                                       
+  App.tsx               |   11.25 |     6.66 |    5.26 |   11.33 | 29-33,104-246,251-369,379-444,456-530 
+ src/assets/gifs        |     100 |      100 |     100 |     100 |                                       
+  exportGifs.ts         |     100 |      100 |     100 |     100 |                                       
+ src/components         |    7.51 |        0 |    12.3 |    7.51 |                                       
+  AddGame.tsx           |       0 |      100 |       0 |       0 | 20-31                                 
+  CalculatorWrapper.tsx |   23.01 |        0 |   19.23 |   23.01 | 89-168,180-268,274                    
+  ChangeLog.tsx         |       0 |      100 |       0 |       0 | 4                                     
+  CharmInfo.tsx         |      50 |      100 |      50 |      50 | 18                                    
+  CharmList.tsx         |       0 |        0 |       0 |       0 | 12-48                                 
+  DisplayMethod.tsx     |       0 |        0 |       0 |       0 | 34-132                                
+  DisplayShinyGame.tsx  |       0 |      100 |       0 |       0 | 22-27                                 
+  ExportJson.tsx        |       0 |      100 |       0 |       0 | 13-36                                 
+  ExportPokedex.tsx     |    6.66 |        0 |   14.28 |    6.66 | 12-63,67                              
+  FinalCalcs.tsx        |    1.72 |        0 |    2.22 |    1.72 | 28-74,94-819,825-833                  
+  FormDisplay.tsx       |       0 |      100 |       0 |       0 | 20-22                                 
+  GameList.tsx          |      50 |      100 |      50 |      50 | 24                                    
+  GameSelector.tsx      |   66.66 |      100 |   66.66 |   66.66 | 31                                    
+  GenderDisplay.tsx     |       0 |      100 |       0 |       0 | 14-19                                 
+  ImportJson.tsx        |       0 |        0 |       0 |       0 | 10-43                                 
+  LivingDexWrapper.tsx  |       0 |        0 |       0 |       0 | 45-126                                
+  PokemonSelector.tsx   |     100 |      100 |     100 |     100 |                                       
+  SpeciesDisplay.tsx    |       0 |        0 |       0 |       0 | 38-149                                
+ src/interfaces         |     100 |      100 |     100 |     100 |                                       
+  EncounterMethod.ts    |       0 |        0 |       0 |       0 |                                       
+  GameData.ts           |       0 |        0 |       0 |       0 |                                       
+  Pokemon.ts            |       0 |        0 |       0 |       0 |                                       
+  PokemonExport.ts      |       0 |        0 |       0 |       0 |                                       
+  SOSRateInterface.ts   |       0 |        0 |       0 |       0 |                                       
+  ShinyCount.ts         |       0 |        0 |       0 |       0 |                                       
+  ShinyStatus.ts        |       0 |        0 |       0 |       0 |                                       
+  gameList.ts           |     100 |      100 |     100 |     100 |                                       
+  sLockInterface.ts     |       0 |        0 |       0 |       0 |                                       
+------------------------|---------|----------|---------|---------|---------------------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        9.21 s
+Time:        9.701 s
 Ran all test suites.
