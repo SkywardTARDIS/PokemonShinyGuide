@@ -32,11 +32,7 @@ export function LivingDexWrapper({
     removeShinyGame: (species: string, game: string) => void;
     updateShinyCounts: (species: string, game: string, count: number) => void;
     formDex: ShinyForms;
-    updateFormPasser: (
-        species: string,
-        formName: string,
-        newForm: boolean
-    ) => void;
+    updateFormPasser: (species: string, formName: string) => void;
     updateGender: (species: string, gender: string) => void;
     filterStringPasser: (event: ChangeEvent) => void;
     filterCompletionPasser: (completion: number) => void;
@@ -83,13 +79,14 @@ export function LivingDexWrapper({
                             />
                         </Form.Group>
                     </td>
+                    <td width="50px"></td>
                     <td>
                         <tr>
                             <Form.Group>
                                 <Form.Check
                                     label="No Shiny"
                                     defaultChecked={(filterValue & 1) > 0}
-                                    onClick={updateCompletionNone}
+                                    onChange={updateCompletionNone}
                                 />
                             </Form.Group>
                         </tr>
@@ -98,7 +95,7 @@ export function LivingDexWrapper({
                                 <Form.Check
                                     label="Partial"
                                     defaultChecked={(filterValue & 2) > 0}
-                                    onClick={updateCompletionPartial}
+                                    onChange={updateCompletionPartial}
                                 />
                             </Form.Group>
                         </tr>
@@ -107,19 +104,22 @@ export function LivingDexWrapper({
                                 <Form.Check
                                     label="Complete"
                                     defaultChecked={(filterValue & 4) > 0}
-                                    onClick={updateCompletionComplete}
+                                    onChange={updateCompletionComplete}
                                 />
                             </Form.Group>
                         </tr>
                     </td>
-                    <td>
-                        <ExportJson
-                            fullDex={fullDex}
-                            fullForms={formDex}
-                        ></ExportJson>
-                    </td>
-                    <td>
-                        <ImportJson importAll={importAll}></ImportJson>
+                    <td width="50px"></td>
+                    <td width="150px">
+                        <tr>
+                            <ExportJson
+                                fullDex={fullDex}
+                                fullForms={formDex}
+                            ></ExportJson>
+                        </tr>
+                        <tr>
+                            <ImportJson importAll={importAll}></ImportJson>
+                        </tr>
                     </td>
                     <td>
                         <tr>

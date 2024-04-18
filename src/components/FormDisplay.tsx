@@ -26,7 +26,7 @@ export function FormDisplay({
                     label={formData.formName}
                     defaultChecked={formData.formValue}
                     checked={formData.formValue}
-                    onClick={updateFormPasserPasser}
+                    onChange={updateFormPasserPasser}
                 />
             </Form.Group>
         </div>

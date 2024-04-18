@@ -24,7 +24,7 @@ export function GenderDisplay({
                         label="Male"
                         defaultChecked={status.genderObtained % 2 === 1}
                         checked={status.genderObtained % 2 === 1}
-                        onClick={updateGenderMale}
+                        onChange={updateGenderMale}
                     />
                 </Form.Group>
             </tr>
@@ -34,7 +34,7 @@ export function GenderDisplay({
                         label="Female"
                         defaultChecked={status.genderObtained > 1}
                         checked={status.genderObtained > 1}
-                        onClick={updateGenderFemale}
+                        onChange={updateGenderFemale}
                     />
                 </Form.Group>
             </tr>

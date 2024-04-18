@@ -131,7 +131,7 @@ function App(): JSX.Element {
             //console.log(newPokemon);
             return newPokemon;
         });
-        console.log(importLiving);
+        //console.log(importLiving);
         updateShinyDex(importLiving);
         const getForms = importDex.Forms;
         const importForms: ShinyForms = {
@@ -199,7 +199,7 @@ function App(): JSX.Element {
     function callFromCollection<
         K1 extends keyof typeof formDex,
         K2 extends AllKeysOf<typeof formDex[K1]>
-    >(key1: K1, key2: K2, species: string, newForm: boolean): ShinyForms {
+    >(key1: K1, key2: K2, species: string): ShinyForms {
         if (formDex[key1] === undefined) {
             throw new Error("Invalid key1");
         }
@@ -210,18 +210,25 @@ function App(): JSX.Element {
         }
         const newSpecies =
             species === "TaurosPaldea" ? "Tauros-Paldea" : species;
-        let addForm = -1;
-        if (newForm) {
-            addForm = 1;
-        }
         const oldStatus = [...shinyDex].filter(
             (aStatus: ShinyStatus): boolean => aStatus.species === newSpecies
         )[0];
+        const subKeys = Object.keys(formDex[key1]);
+        const forBools = subKeys.map(function (key: string) {
+            return formDex[key1][key as K2] as unknown as ShinyForms[K1][K2];
+        });
+        const boolsMap = forBools.map((aBool: ShinyForms[K1][K2]): number =>
+            (aBool as unknown as boolean) ? 1 : 0
+        );
+        const sumBools = boolsMap.reduce((sum, current) => sum + current);
+        //console.log(sumBools);
+        //cases: box selected but no counts (use boxes), or counts but no box selected (use 1)
+        //see comment mid-line in addShinyGame for formsObtained
         const newStatus: ShinyStatus = {
             species: oldStatus.species,
             id: oldStatus.id,
             forms: oldStatus.forms,
-            formsObtained: Math.max(oldStatus.formsObtained + addForm, 0),
+            formsObtained: Math.max(sumBools, getCounts(oldStatus) > 0 ? 1 : 0),
             gender: oldStatus.gender,
             genderObtained: oldStatus.genderObtained,
             counts: [...oldStatus.counts]
@@ -236,10 +243,29 @@ function App(): JSX.Element {
         calculateProgress(newList);
         return formDex;
     }
+
+    function sumBools<
+        K1 extends keyof typeof formDex,
+        K2 extends AllKeysOf<typeof formDex[K1]>
+    >(key1: K1): number {
+        if (formDex[key1] === undefined) {
+            throw new Error("Invalid key1");
+        }
+        const subKeys = Object.keys(formDex[key1]);
+        const forBools = subKeys.map(function (key: string) {
+            return formDex[key1][key as K2] as unknown as ShinyForms[K1][K2];
+        });
+        const boolsMap = forBools.map((aBool: ShinyForms[K1][K2]): number =>
+            (aBool as unknown as boolean) ? 1 : 0
+        );
+        const sumBools = boolsMap.reduce((sum, current) => sum + current);
+        return sumBools;
+    }
+
     //end of no idea why this works
 
     const formTotalArr: number[] = livingDex.map(
-        (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender * 2
+        (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender
     );
     const formTotal: number = formTotalArr.reduce(
         (sum, current) => sum + current
@@ -255,14 +281,20 @@ function App(): JSX.Element {
 
     function calculateProgress(dexProgress: ShinyStatus[]) {
         const formTotalArr: number[] = dexProgress.map(
-            (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender * 2
+            (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender
         );
         const formProgArr: number[] = dexProgress.map(
             (aStatus: ShinyStatus): number =>
-                aStatus.formsObtained +
-                (aStatus.genderObtained % 2) +
-                (aStatus.genderObtained & 2 ? 1 : 0) -
-                (aStatus.gender > 0 && aStatus.genderObtained > 0 ? 1 : 0)
+                (aStatus.forms > 1 ? aStatus.formsObtained : 0) +
+                ((aStatus.genderObtained & 2 ||
+                    aStatus.genderObtained & 1 ||
+                    aStatus.formsObtained > 0) &&
+                aStatus.forms === 1
+                    ? 1
+                    : 0) +
+                (aStatus.genderObtained & 2 && aStatus.genderObtained & 1
+                    ? 1
+                    : 0)
         );
         const dexProgArr: number[] = dexProgress.map(
             (aStatus: ShinyStatus): number =>
@@ -286,15 +318,11 @@ function App(): JSX.Element {
         });
     }
 
-    function updateFormPasser(
-        species: string,
-        formName: string,
-        newForm: boolean
-    ) {
+    function updateFormPasser(species: string, formName: string) {
         const k1 = species as keyof typeof formDex;
         const val1 = formDex[k1];
         const k2 = formName as keyof typeof val1;
-        updateForms(callFromCollection(k1, k2, species, newForm));
+        updateForms(callFromCollection(k1, k2, species));
     }
 
     const [shinyDex, updateShinyDex] = useState<ShinyStatus[]>(livingDex);
@@ -307,7 +335,7 @@ function App(): JSX.Element {
             id: oldStatus.id,
             forms: oldStatus.forms,
             formsObtained:
-                oldStatus.formsObtained === 0 && oldStatus.forms === 1
+                oldStatus.formsObtained === 0 //&& oldStatus.forms === 1
                     ? 1
                     : oldStatus.formsObtained,
             gender: oldStatus.gender,
@@ -351,6 +379,12 @@ function App(): JSX.Element {
             genderObtained: newGender,
             counts: [...oldStatus.counts]
         };
+        if (getCounts(newStatus) === 0 && newGender === 0) {
+            newStatus.formsObtained = 0;
+        }
+        if (getCounts(newStatus) > 0 || newGender > 0) {
+            newStatus.formsObtained = 1;
+        }
         const newList = shinyDex.map(
             (aStatus: ShinyStatus): ShinyStatus =>
                 aStatus.species !== species ? aStatus : newStatus
@@ -409,13 +443,26 @@ function App(): JSX.Element {
             !(newStatus.forms > 1)
         ) {
             newStatus.formsObtained = 1;
-        } else if (fullCounts === 0 && !(newStatus.forms > 1)) {
+        } else if (
+            fullCounts === 0 &&
+            !(newStatus.forms > 1) &&
+            !(newStatus.genderObtained > 0)
+        ) {
             newStatus.formsObtained = 0;
+        } else if (
+            sumBools(
+                (newStatus.species === "Tauros-Paldea"
+                    ? "TaurosPaldea"
+                    : newStatus.species) as keyof typeof formDex
+            ) === 0
+        ) {
+            newStatus.formsObtained = fullCounts > 0 ? 1 : 0;
         }
         const newList = shinyDex.map(
             (aStatus: ShinyStatus): ShinyStatus =>
                 aStatus.species !== species ? aStatus : newStatus
         );
+        //console.log(newStatus);
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
