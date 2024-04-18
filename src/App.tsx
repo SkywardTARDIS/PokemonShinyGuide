@@ -10,6 +10,7 @@ import { LivingDexWrapper } from "./components/LivingDexWrapper";
 import { Pokedex, ShinyStatus } from "./interfaces/ShinyStatus";
 import { ShinyCount } from "./interfaces/ShinyCount";
 import { ShinyForms } from "./interfaces/ShinyStatus";
+import { DexProgress } from "./interfaces/DexProgress";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
@@ -188,6 +189,7 @@ function App(): JSX.Element {
         updateForms(importForms);
         const search = searchFilter(importLiving, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(importLiving);
         return;
     }
 
@@ -231,9 +233,58 @@ function App(): JSX.Element {
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(newList);
         return formDex;
     }
     //end of no idea why this works
+
+    const formTotalArr: number[] = livingDex.map(
+        (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender * 2
+    );
+    const formTotal: number = formTotalArr.reduce(
+        (sum, current) => sum + current
+    );
+    const dexTotal: number = livingDex.length;
+
+    const [dexStats, updateDexStats] = useState<DexProgress>({
+        speciesObtained: 0,
+        speciesTotal: dexTotal,
+        formsObtained: 0,
+        formTotal: formTotal
+    });
+
+    function calculateProgress(dexProgress: ShinyStatus[]) {
+        const formTotalArr: number[] = dexProgress.map(
+            (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender * 2
+        );
+        const formProgArr: number[] = dexProgress.map(
+            (aStatus: ShinyStatus): number =>
+                aStatus.formsObtained +
+                (aStatus.genderObtained % 2) +
+                (aStatus.genderObtained & 2 ? 1 : 0) -
+                (aStatus.gender > 0 && aStatus.genderObtained > 0 ? 1 : 0)
+        );
+        const dexProgArr: number[] = dexProgress.map(
+            (aStatus: ShinyStatus): number =>
+                aStatus.formsObtained > 0 ? 1 : 0
+        );
+        const formTotal: number = formTotalArr.reduce(
+            (sum, current) => sum + current
+        );
+        const formProg: number = formProgArr.reduce(
+            (sum, current) => sum + current
+        );
+        const dexProg: number = dexProgArr.reduce(
+            (sum, current) => sum + current
+        );
+        const dexTotal: number = dexProgress.length;
+        updateDexStats({
+            speciesObtained: dexProg,
+            speciesTotal: dexTotal,
+            formsObtained: formProg,
+            formTotal: formTotal
+        });
+    }
 
     function updateFormPasser(
         species: string,
@@ -256,7 +307,9 @@ function App(): JSX.Element {
             id: oldStatus.id,
             forms: oldStatus.forms,
             formsObtained:
-                oldStatus.formsObtained === 0 ? 1 : oldStatus.formsObtained,
+                oldStatus.formsObtained === 0 && oldStatus.forms === 1
+                    ? 1
+                    : oldStatus.formsObtained,
             gender: oldStatus.gender,
             genderObtained: oldStatus.genderObtained,
             counts: [...oldStatus.counts, { game: game, count: 1 }]
@@ -268,6 +321,7 @@ function App(): JSX.Element {
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(newList);
         return;
     }
     function updateGender(species: string, gender: string) {
@@ -304,6 +358,7 @@ function App(): JSX.Element {
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(newList);
         return;
     }
     function removeShinyGame(species: string, game: string) {
@@ -328,6 +383,7 @@ function App(): JSX.Element {
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(newList);
         return;
     }
     function updateShinyCounts(species: string, game: string, count: number) {
@@ -347,7 +403,11 @@ function App(): JSX.Element {
             )
         };
         const fullCounts = getCounts(newStatus);
-        if (fullCounts > 0 && newStatus.formsObtained === 0) {
+        if (
+            fullCounts > 0 &&
+            newStatus.formsObtained === 0 &&
+            !(newStatus.forms > 1)
+        ) {
             newStatus.formsObtained = 1;
         } else if (fullCounts === 0 && !(newStatus.forms > 1)) {
             newStatus.formsObtained = 0;
@@ -359,6 +419,7 @@ function App(): JSX.Element {
         updateShinyDex(newList);
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
+        calculateProgress(newList);
         return;
     }
 
@@ -523,6 +584,7 @@ function App(): JSX.Element {
                         filterValue={filterValue}
                         filterCompletionPasser={filterCompletionPasser}
                         importAll={importAll}
+                        dexStats={dexStats}
                     ></LivingDexWrapper>
                 </div>
             )}

@@ -5,6 +5,7 @@ import { SpeciesDisplay } from "./SpeciesDisplay";
 import { Form } from "react-bootstrap";
 import { ExportJson } from "./ExportJson";
 import { ImportJson } from "./ImportJson";
+import { DexProgress } from "../interfaces/DexProgress";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
@@ -22,7 +23,8 @@ export function LivingDexWrapper({
     filterStringPasser,
     filterCompletionPasser,
     filterValue,
-    importAll
+    importAll,
+    dexStats
 }: {
     filterDex: ShinyStatus[];
     fullDex: ShinyStatus[];
@@ -40,6 +42,7 @@ export function LivingDexWrapper({
     filterCompletionPasser: (completion: number) => void;
     filterValue: number;
     importAll: (importDex: Pokedex) => void;
+    dexStats: DexProgress;
 }): JSX.Element {
     function updateCompletionNone() {
         if ((filterValue & 1) > 0) {
@@ -117,6 +120,16 @@ export function LivingDexWrapper({
                     </td>
                     <td>
                         <ImportJson importAll={importAll}></ImportJson>
+                    </td>
+                    <td>
+                        <tr>
+                            Species Dex: {dexStats.speciesObtained}/
+                            {dexStats.speciesTotal}
+                        </tr>
+                        <tr>
+                            Form Dex: {dexStats.formsObtained}/
+                            {dexStats.formTotal}
+                        </tr>
                     </td>
                 </table>
                 <hr />

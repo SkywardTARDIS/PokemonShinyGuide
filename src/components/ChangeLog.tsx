@@ -24,6 +24,11 @@ export function ChangeLog(): JSX.Element {
                 <li>
                     Updated Friend Safari to reflect end of 3DS online services
                 </li>
+                <li>
+                    Added Living Dex tracker page, with ability to import/export
+                    progress, as well as track species, forms, and genders
+                    obtained
+                </li>
             </ul>
         </div>
     );

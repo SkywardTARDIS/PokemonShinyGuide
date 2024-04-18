@@ -23,6 +23,7 @@ export function GenderDisplay({
                     <Form.Check
                         label="Male"
                         defaultChecked={status.genderObtained % 2 === 1}
+                        checked={status.genderObtained % 2 === 1}
                         onClick={updateGenderMale}
                     />
                 </Form.Group>
@@ -32,6 +33,7 @@ export function GenderDisplay({
                     <Form.Check
                         label="Female"
                         defaultChecked={status.genderObtained > 1}
+                        checked={status.genderObtained > 1}
                         onClick={updateGenderFemale}
                     />
                 </Form.Group>
