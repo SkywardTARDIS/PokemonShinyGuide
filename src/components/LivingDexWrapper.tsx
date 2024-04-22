@@ -64,6 +64,14 @@ export function LivingDexWrapper({
         }
     }
 
+    function updateCompletionLocked() {
+        if ((filterValue & 8) > 0) {
+            filterCompletionPasser(filterValue - 8);
+        } else {
+            filterCompletionPasser(filterValue + 8);
+        }
+    }
+
     return (
         <div>
             <div>
@@ -105,6 +113,15 @@ export function LivingDexWrapper({
                                     label="Complete"
                                     defaultChecked={(filterValue & 4) > 0}
                                     onChange={updateCompletionComplete}
+                                />
+                            </Form.Group>
+                        </tr>
+                        <tr>
+                            <Form.Group>
+                                <Form.Check
+                                    label="Shiny Locked"
+                                    defaultChecked={(filterValue & 8) > 0}
+                                    onChange={updateCompletionLocked}
                                 />
                             </Form.Group>
                         </tr>

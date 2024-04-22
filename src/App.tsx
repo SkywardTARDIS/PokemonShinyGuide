@@ -11,6 +11,8 @@ import { Pokedex, ShinyStatus } from "./interfaces/ShinyStatus";
 import { ShinyCount } from "./interfaces/ShinyCount";
 import { ShinyForms } from "./interfaces/ShinyStatus";
 import { DexProgress } from "./interfaces/DexProgress";
+import { sLockInterface } from "./interfaces/sLockInterface";
+import shinyLock from "./assets/jsons/ShinyLock.json";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
@@ -234,12 +236,42 @@ function App(): JSX.Element {
     }
 
     //end of no idea why this works
+    const sLock: sLockInterface[] = shinyLock.ShinyLocked;
+
+    function isShinyLocked(species: string) {
+        const isShinyLocked: sLockInterface[] = sLock.filter(
+            (aLock: sLockInterface): boolean => aLock.species === species
+        );
+        if (isShinyLocked.length > 0) {
+            if (isShinyLocked[0].game === "All") {
+                return true;
+            }
+        }
+        return false;
+    }
 
     function returnDexProgress(dexProgress: ShinyStatus[]): DexProgress {
-        const formTotalArr: number[] = dexProgress.map(
+        //begin filter out Shiny Locked
+        const isShinyLocked: ShinyStatus[] = dexProgress.filter(function (
+            aStatus: ShinyStatus
+        ): boolean {
+            const isLockedAll: sLockInterface[] = sLock.filter(
+                (aLock: sLockInterface): boolean =>
+                    aLock.species === aStatus.species
+            );
+            if (isLockedAll.length > 0) {
+                if (isLockedAll[0].game === "All") {
+                    return false;
+                }
+            }
+            return true;
+        });
+        //end filter out Shiny
+        //all instances of isShinyLocked below were previously dexProgress
+        const formTotalArr: number[] = isShinyLocked.map(
             (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender
         );
-        const formProgArr: number[] = dexProgress.map(
+        const formProgArr: number[] = isShinyLocked.map(
             (aStatus: ShinyStatus): number =>
                 (aStatus.forms > 1 ? aStatus.formsObtained : 0) +
                 ((aStatus.genderObtained & 2 ||
@@ -252,7 +284,7 @@ function App(): JSX.Element {
                     ? 1
                     : 0)
         );
-        const dexProgArr: number[] = dexProgress.map(
+        const dexProgArr: number[] = isShinyLocked.map(
             (aStatus: ShinyStatus): number =>
                 aStatus.formsObtained > 0 ? 1 : 0
         );
@@ -265,7 +297,7 @@ function App(): JSX.Element {
         const dexProg: number = dexProgArr.reduce(
             (sum, current) => sum + current
         );
-        const dexTotal: number = dexProgress.length;
+        const dexTotal: number = isShinyLocked.length;
         return {
             speciesObtained: dexProg,
             speciesTotal: dexTotal,
@@ -460,7 +492,7 @@ function App(): JSX.Element {
 
     const [filterDex, updateFilter] = useState<ShinyStatus[]>([...shinyDex]);
     const [filterString, updateFilterString] = useState<string>("");
-    const [filterValue, updateFilterValue] = useState<number>(7);
+    const [filterValue, updateFilterValue] = useState<number>(15);
     function searchFilter(
         currentDex: ShinyStatus[],
         filter: string
@@ -499,11 +531,16 @@ function App(): JSX.Element {
                         colorCode = 0;
                     }
                 }
-                if ((filterValue & (2 ** colorCode) & 4) === 4) {
+                if (filterValue > 7 && isShinyLocked(aStatus.species)) {
+                    return true;
+                } else if ((filterValue & (2 ** colorCode) & 4) === 4) {
                     return true;
                 } else if ((filterValue & (2 ** colorCode) & 2) === 2) {
                     return true;
-                } else if ((filterValue & (2 ** colorCode) & 1) === 1) {
+                } else if (
+                    (filterValue & (2 ** colorCode) & 1) === 1 &&
+                    !isShinyLocked(aStatus.species)
+                ) {
                     return true;
                 }
                 return false;
@@ -520,6 +557,7 @@ function App(): JSX.Element {
     }
 
     function filterCompletionPasser(completion: number) {
+        //console.log(completion);
         updateFilterValue(completion);
         const search = searchFilter(shinyDex, filterString);
         completionFilter(search, completion);

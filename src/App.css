@@ -70,6 +70,11 @@
     text-align: left;
 }
 
+.shinyLocked {
+    color: black;
+    text-align: left;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);

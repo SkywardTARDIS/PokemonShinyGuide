@@ -8,6 +8,8 @@ import { abbreviations } from "../interfaces/gameList";
 import { FormObject } from "../interfaces/ShinyStatus";
 import { FormDisplay } from "./FormDisplay";
 import { GenderDisplay } from "./GenderDisplay";
+import { sLockInterface } from "../interfaces/sLockInterface";
+import shinyLock from "../assets/jsons/ShinyLock.json";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
@@ -96,11 +98,23 @@ export function SpeciesDisplay({
             colorCode = 0;
         }
     }
+    const sLock: sLockInterface[] = shinyLock.ShinyLocked;
+    const isShinyLocked: sLockInterface[] = sLock.filter(
+        (aLock: sLockInterface): boolean => aLock.species === status.species
+    );
+    if (isShinyLocked.length > 0) {
+        if (isShinyLocked[0].game === "All") {
+            colorCode = -1;
+        }
+    }
 
     return (
         <div>
             <table>
                 <td width="200px">
+                    {colorCode === -1 && (
+                        <h3 className="shinyLocked">{status.species}</h3>
+                    )}
                     {colorCode === 0 && (
                         <h3 className="noShiny">{status.species}</h3>
                     )}
