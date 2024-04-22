@@ -46,20 +46,20 @@ function App(): JSX.Element {
         return newPokemon;
     });
     const getForms = dexCounts.Forms;
-    let livingForms: ShinyForms = getForms;
+    let livingForms: ShinyForms = { ...getForms };
 
     const cookieGet = localStorage.getItem("dexCookie");
     let dexCookie: Pokedex;
     if (cookieGet) {
         //console.log(cookieGet);
         dexCookie = JSON.parse(cookieGet);
-        const getDex = dexCookie.Pokedex;
-        const livingKey = Object.keys(getDex);
+        const cookieDex = dexCookie.Pokedex;
+        const livingKey = Object.keys(cookieDex);
         const importLiving: ShinyStatus[] = livingKey.map(function (
             key: string
         ) {
-            const currPokemon: ShinyStatus = getDex[
-                key as keyof typeof getDex
+            const currPokemon: ShinyStatus = cookieDex[
+                key as keyof typeof cookieDex
             ] as ShinyStatus;
             const currCounts: ShinyCount[] = currPokemon.counts.map(function (
                 counts: ShinyCount
@@ -83,20 +83,34 @@ function App(): JSX.Element {
             return newPokemon;
         });
         //console.log(importLiving);
-        livingDex = importLiving;
+        livingDex = livingDex.map(function (aStatus: ShinyStatus) {
+            const getImportStatus = importLiving.filter(
+                (bStatus: ShinyStatus): boolean =>
+                    aStatus.species === bStatus.species
+            )[0];
+            if (getImportStatus) {
+                return {
+                    ...aStatus,
+                    formsObtained: getImportStatus.formsObtained,
+                    genderObtained: getImportStatus.genderObtained,
+                    counts: [...getImportStatus.counts]
+                };
+            } else {
+                return aStatus;
+            }
+        });
         const getForms = dexCookie.Forms;
         const importForms: ShinyForms = getForms;
-        livingForms = importForms;
+        livingForms = { ...livingForms, ...importForms };
     }
 
     const [formDex, updateForms] = useState<ShinyForms>(livingForms);
+    //console.log(livingForms);
 
     function importAll(importDex: Pokedex) {
         const getDex = importDex.Pokedex;
         const livingKey = Object.keys(getDex);
-        const importLiving: ShinyStatus[] = livingKey.map(function (
-            key: string
-        ) {
+        let importLiving: ShinyStatus[] = livingKey.map(function (key: string) {
             const currPokemon: ShinyStatus = getDex[
                 key as keyof typeof getDex
             ] as ShinyStatus;
@@ -122,8 +136,24 @@ function App(): JSX.Element {
             return newPokemon;
         });
         //console.log(importLiving);
+        importLiving = shinyDex.map(function (aStatus: ShinyStatus) {
+            const getImportStatus = importLiving.filter(
+                (bStatus: ShinyStatus): boolean =>
+                    aStatus.species === bStatus.species
+            )[0];
+            if (getImportStatus) {
+                return {
+                    ...aStatus,
+                    formsObtained: getImportStatus.formsObtained,
+                    genderObtained: getImportStatus.genderObtained,
+                    counts: [...getImportStatus.counts]
+                };
+            } else {
+                return aStatus;
+            }
+        });
         updateShinyDex(importLiving);
-        const getForms = importDex.Forms;
+        const getForms = { ...formDex, ...importDex.Forms };
         const importForms: ShinyForms = getForms;
         updateForms(importForms);
         const search = searchFilter(importLiving, filterString);

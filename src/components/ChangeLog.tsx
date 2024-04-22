@@ -32,6 +32,10 @@ export function ChangeLog(): JSX.Element {
                 <li>
                     Added support for saving Living Dex progress between session
                 </li>
+                <li>
+                    Cookies and imported files will update for newly added
+                    species and forms
+                </li>
             </ul>
         </div>
     );

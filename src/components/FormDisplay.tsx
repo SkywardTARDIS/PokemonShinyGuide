@@ -19,11 +19,15 @@ export function FormDisplay({
     function updateFormPasserPasser() {
         updateFormPasser(species, formData.formName, !formData.formValue);
     }
+    const renameForm = { Exclaim: "!", Question: "?" };
+    const newFormName =
+        renameForm[formData.formName as keyof typeof renameForm] ||
+        formData.formName;
     return (
         <div>
             <Form.Group>
                 <Form.Check
-                    label={formData.formName}
+                    label={newFormName}
                     defaultChecked={formData.formValue}
                     checked={formData.formValue}
                     onChange={updateFormPasserPasser}
