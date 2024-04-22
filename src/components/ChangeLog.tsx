@@ -29,6 +29,9 @@ export function ChangeLog(): JSX.Element {
                     progress, as well as track species, forms, and genders
                     obtained
                 </li>
+                <li>
+                    Added support for saving Living Dex progress between session
+                </li>
             </ul>
         </div>
     );

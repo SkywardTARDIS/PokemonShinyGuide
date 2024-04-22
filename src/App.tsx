@@ -22,7 +22,7 @@ function App(): JSX.Element {
 
     const getDex = dexCounts.Pokedex;
     const livingKey = Object.keys(getDex);
-    const livingDex: ShinyStatus[] = livingKey.map(function (key: string) {
+    let livingDex: ShinyStatus[] = livingKey.map(function (key: string) {
         const currPokemon: ShinyStatus = getDex[key as keyof typeof getDex];
         const currCounts: ShinyCount[] = currPokemon.counts.map(function (
             counts: ShinyCount
@@ -46,58 +46,48 @@ function App(): JSX.Element {
         return newPokemon;
     });
     const getForms = dexCounts.Forms;
-    const livingForms: ShinyForms = {
-        TaurosPaldea: getForms.TaurosPaldea,
-        Unown: getForms.Unown,
-        Castform: getForms.Castform,
-        Deoxys: getForms.Deoxys,
-        Burmy: getForms.Burmy,
-        Wormadam: getForms.Wormadam,
-        Shellos: getForms.Shellos,
-        Gastrodon: getForms.Gastrodon,
-        Rotom: getForms.Rotom,
-        Dialga: getForms.Dialga,
-        Palkia: getForms.Palkia,
-        Giratina: getForms.Giratina,
-        Shaymin: getForms.Shaymin,
-        Basculin: getForms.Basculin,
-        Deerling: getForms.Deerling,
-        Sawsbuck: getForms.Sawsbuck,
-        Tornadus: getForms.Tornadus,
-        Thundurus: getForms.Thundurus,
-        Landorus: getForms.Landorus,
-        Enamorus: getForms.Enamorus,
-        Kyurem: getForms.Kyurem,
-        Keldeo: getForms.Keldeo,
-        Meloetta: getForms.Meloetta,
-        Vivillon: getForms.Vivillon,
-        Flabebe: getForms.Flabebe,
-        Floette: getForms.Floette,
-        Florges: getForms.Florges,
-        Pumpkaboo: getForms.Pumpkaboo,
-        Gourgeist: getForms.Gourgeist,
-        Zygarde: getForms.Zygarde,
-        Hoopa: getForms.Hoopa,
-        Oricorio: getForms.Oricorio,
-        Lycanroc: getForms.Lycanroc,
-        Minior: getForms.Minior,
-        Necrozma: getForms.Necrozma,
-        Magearna: getForms.Magearna,
-        Toxtricity: getForms.Toxtricity,
-        Sinistea: getForms.Sinistea,
-        Polteageist: getForms.Polteageist,
-        Alcremie: getForms.Alcremie,
-        Urshifu: getForms.Urshifu,
-        Calyrex: getForms.Calyrex,
-        Ursaluna: getForms.Ursaluna,
-        Maushold: getForms.Maushold,
-        Squawkabilly: getForms.Squawkabilly,
-        Tatsugiri: getForms.Tatsugiri,
-        Dudunsparce: getForms.Dudunsparce,
-        Gimmighoul: getForms.Gimmighoul,
-        Poltchageist: getForms.Poltchageist,
-        Sinistcha: getForms.Sinistcha
-    };
+    let livingForms: ShinyForms = getForms;
+
+    const cookieGet = localStorage.getItem("dexCookie");
+    let dexCookie: Pokedex;
+    if (cookieGet) {
+        //console.log(cookieGet);
+        dexCookie = JSON.parse(cookieGet);
+        const getDex = dexCookie.Pokedex;
+        const livingKey = Object.keys(getDex);
+        const importLiving: ShinyStatus[] = livingKey.map(function (
+            key: string
+        ) {
+            const currPokemon: ShinyStatus = getDex[
+                key as keyof typeof getDex
+            ] as ShinyStatus;
+            const currCounts: ShinyCount[] = currPokemon.counts.map(function (
+                counts: ShinyCount
+            ) {
+                const newCounts: ShinyCount = {
+                    game: counts.game,
+                    count: counts.count
+                };
+                return newCounts;
+            });
+            const newPokemon: ShinyStatus = {
+                species: currPokemon.species,
+                id: currPokemon.id,
+                forms: currPokemon.forms,
+                formsObtained: currPokemon.formsObtained,
+                gender: currPokemon.gender,
+                genderObtained: currPokemon.genderObtained,
+                counts: [...currCounts]
+            };
+            //console.log(newPokemon);
+            return newPokemon;
+        });
+        //console.log(importLiving);
+        livingDex = importLiving;
+        const getForms = dexCookie.Forms;
+        const importForms: ShinyForms = getForms;
+        livingForms = importForms;
+    }
 
     const [formDex, updateForms] = useState<ShinyForms>(livingForms);
 
@@ -134,62 +124,12 @@ function App(): JSX.Element {
         //console.log(importLiving);
         updateShinyDex(importLiving);
         const getForms = importDex.Forms;
-        const importForms: ShinyForms = {
-            TaurosPaldea: getForms.TaurosPaldea,
-            Unown: getForms.Unown,
-            Castform: getForms.Castform,
-            Deoxys: getForms.Deoxys,
-            Burmy: getForms.Burmy,
-            Wormadam: getForms.Wormadam,
-            Shellos: getForms.Shellos,
-            Gastrodon: getForms.Gastrodon,
-            Rotom: getForms.Rotom,
-            Dialga: getForms.Dialga,
-            Palkia: getForms.Palkia,
-            Giratina: getForms.Giratina,
-            Shaymin: getForms.Shaymin,
-            Basculin: getForms.Basculin,
-            Deerling: getForms.Deerling,
-            Sawsbuck: getForms.Sawsbuck,
-            Tornadus: getForms.Tornadus,
-            Thundurus: getForms.Thundurus,
-            Landorus: getForms.Landorus,
-            Enamorus: getForms.Enamorus,
-            Kyurem: getForms.Kyurem,
-            Keldeo: getForms.Keldeo,
-            Meloetta: getForms.Meloetta,
-            Vivillon: getForms.Vivillon,
-            Flabebe: getForms.Flabebe,
-            Floette: getForms.Floette,
-            Florges: getForms.Florges,
-            Pumpkaboo: getForms.Pumpkaboo,
-            Gourgeist: getForms.Gourgeist,
-            Zygarde: getForms.Zygarde,
-            Hoopa: getForms.Hoopa,
-            Oricorio: getForms.Oricorio,
-            Lycanroc: getForms.Lycanroc,
-            Minior: getForms.Minior,
-            Necrozma: getForms.Necrozma,
-            Magearna: getForms.Magearna,
-            Toxtricity: getForms.Toxtricity,
-            Sinistea: getForms.Sinistea,
-            Polteageist: getForms.Polteageist,
-            Alcremie: getForms.Alcremie,
-            Urshifu: getForms.Urshifu,
-            Calyrex: getForms.Calyrex,
-            Ursaluna: getForms.Ursaluna,
-            Maushold: getForms.Maushold,
-            Squawkabilly: getForms.Squawkabilly,
-            Tatsugiri: getForms.Tatsugiri,
-            Dudunsparce: getForms.Dudunsparce,
-            Gimmighoul: getForms.Gimmighoul,
-            Poltchageist: getForms.Poltchageist,
-            Sinistcha: getForms.Sinistcha
-        };
+        const importForms: ShinyForms = getForms;
         updateForms(importForms);
         const search = searchFilter(importLiving, filterString);
         completionFilter(search, filterValue);
         calculateProgress(importLiving);
+        saveCookie(importLiving, importForms);
         return;
     }
 
@@ -241,6 +181,7 @@ function App(): JSX.Element {
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
         calculateProgress(newList);
+        saveCookie(newList, formDex);
         return formDex;
     }
 
@@ -264,22 +205,7 @@ function App(): JSX.Element {
 
     //end of no idea why this works
 
-    const formTotalArr: number[] = livingDex.map(
-        (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender
-    );
-    const formTotal: number = formTotalArr.reduce(
-        (sum, current) => sum + current
-    );
-    const dexTotal: number = livingDex.length;
-
-    const [dexStats, updateDexStats] = useState<DexProgress>({
-        speciesObtained: 0,
-        speciesTotal: dexTotal,
-        formsObtained: 0,
-        formTotal: formTotal
-    });
-
-    function calculateProgress(dexProgress: ShinyStatus[]) {
+    function returnDexProgress(dexProgress: ShinyStatus[]): DexProgress {
         const formTotalArr: number[] = dexProgress.map(
             (aStatus: ShinyStatus): number => aStatus.forms + aStatus.gender
         );
@@ -310,12 +236,20 @@ function App(): JSX.Element {
             (sum, current) => sum + current
         );
         const dexTotal: number = dexProgress.length;
-        updateDexStats({
+        return {
             speciesObtained: dexProg,
             speciesTotal: dexTotal,
             formsObtained: formProg,
             formTotal: formTotal
-        });
+        } as DexProgress;
+    }
+
+    const [dexStats, updateDexStats] = useState<DexProgress>(
+        returnDexProgress(livingDex)
+    );
+
+    function calculateProgress(dexProgress: ShinyStatus[]) {
+        updateDexStats(returnDexProgress(dexProgress));
     }
 
     function updateFormPasser(species: string, formName: string) {
@@ -326,6 +260,18 @@ function App(): JSX.Element {
     }
 
     const [shinyDex, updateShinyDex] = useState<ShinyStatus[]>(livingDex);
+
+    function saveCookie(updateDex: ShinyStatus[], updateFormDex: ShinyForms) {
+        localStorage.setItem(
+            "dexCookie",
+            JSON.stringify({
+                Pokedex: { ...updateDex },
+                Forms: { ...updateFormDex }
+            })
+        );
+        //console.log("update");
+    }
+
     function addShinyGame(species: string, game: string) {
         const oldStatus = [...shinyDex].filter(
             (aStatus: ShinyStatus): boolean => aStatus.species === species
@@ -350,6 +296,7 @@ function App(): JSX.Element {
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
         calculateProgress(newList);
+        saveCookie(newList, formDex);
         return;
     }
     function updateGender(species: string, gender: string) {
@@ -393,6 +340,7 @@ function App(): JSX.Element {
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
         calculateProgress(newList);
+        saveCookie(newList, formDex);
         return;
     }
     function removeShinyGame(species: string, game: string) {
@@ -418,6 +366,7 @@ function App(): JSX.Element {
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
         calculateProgress(newList);
+        saveCookie(newList, formDex);
         return;
     }
     function updateShinyCounts(species: string, game: string, count: number) {
@@ -450,6 +399,7 @@ function App(): JSX.Element {
         ) {
             newStatus.formsObtained = 0;
         } else if (
+            newStatus.forms > 1 &&
             sumBools(
                 (newStatus.species === "Tauros-Paldea"
                     ? "TaurosPaldea"
@@ -467,6 +417,7 @@ function App(): JSX.Element {
         const search = searchFilter(newList, filterString);
         completionFilter(search, filterValue);
         calculateProgress(newList);
+        saveCookie(newList, formDex);
         return;
     }
 
