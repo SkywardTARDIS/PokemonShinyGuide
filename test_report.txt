@@ -1173,8 +1173,8 @@
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.802 s)
-  ✕ renders the course name somewhere (641 ms)
+FAIL src/App.test.tsx (8.455 s)
+  ✕ renders the course name somewhere (555 ms)
 
   ● renders the course name somewhere
 
@@ -1410,5 +1410,5 @@ All files               |   11.09 |     3.88 |   14.64 |   11.13 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        10.133 s
+Time:        9.729 s
 Ran all test suites.
