@@ -1173,8 +1173,8 @@
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.455 s)
-  ✕ renders the course name somewhere (555 ms)
+FAIL src/App.test.tsx (8.69 s)
+  ✕ renders the course name somewhere (578 ms)
 
   ● renders the course name somewhere
 
@@ -1371,12 +1371,12 @@ FAIL src/App.test.tsx (8.455 s)
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                            
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
-All files               |   11.09 |     3.88 |   14.64 |   11.13 |                                                              
- src                    |   17.35 |    15.25 |   17.18 |   17.57 |                                                              
-  App.tsx               |   17.35 |    15.25 |   17.18 |   17.57 | 32-36,57-106,113-235,242-250,314-321,327-490,500-571,583-658 
+All files               |    10.8 |      3.8 |   14.07 |   10.84 |                                                              
+ src                    |   15.86 |    14.06 |   15.94 |   16.04 |                                                              
+  App.tsx               |   15.86 |    14.06 |   15.94 |   16.04 | 32-36,57-106,113-237,244-252,316-323,329-496,508-622,634-711 
  src/assets/gifs        |     100 |      100 |     100 |     100 |                                                              
   exportGifs.ts         |     100 |      100 |     100 |     100 |                                                              
- src/components         |    7.38 |        0 |   12.12 |    7.38 |                                                              
+ src/components         |    7.33 |        0 |   11.85 |    7.33 |                                                              
   AddGame.tsx           |       0 |      100 |       0 |       0 | 20-31                                                        
   CalculatorWrapper.tsx |   23.01 |        0 |   19.23 |   23.01 | 89-168,180-268,274                                           
   ChangeLog.tsx         |       0 |      100 |       0 |       0 | 4                                                            
@@ -1390,9 +1390,10 @@ All files               |   11.09 |     3.88 |   14.64 |   11.13 |
   FormDisplay.tsx       |       0 |        0 |       0 |       0 | 20-26                                                        
   GameList.tsx          |      50 |      100 |      50 |      50 | 24                                                           
   GameSelector.tsx      |   66.66 |      100 |   66.66 |   66.66 | 31                                                           
+  GenFilter.tsx         |       0 |        0 |       0 |       0 | 12-24                                                        
   GenderDisplay.tsx     |       0 |      100 |       0 |       0 | 14-19                                                        
   ImportJson.tsx        |       0 |        0 |       0 |       0 | 10-43                                                        
-  LivingDexWrapper.tsx  |       0 |        0 |       0 |       0 | 44-156                                                       
+  LivingDexWrapper.tsx  |       0 |        0 |       0 |       0 | 49-168                                                       
   PokemonSelector.tsx   |     100 |      100 |     100 |     100 |                                                              
   SpeciesDisplay.tsx    |       0 |        0 |       0 |       0 | 40-163                                                       
  src/interfaces         |     100 |      100 |     100 |     100 |                                                              
@@ -1410,5 +1411,5 @@ All files               |   11.09 |     3.88 |   14.64 |   11.13 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        9.729 s
+Time:        9.997 s
 Ran all test suites.
