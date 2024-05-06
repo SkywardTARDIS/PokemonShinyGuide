@@ -36,6 +36,7 @@ export function ChangeLog(): JSX.Element {
                     Cookies and imported files will update for newly added
                     species and forms
                 </li>
+                <li>Addet Generation filter to Dex tracker</li>
             </ul>
         </div>
     );

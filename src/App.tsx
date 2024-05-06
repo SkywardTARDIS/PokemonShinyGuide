@@ -158,8 +158,9 @@ function App(): JSX.Element {
         const getForms = { ...formDex, ...importDex.Forms };
         const importForms: ShinyForms = getForms;
         updateForms(importForms);
-        const search = searchFilter(importLiving, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(importLiving, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(importLiving);
         saveCookie(importLiving, importForms);
         return;
@@ -210,8 +211,9 @@ function App(): JSX.Element {
                 aStatus.species !== species ? aStatus : newStatus
         );
         updateShinyDex(newList);
-        const search = searchFilter(newList, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(newList, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(newList);
         saveCookie(newList, formDex);
         return formDex;
@@ -355,8 +357,9 @@ function App(): JSX.Element {
                 aStatus.species !== species ? aStatus : newStatus
         );
         updateShinyDex(newList);
-        const search = searchFilter(newList, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(newList, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(newList);
         saveCookie(newList, formDex);
         return;
@@ -399,8 +402,9 @@ function App(): JSX.Element {
                 aStatus.species !== species ? aStatus : newStatus
         );
         updateShinyDex(newList);
-        const search = searchFilter(newList, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(newList, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(newList);
         saveCookie(newList, formDex);
         return;
@@ -425,8 +429,9 @@ function App(): JSX.Element {
                 aStatus.species !== species ? aStatus : newStatus
         );
         updateShinyDex(newList);
-        const search = searchFilter(newList, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(newList, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(newList);
         saveCookie(newList, formDex);
         return;
@@ -476,8 +481,9 @@ function App(): JSX.Element {
         );
         //console.log(newStatus);
         updateShinyDex(newList);
-        const search = searchFilter(newList, filterString);
-        completionFilter(search, filterValue);
+        let search = searchFilter(newList, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
         calculateProgress(newList);
         saveCookie(newList, formDex);
         return;
@@ -493,6 +499,42 @@ function App(): JSX.Element {
     const [filterDex, updateFilter] = useState<ShinyStatus[]>([...shinyDex]);
     const [filterString, updateFilterString] = useState<string>("");
     const [filterValue, updateFilterValue] = useState<number>(15);
+    const [genValue, updateGenValue] = useState<number>(511);
+
+    function generationFilter(
+        currentDex: ShinyStatus[],
+        generationValue: number
+    ): ShinyStatus[] {
+        let genFilterDex: ShinyStatus[] = [];
+        if (generationValue !== 0) {
+            genFilterDex = currentDex.filter(
+                (aStatus: ShinyStatus): boolean =>
+                    generationValue === getGen(aStatus)
+            );
+            updateFilter(genFilterDex);
+        }
+        return genFilterDex;
+    }
+
+    function getGen(status: ShinyStatus): number {
+        const genIds: number[] = [151, 251, 386, 493, 649, 721, 809, 905, 1025];
+        if (status.species.includes("Alola")) {
+            return 7;
+        } else if (
+            status.species.includes("Galar") ||
+            status.species.includes("Hisui")
+        ) {
+            return 8;
+        } else if (status.species.includes("Paldea")) {
+            return 9;
+        } else {
+            const minGen: number[] = genIds.filter(
+                (id: number): boolean => status.id <= id
+            );
+            return genIds.indexOf(minGen[0]) + 1;
+        }
+    }
+
     function searchFilter(
         currentDex: ShinyStatus[],
         filter: string
@@ -552,15 +594,24 @@ function App(): JSX.Element {
 
     function filterStringPasser(event: ChangeEvent) {
         updateFilterString(event.target.value);
-        const search = searchFilter(shinyDex, event.target.value);
-        completionFilter(search, filterValue);
+        let search = searchFilter(shinyDex, event.target.value);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, genValue);
     }
 
     function filterCompletionPasser(completion: number) {
         //console.log(completion);
         updateFilterValue(completion);
-        const search = searchFilter(shinyDex, filterString);
-        completionFilter(search, completion);
+        let search = searchFilter(shinyDex, filterString);
+        search = completionFilter(search, completion);
+        generationFilter(search, genValue);
+    }
+
+    function filterGenerationPasser(generations: number) {
+        updateGenValue(generations);
+        let search = searchFilter(shinyDex, filterString);
+        search = completionFilter(search, filterValue);
+        generationFilter(search, generations);
     }
 
     function setCalculator() {
@@ -651,6 +702,8 @@ function App(): JSX.Element {
                         filterCompletionPasser={filterCompletionPasser}
                         importAll={importAll}
                         dexStats={dexStats}
+                        genValue={genValue}
+                        filterGenerationPasser={filterGenerationPasser}
                     ></LivingDexWrapper>
                 </div>
             )}

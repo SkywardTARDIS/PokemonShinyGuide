@@ -6,6 +6,7 @@ import { Form } from "react-bootstrap";
 import { ExportJson } from "./ExportJson";
 import { ImportJson } from "./ImportJson";
 import { DexProgress } from "../interfaces/DexProgress";
+import { GenFilter } from "./GenFilter";
 
 type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
@@ -24,7 +25,9 @@ export function LivingDexWrapper({
     filterCompletionPasser,
     filterValue,
     importAll,
-    dexStats
+    dexStats,
+    genValue,
+    filterGenerationPasser
 }: {
     filterDex: ShinyStatus[];
     fullDex: ShinyStatus[];
@@ -39,6 +42,8 @@ export function LivingDexWrapper({
     filterValue: number;
     importAll: (importDex: Pokedex) => void;
     dexStats: DexProgress;
+    genValue: number;
+    filterGenerationPasser: (generations: number) => void;
 }): JSX.Element {
     function updateCompletionNone() {
         if ((filterValue & 1) > 0) {
@@ -125,6 +130,13 @@ export function LivingDexWrapper({
                                 />
                             </Form.Group>
                         </tr>
+                    </td>
+                    <td width="50px"></td>
+                    <td>
+                        <GenFilter
+                            genValue={genValue}
+                            filterGenerationPasser={filterGenerationPasser}
+                        ></GenFilter>
                     </td>
                     <td width="50px"></td>
                     <td width="150px">
