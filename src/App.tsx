@@ -499,7 +499,7 @@ function App(): JSX.Element {
     const [filterDex, updateFilter] = useState<ShinyStatus[]>([...shinyDex]);
     const [filterString, updateFilterString] = useState<string>("");
     const [filterValue, updateFilterValue] = useState<number>(15);
-    const [genValue, updateGenValue] = useState<number>(511);
+    const [genValue, updateGenValue] = useState<number>(0);
 
     function generationFilter(
         currentDex: ShinyStatus[],
