@@ -252,16 +252,16 @@ export interface Florges {
     White: boolean;
 }
 export interface Pumpkaboo {
-    Sm: boolean;
-    M: boolean;
-    L: boolean;
-    XL: boolean;
+    Small: boolean;
+    Average: boolean;
+    Large: boolean;
+    Super: boolean;
 }
 export interface Gourgeist {
-    Sm: boolean;
-    M: boolean;
-    L: boolean;
-    XL: boolean;
+    Small: boolean;
+    Average: boolean;
+    Large: boolean;
+    Super: boolean;
 }
 export interface Zygarde {
     TenPercent: boolean;

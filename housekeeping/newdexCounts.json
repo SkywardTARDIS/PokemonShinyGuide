@@ -9909,16 +9909,16 @@
             "White": false
         },
         "Pumpkaboo": {
-            "Sm": false,
-            "M": false,
-            "L": false,
-            "XL": false
+            "Small": false,
+            "Average": false,
+            "Large": false,
+            "Super": false
         },
         "Gourgeist": {
-            "Sm": false,
-            "M": false,
-            "L": false,
-            "XL": false
+            "Small": false,
+            "Average": false,
+            "Large": false,
+            "Super": false
         },
         "Zygarde": {
             "TenPercent": false,
