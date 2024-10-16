@@ -28,6 +28,8 @@ import Manaphy from "../assets/images/Manaphy.png";
 import IlexForest from "../assets/images/IlexForest.png";
 import OddEgg from "../assets/images/OddEgg.jpg";
 import Chaining from "../assets/images/Chaining.png";
+import Home from "../assets/images/Home.png";
+import Incense from "../assets/images/Incense.png";
 import Legendaries from "../assets/jsons/Legendaries.json";
 
 export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
@@ -106,6 +108,12 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = Mystery;
             methodString = "Mystery Box";
         } else if (
+            display.species.includes("Galar") &&
+            Legendaries.Legendaries.includes(display.species)
+        ) {
+            methodImage = Incense;
+            methodString = "Win the lottery";
+        } else if (
             display.methods[0].environment.includes("Rod") &&
             (display.methods[0].game === "X" ||
                 display.methods[0].game === "Y" ||
@@ -127,6 +135,9 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             !Legendaries.Legendaries.includes(display.species)
         ) {
             methodString = "Wormhole Hunt";
+        } else if (display.methods[0].location.includes("Home")) {
+            methodString = "Obtain in Home";
+            methodImage = Home;
         }
     }
     return (
