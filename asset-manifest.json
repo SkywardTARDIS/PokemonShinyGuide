@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PokemonShinyGuide/static/css/main.52217406.css",
-    "main.js": "/PokemonShinyGuide/static/js/main.7bd95abc.js",
+    "main.js": "/PokemonShinyGuide/static/js/main.8b539a61.js",
     "static/js/453.54da545e.chunk.js": "/PokemonShinyGuide/static/js/453.54da545e.chunk.js",
     "static/media/1007.gif": "/PokemonShinyGuide/static/media/1007.30b3c3a360429de0449b.gif",
     "static/media/954.gif": "/PokemonShinyGuide/static/media/954.9195f4f8609d430dfef7.gif",
@@ -81,6 +81,7 @@
     "static/media/926.gif": "/PokemonShinyGuide/static/media/926.c0d39ff0674ab3b32eaa.gif",
     "static/media/942.gif": "/PokemonShinyGuide/static/media/942.c880205c9f153dcbae45.gif",
     "static/media/913.gif": "/PokemonShinyGuide/static/media/913.d3e5256d6aef3f567847.gif",
+    "static/media/Incense.png": "/PokemonShinyGuide/static/media/Incense.57c4bcc9a5629a5431ac.png",
     "static/media/958.gif": "/PokemonShinyGuide/static/media/958.3441f010b45f4abe7276.gif",
     "static/media/945.gif": "/PokemonShinyGuide/static/media/945.ca537d2514c1da5b29cb.gif",
     "static/media/925.gif": "/PokemonShinyGuide/static/media/925.831dd0ef446a23037661.gif",
@@ -137,13 +138,14 @@
     "static/media/MissingNo.png": "/PokemonShinyGuide/static/media/MissingNo.163cb81787b4a1cd6daa.png",
     "static/media/PokeRadar.png": "/PokemonShinyGuide/static/media/PokeRadar.2dcd85cedd8547f3b77a.png",
     "static/media/Manaphy.png": "/PokemonShinyGuide/static/media/Manaphy.75e417181981bb48838e.png",
+    "static/media/Home.png": "/PokemonShinyGuide/static/media/Home.47a41f70fb4bda5c12a5.png",
     "index.html": "/PokemonShinyGuide/index.html",
     "main.52217406.css.map": "/PokemonShinyGuide/static/css/main.52217406.css.map",
-    "main.7bd95abc.js.map": "/PokemonShinyGuide/static/js/main.7bd95abc.js.map",
+    "main.8b539a61.js.map": "/PokemonShinyGuide/static/js/main.8b539a61.js.map",
     "453.54da545e.chunk.js.map": "/PokemonShinyGuide/static/js/453.54da545e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52217406.css",
-    "static/js/main.7bd95abc.js"
+    "static/js/main.8b539a61.js"
   ]
 }

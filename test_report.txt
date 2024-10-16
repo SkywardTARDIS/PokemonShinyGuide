@@ -2,6 +2,9 @@
 > react-typescript-starter@0.1.0 test
 > react-scripts test --coverage
 
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
   console.error
     Warning: validateDOMNesting(...): <td> cannot appear as a child of <table>.
         at td
@@ -1173,8 +1176,8 @@
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.523 s)
-  ✕ renders the course name somewhere (562 ms)
+FAIL src/App.test.tsx (8.704 s)
+  ✕ renders the course name somewhere (586 ms)
 
   ● renders the course name somewhere
 
@@ -1371,18 +1374,18 @@ FAIL src/App.test.tsx (8.523 s)
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                            
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
-All files               |    10.8 |      3.8 |   14.07 |   10.84 |                                                              
+All files               |   10.73 |     3.77 |   14.07 |   10.76 |                                                              
  src                    |   15.86 |    14.06 |   15.94 |   16.04 |                                                              
   App.tsx               |   15.86 |    14.06 |   15.94 |   16.04 | 32-36,57-106,113-237,244-252,316-323,329-496,508-622,634-711 
  src/assets/gifs        |     100 |      100 |     100 |     100 |                                                              
   exportGifs.ts         |     100 |      100 |     100 |     100 |                                                              
- src/components         |    7.33 |        0 |   11.85 |    7.33 |                                                              
+ src/components         |    7.26 |        0 |   11.85 |    7.26 |                                                              
   AddGame.tsx           |       0 |      100 |       0 |       0 | 20-31                                                        
   CalculatorWrapper.tsx |   23.01 |        0 |   19.23 |   23.01 | 89-168,180-268,274                                           
   ChangeLog.tsx         |       0 |      100 |       0 |       0 | 4                                                            
   CharmInfo.tsx         |      50 |      100 |      50 |      50 | 18                                                           
   CharmList.tsx         |       0 |        0 |       0 |       0 | 12-48                                                        
-  DisplayMethod.tsx     |       0 |        0 |       0 |       0 | 34-132                                                       
+  DisplayMethod.tsx     |       0 |        0 |       0 |       0 | 36-143                                                       
   DisplayShinyGame.tsx  |       0 |      100 |       0 |       0 | 22-27                                                        
   ExportJson.tsx        |       0 |      100 |       0 |       0 | 13-36                                                        
   ExportPokedex.tsx     |    6.66 |        0 |   14.28 |    6.66 | 12-63,67                                                     
@@ -1411,5 +1414,5 @@ All files               |    10.8 |      3.8 |   14.07 |   10.84 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        9.845 s
+Time:        10.001 s
 Ran all test suites.
