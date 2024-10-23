@@ -5808,7 +5808,7 @@
         "645": {
             "species": "Kyurem",
             "id": 646,
-            "forms": 3,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -5826,7 +5826,7 @@
         "647": {
             "species": "Meloetta",
             "id": 648,
-            "forms": 2,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -7194,7 +7194,7 @@
         "799": {
             "species": "Necrozma",
             "id": 800,
-            "forms": 3,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -9852,18 +9852,9 @@
             "Incarnate": false,
             "Therian": false
         },
-        "Kyurem": {
-            "Standard": false,
-            "White": false,
-            "Black": false
-        },
         "Keldeo": {
             "Ordinary": false,
             "Resolute": false
-        },
-        "Meloetta": {
-            "Aria": false,
-            "Pirouette": false
         },
         "Vivillon": {
             "Archipelago": false,
@@ -9948,11 +9939,6 @@
             "Blue": false,
             "Indigo": false,
             "Violet": false
-        },
-        "Necrozma": {
-            "Normal": false,
-            "DuskMane": false,
-            "DawnWings": false
         },
         "Magearna": {
             "Old": false,

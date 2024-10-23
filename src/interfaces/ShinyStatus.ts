@@ -41,9 +41,7 @@ export interface ShinyForms {
     Thundurus: Thundurus;
     Landorus: Landorus;
     Enamorus: Enamorus;
-    Kyurem: Kyurem;
     Keldeo: Keldeo;
-    Meloetta: Meloetta;
     Vivillon: Vivillon;
     Flabebe: Flabebe;
     Floette: Floette;
@@ -55,7 +53,6 @@ export interface ShinyForms {
     Oricorio: Oricorio;
     Lycanroc: Lycanroc;
     Minior: Minior;
-    Necrozma: Necrozma;
     Magearna: Magearna;
     Toxtricity: Toxtricity;
     Sinistea: Sinistea;
@@ -195,18 +192,9 @@ export interface Enamorus {
     Incarnate: boolean;
     Therian: boolean;
 }
-export interface Kyurem {
-    Standard: boolean;
-    White: boolean;
-    Black: boolean;
-}
 export interface Keldeo {
     Ordinary: boolean;
     Resolute: boolean;
-}
-export interface Meloetta {
-    Aria: boolean;
-    Pirouette: boolean;
 }
 export interface Vivillon {
     Archipelago: boolean;
@@ -291,11 +279,6 @@ export interface Minior {
     Blue: boolean;
     Indigo: boolean;
     Violet: boolean;
-}
-export interface Necrozma {
-    Normal: boolean;
-    DuskMane: boolean;
-    DawnWings: boolean;
 }
 export interface Magearna {
     Old: boolean;
