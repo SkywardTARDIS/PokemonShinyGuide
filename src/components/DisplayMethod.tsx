@@ -135,7 +135,8 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             !Legendaries.Legendaries.includes(display.species)
         ) {
             methodString = "Wormhole Hunt";
-        } else if (display.methods[0].location.includes("Home")) {
+        }
+        if (display.methods[0].location.includes("Home")) {
             methodString = "Obtain in Home";
             methodImage = Home;
         }

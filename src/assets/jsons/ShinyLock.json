@@ -17,7 +17,6 @@
         { "species": "Glastrier", "game": "All" },
         { "species": "Spectrier", "game": "All" },
         { "species": "Calyrex", "game": "All" },
-        { "species": "Enamorus", "game": "All" },
         { "species": "Wo-Chien", "game": "All" },
         { "species": "Chien-Pao", "game": "All" },
         { "species": "Ting-Lu", "game": "All" },
@@ -142,7 +141,6 @@
         { "species": "Tornadus", "game": "Pokémon Legends: Arceus" },
         { "species": "Thundurus", "game": "Pokémon Legends: Arceus" },
         { "species": "Landorus", "game": "Pokémon Legends: Arceus" },
-        { "species": "Enamorus", "game": "Pokémon Legends: Arceus" },
         { "species": "Gimmighoul", "game": "Pokémon Scarlet & Violet" },
         { "species": "Gholdengo", "game": "Pokémon Scarlet & Violet" }
     ]
