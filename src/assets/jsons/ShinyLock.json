@@ -1,7 +1,6 @@
 {
     "ShinyLocked": [
         { "species": "Victini", "game": "All" },
-        { "species": "Keldeo", "game": "All" },
         { "species": "Hoopa", "game": "All" },
         { "species": "Volcanion", "game": "All" },
         { "species": "Cosmog", "game": "All" },
@@ -93,10 +92,6 @@
         },
         {
             "species": "Poipole",
-            "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
-        },
-        {
-            "species": "Keldeo",
             "game": "Pokémon Sword & Pokémon Shield The Crown Tundra"
         },
         {

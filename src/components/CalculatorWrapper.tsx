@@ -177,7 +177,7 @@ export function CalculatorWrapper(): JSX.Element {
 
     function possibleGames(target: Pokemon) {
         const remGen1 =
-            target.id > 151
+            target.id > 151 && target.id != 808 && target.id != 809
                 ? [...allGames.slice(0, 29), ...allGames.slice(31)]
                 : [...allGames];
         const remGen2 = target.id > 251 ? [...remGen1.slice(3)] : [...remGen1];
