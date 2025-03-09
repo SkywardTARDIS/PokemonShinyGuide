@@ -1176,8 +1176,8 @@ Browserslist: caniuse-lite is outdated. Please run:
       at finalizeInitialChildren (node_modules/react-dom/cjs/react-dom.development.js:10201:3)
       at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19470:17)
 
-FAIL src/App.test.tsx (8.766 s)
-  ✕ renders the course name somewhere (587 ms)
+FAIL src/App.test.tsx (8.555 s)
+  ✕ renders the course name somewhere (565 ms)
 
   ● renders the course name somewhere
 
@@ -1374,7 +1374,7 @@ FAIL src/App.test.tsx (8.766 s)
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
 File                    | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                            
 ------------------------|---------|----------|---------|---------|--------------------------------------------------------------
-All files               |   10.73 |     3.77 |   14.07 |   10.76 |                                                              
+All files               |   10.73 |     3.75 |   14.07 |   10.76 |                                                              
  src                    |   15.86 |    14.06 |   15.94 |   16.04 |                                                              
   App.tsx               |   15.86 |    14.06 |   15.94 |   16.04 | 32-36,57-106,113-237,244-252,316-323,329-496,508-622,634-711 
  src/assets/gifs        |     100 |      100 |     100 |     100 |                                                              
@@ -1414,5 +1414,5 @@ All files               |   10.73 |     3.77 |   14.07 |   10.76 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        10.072 s
+Time:        10.057 s
 Ran all test suites.
