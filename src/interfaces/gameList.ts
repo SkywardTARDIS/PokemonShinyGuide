@@ -4,6 +4,7 @@ export const abbreviations: string[] = [
     "Home",
     "Bank",
     "Go",
+    "PLZA",
     "Violet",
     "Scarlet",
     "PLA",
@@ -90,7 +91,9 @@ export const games: string[] = [
     "Let's Go, Eevee!",
     "Legends: Arceus",
     "Scarlet",
-    "Violet"
+    "Violet",
+    "Legends: ZA",
+    "Mega Dimensions DLC"
 ];
 
 const fullData: GameData[] = games.map(function (theGame: string) {

@@ -65,10 +65,15 @@ export function getGen(game: string): number {
         game.includes("Shield") ||
         game.includes("Diamond") ||
         game.includes("Pearl") ||
-        game.includes("Legends")
+        game.includes("Arceus")
     ) {
         return 8;
-    } else if (game.includes("Scarlet") || game.includes("Violet")) {
+    } else if (
+        game.includes("Scarlet") ||
+        game.includes("Violet") ||
+        game.includes("ZA") ||
+        game.includes("Mega")
+    ) {
         return 9;
     } else {
         return -1;
@@ -504,7 +509,7 @@ export function FinalCalcs({
             } else if (newMeth.environment.includes("Trade")) {
                 newMeth.rarity = (30 * newOdds) / (1 + shinyCharm);
             } else {
-                newMeth.rarity = (10 * newOdds) / (13 + shinyCharm);
+                newMeth.rarity = (15 * newOdds) / (13 + shinyCharm);
             }
             return newMeth;
         } else if (gen === 2) {
@@ -751,15 +756,31 @@ export function FinalCalcs({
                 newMeth.game.includes("Scarlet") ||
                 newMeth.game.includes("Violet")
             ) {
+                const sandwich = 3;
                 if (newMeth.environment.includes("Outbreak")) {
-                    newMeth.rarity = (4 * newOdds) / (3 + shinyCharm);
+                    newMeth.rarity =
+                        (4 * newOdds) / (3 + shinyCharm + sandwich);
                 } else if (newMeth.location.includes("Raid")) {
                     newMeth.rarity = 300 * newOdds;
                 } else {
-                    newMeth.rarity = (10 * newOdds) / (1 + shinyCharm);
+                    newMeth.rarity =
+                        (10 * newOdds) / (1 + shinyCharm + sandwich);
                 }
+
+                return newMeth;
+            } else {
+                const numRarity = 15 * (1 / Number(newMeth.rarity));
+                const donutRolls = 3;
+                if (newMeth.game.includes("Mega")) {
+                    newMeth.rarity =
+                        (numRarity * newOdds) / (1 + shinyCharm + donutRolls);
+                } else {
+                    console.log("test");
+                    newMeth.rarity = (numRarity * newOdds) / (1 + shinyCharm);
+                    console.log(newMeth.rarity);
+                }
+                return newMeth;
             }
-            return newMeth;
         } else {
             return newMeth;
         }

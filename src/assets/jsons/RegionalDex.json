@@ -1217,7 +1217,18 @@
         "species": "Raichu-Alola",
         "id": 26,
         "prevolution": "Pikachu",
-        "methods": []
+        "methods": [
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
     },
     "Sandshrew-Alola": {
         "species": "Sandshrew-Alola",
@@ -2543,6 +2554,16 @@
                 "weather": "N/A",
                 "season": "N/A",
                 "SOS": "Initial"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -2590,6 +2611,16 @@
                 "weather": "N/A",
                 "season": "N/A",
                 "SOS": "SOS Battle Only"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "59",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -3077,7 +3108,18 @@
         "species": "Marowak-Alola",
         "id": 105,
         "prevolution": "Cubone",
-        "methods": []
+        "methods": [
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "50",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
     },
     "Meowth-Galar": {
         "species": "Meowth-Galar",
@@ -3141,6 +3183,16 @@
                 "environment": "Curry",
                 "time": "N/A",
                 "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
                 "season": "N/A",
                 "SOS": "N/A"
             }
@@ -3244,6 +3296,16 @@
                 "weather": "All Weather",
                 "season": "N/A",
                 "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -3251,7 +3313,18 @@
         "species": "Slowbro-Galar",
         "id": 80,
         "prevolution": "Slowpoke-Galar",
-        "methods": []
+        "methods": [
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "59",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
     },
     "Farfetch'd-Galar": {
         "species": "Farfetch'd-Galar",
@@ -3275,6 +3348,16 @@
                 "environment": "Overworld",
                 "time": "N/A",
                 "weather": "Overcast",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
                 "season": "N/A",
                 "SOS": "N/A"
             }
@@ -3611,6 +3694,16 @@
                 "weather": "Snowing",
                 "season": "N/A",
                 "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -3669,7 +3762,18 @@
         "species": "Slowking-Galar",
         "id": 199,
         "prevolution": "Slowpoke-Galar",
-        "methods": []
+        "methods": [
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "59",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            }
+        ]
     },
     "Corsola-Galar": {
         "species": "Corsola-Galar",
@@ -5030,6 +5134,16 @@
                 "weather": "All Weather",
                 "season": "N/A",
                 "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -5195,6 +5309,16 @@
                 "environment": "Curry",
                 "time": "N/A",
                 "weather": "All Weather",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
                 "season": "N/A",
                 "SOS": "N/A"
             }
@@ -5375,6 +5499,16 @@
                 "location": "Cobalt Coastlands: Massive Mass Outbreak",
                 "rarity": "N/A",
                 "environment": "Cobalt Coastlands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
                 "time": "N/A",
                 "weather": "N/A",
                 "season": "N/A",
@@ -5705,6 +5839,16 @@
                 "weather": "N/A",
                 "season": "N/A",
                 "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -5742,6 +5886,16 @@
                 "weather": "N/A",
                 "season": "N/A",
                 "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "59",
+                "environment": "Fly",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
             }
         ]
     },
@@ -5765,6 +5919,16 @@
                 "location": "Alabaster Icelands: Massive Mass Outbreak",
                 "rarity": "N/A",
                 "environment": "Alabaster Icelands: Massive Mass Outbreak",
+                "time": "N/A",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": "N/A"
+            },
+            {
+                "game": "Mega Dimensions DLC",
+                "location": "Hyperspace Wild Zone",
+                "rarity": "60",
+                "environment": "Fly",
                 "time": "N/A",
                 "weather": "N/A",
                 "season": "N/A",

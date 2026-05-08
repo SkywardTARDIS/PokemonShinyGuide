@@ -11,6 +11,8 @@ import Gen6 from "../assets/images/Gen6.png";
 import Gen7 from "../assets/images/FullOdds.jpg";
 import Gen8 from "../assets/images/Gen8.png";
 import Gen9 from "../assets/images/Gen9.png";
+import GenZA from "../assets/images/GenZA.png";
+import Hyperspace from "../assets/images/Hyperspace.png";
 import SVOutbreak from "../assets/images/SVOutbreak.png";
 import MMO from "../assets/images/MMO.jpeg";
 import SOS from "../assets/images/SOS.jpg";
@@ -62,6 +64,9 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             methodImage = Gen8;
         } else if (getGen(display.methods[0].game) === 9) {
             methodImage = Gen9;
+            if (display.methods[0].game.includes("ZA")) {
+                methodImage = GenZA;
+            }
         }
         if (
             display.methods[0].environment.includes("Masuda") ||
@@ -135,6 +140,10 @@ export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
             !Legendaries.Legendaries.includes(display.species)
         ) {
             methodString = "Wormhole Hunt";
+        } else if (display.methods[0].game.includes("Mega")) {
+            methodImage = Starter;
+            methodString = "Hyperspace with Sparkling Donut";
+            methodImage = Hyperspace;
         }
         if (display.methods[0].location.includes("Home")) {
             methodString = "Obtain in Home";
