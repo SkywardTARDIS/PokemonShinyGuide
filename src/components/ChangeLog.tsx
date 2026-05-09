@@ -37,6 +37,7 @@ export function ChangeLog(): React.JSX.Element {
                     species and forms
                 </li>
                 <li>Addet Generation filter to Dex tracker</li>
+                <li>Addet Legends: ZA and the Mega Dimensions DLC</li>
             </ul>
         </div>
     );
