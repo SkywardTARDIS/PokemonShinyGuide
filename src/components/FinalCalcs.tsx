@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
@@ -83,12 +84,12 @@ export function getGen(game: string): number {
 export function FinalCalcs({
     finalGames,
     fullDex,
-    huntTarget
+    huntTarget,
 }: {
     finalGames: GameData[];
     fullDex: Pokemon[];
     huntTarget: Pokemon;
-}): JSX.Element {
+}): React.JSX.Element {
     const oldOdds = 8192;
     const newOdds = 4096;
     const [foundOdds, updateOdds] = useState<Pokemon[]>([]);
@@ -97,15 +98,15 @@ export function FinalCalcs({
         //const Legends: string[] = Legendaries.Legendaries;
         //const Mythicals: string[] = Legendaries.Mythicals;
         const allLocks = [...shinyLock.ShinyLocked].filter(
-            (aLock: sLockInterface): boolean => aLock.game === "All"
+            (aLock: sLockInterface): boolean => aLock.game === "All",
         );
 
         const partialLocks = [...shinyLock.ShinyLocked].filter(
             (aLock: sLockInterface): boolean =>
-                aLock.game !== "All" && aLock.species === target.species
+                aLock.game !== "All" && aLock.species === target.species,
         );
         const lockGames = partialLocks.map(
-            (aLock: sLockInterface): string => aLock.game
+            (aLock: sLockInterface): string => aLock.game,
         );
         //clear out shiny locks
         if (
@@ -115,13 +116,13 @@ export function FinalCalcs({
         ) {
             const revizedPoke: Pokemon = {
                 ...target,
-                methods: []
+                methods: [],
             };
             let targetList = [revizedPoke];
             if (target.prevolution !== "") {
                 const newTarget = [...fullDex].filter(
                     (aPoke: Pokemon): boolean =>
-                        aPoke.species === target.prevolution
+                        aPoke.species === target.prevolution,
                 );
                 targetList = [...targetList, ...calculation(newTarget[0])];
             }
@@ -130,12 +131,12 @@ export function FinalCalcs({
         }
 
         const getGames = [...finalGames].map(
-            (aGame: GameData): string => aGame.game
+            (aGame: GameData): string => aGame.game,
         );
 
         const stripMethods = [...target.methods].filter(
             (aMeth: EncounterMethod): boolean =>
-                getGames.includes(aMeth.game) || aMeth.game === "Pokémon GO"
+                getGames.includes(aMeth.game) || aMeth.game === "Pokémon GO",
         );
 
         let addDyna = [...stripMethods];
@@ -156,8 +157,8 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
-                }
+                    SOS: "N/A",
+                },
             ];
         }
         if (
@@ -177,8 +178,8 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
-                }
+                    SOS: "N/A",
+                },
             ];
         }
 
@@ -187,12 +188,12 @@ export function FinalCalcs({
             stripLocks = [...addDyna].filter(
                 (aMeth: EncounterMethod): boolean =>
                     [...lockGames].filter(
-                        (aGame: string): boolean => !aGame.includes(aMeth.game)
+                        (aGame: string): boolean => !aGame.includes(aMeth.game),
                     ).length > 0 &&
                     !(
                         lockGames.includes("Pokémon Ultra Sun & Ultra Moon") &&
                         aMeth.game.includes("Ultra")
-                    )
+                    ),
             );
         }
 
@@ -215,7 +216,7 @@ export function FinalCalcs({
             "Munchlax",
             "Riolu",
             "Mantyke",
-            "Toxel"
+            "Toxel",
         ];
 
         //adds Masuda for every game it exists in
@@ -236,19 +237,19 @@ export function FinalCalcs({
                                 aGame.includes("Diamond") ||
                                 aGame.includes("Pearl"))) ||
                         (target.species.includes("Paldea") && getGen(aGame) < 9)
-                    )
+                    ),
             );
 
             const masudaGames = [...eggGames].filter(
-                (aGame: string): boolean => getGen(aGame) > 3
+                (aGame: string): boolean => getGen(aGame) > 3,
             );
             const preMasuda = [...eggGames].filter(
                 (aGame: string): boolean =>
-                    getGen(aGame) < 4 && getGen(aGame) !== 1
+                    getGen(aGame) < 4 && getGen(aGame) !== 1,
             );
 
             const masudaExists = [...masudaGames].map(function (
-                aGame: string
+                aGame: string,
             ): EncounterMethod {
                 if (getGen(aGame) <= 8) {
                     return {
@@ -259,7 +260,7 @@ export function FinalCalcs({
                         time: "N/A",
                         weather: "N/A",
                         season: "N/A",
-                        SOS: "N/A"
+                        SOS: "N/A",
                     };
                 } else {
                     return {
@@ -270,13 +271,13 @@ export function FinalCalcs({
                         time: "N/A",
                         weather: "N/A",
                         season: "N/A",
-                        SOS: "N/A"
+                        SOS: "N/A",
                     };
                 }
             });
 
             let noMasuda = [...preMasuda].map(function (
-                aGame: string
+                aGame: string,
             ): EncounterMethod {
                 return {
                     game: aGame,
@@ -286,7 +287,7 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
+                    SOS: "N/A",
                 };
             });
 
@@ -304,8 +305,8 @@ export function FinalCalcs({
                         time: "N/A",
                         weather: "N/A",
                         season: "N/A",
-                        SOS: "N/A"
-                    }
+                        SOS: "N/A",
+                    },
                 ];
             }
             addMasuda = [...stripLocks, ...masudaExists, ...noMasuda];
@@ -318,7 +319,7 @@ export function FinalCalcs({
                         aMeth.game.includes("Shield")) &&
                     aMeth.environment.includes("Masuda") &&
                     !galarDex.Galar.includes(target.species)
-                )
+                ),
         );
 
         //Add function to filter out for Paldea, identical to above Galar filter
@@ -329,17 +330,17 @@ export function FinalCalcs({
                         aMeth.game.includes("Violet")) &&
                     aMeth.environment.includes("Masuda") &&
                     !paldeaDex.Paldea.includes(target.species)
-                )
+                ),
         );
 
         let addSafari = [...paldeaFix];
         if (FriendSafari.FriendSafari.includes(target.species)) {
             const xy = [...getGames].filter(
-                (aGame: string): boolean => aGame === "X" || aGame === "Y"
+                (aGame: string): boolean => aGame === "X" || aGame === "Y",
             );
             if (xy.length > 0) {
                 const newSafari = [...xy].map(function (
-                    aGame: string
+                    aGame: string,
                 ): EncounterMethod {
                     return {
                         game: aGame,
@@ -349,7 +350,7 @@ export function FinalCalcs({
                         time: "N/A",
                         weather: "N/A",
                         season: "N/A",
-                        SOS: "N/A"
+                        SOS: "N/A",
                     };
                 });
                 addSafari = [...addSafari, ...newSafari];
@@ -357,12 +358,12 @@ export function FinalCalcs({
         }
         let addLgpeAlola = [...addSafari];
         const LGPEGames = [...getGames].filter((aGame: string): boolean =>
-            aGame.includes("Let's Go")
+            aGame.includes("Let's Go"),
         );
         //In line below, changed huntTarget to target?  Does this break anything?
         if (LGPEGames.length > 0 && target.species.includes("Alola")) {
             const newLGPE = [...LGPEGames].map(function (
-                aGame: string
+                aGame: string,
             ): EncounterMethod {
                 return {
                     game: aGame,
@@ -372,7 +373,7 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
+                    SOS: "N/A",
                 };
             });
             addLgpeAlola = [...addLgpeAlola, ...newLGPE];
@@ -383,11 +384,11 @@ export function FinalCalcs({
         const PaldeaGames = [...getGames].filter(
             (aGame: string): boolean =>
                 (aGame.includes("Scarlet") || aGame.includes("Violet")) &&
-                paldeaOutbreak.Outbreaks.includes(target.species)
+                paldeaOutbreak.Outbreaks.includes(target.species),
         );
         if (PaldeaGames.length > 0) {
             const newPal = [...PaldeaGames].map(function (
-                aGame: string
+                aGame: string,
             ): EncounterMethod {
                 return {
                     game: aGame,
@@ -397,7 +398,7 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
+                    SOS: "N/A",
                 };
             });
             PalOutbreak = [...PalOutbreak, ...newPal];
@@ -406,21 +407,21 @@ export function FinalCalcs({
         //all proper methods are now included or excluded
         //mapping all methods to include time to hunt, via calls to finalCalc
         const finalOdds = [...PalOutbreak].map(function (
-            aMeth: EncounterMethod
+            aMeth: EncounterMethod,
         ): EncounterMethod {
             return finalCalc(aMeth, target);
         });
 
         const revizedPoke: Pokemon = {
             ...target,
-            methods: [...finalOdds]
+            methods: [...finalOdds],
         };
         //console.log(revizedPoke);
         let targetList = [revizedPoke];
         if (target.prevolution !== "") {
             const newTarget = [...fullDex].filter(
                 (aPoke: Pokemon): boolean =>
-                    aPoke.species === target.prevolution
+                    aPoke.species === target.prevolution,
             );
             targetList = [...targetList, ...calculation(newTarget[0])];
         }
@@ -434,7 +435,7 @@ export function FinalCalcs({
             let theMeth = [...aPoke.methods];
             if (aPoke.methods.length > 0) {
                 theMeth = [...aPoke.methods].sort(
-                    (a, b) => Number(a.rarity) - Number(b.rarity)
+                    (a, b) => Number(a.rarity) - Number(b.rarity),
                 );
             } else {
                 const noMethods: EncounterMethod = {
@@ -445,7 +446,7 @@ export function FinalCalcs({
                     time: "N/A",
                     weather: "N/A",
                     season: "N/A",
-                    SOS: "N/A"
+                    SOS: "N/A",
                 };
                 theMeth = [noMethods];
             }
@@ -454,7 +455,7 @@ export function FinalCalcs({
             return newPoke;
         });
         const sortFilter = filterMeth.sort(
-            (a, b) => Number(a.methods[0].rarity) - Number(b.methods[0].rarity)
+            (a, b) => Number(a.methods[0].rarity) - Number(b.methods[0].rarity),
         );
         if (update) {
             console.log(sortFilter);
@@ -466,22 +467,26 @@ export function FinalCalcs({
     //the official function for calculating the time of each method
     function finalCalc(
         aMeth: EncounterMethod,
-        target: Pokemon
+        target: Pokemon,
     ): EncounterMethod {
         const shinyCharm =
-            finalGames.filter(
-                (aGame: GameData): boolean =>
-                    aGame.game === aMeth.game && aGame.hasShiny
-            ).length > 0
-                ? 2
-                : 0;
+            (
+                finalGames.filter(
+                    (aGame: GameData): boolean =>
+                        aGame.game === aMeth.game && aGame.hasShiny,
+                ).length > 0
+            ) ?
+                2
+            :   0;
         const ovalCharm =
-            finalGames.filter(
-                (aGame: GameData): boolean =>
-                    aGame.game === aMeth.game && aGame.hasOval
-            ).length > 0
-                ? 1
-                : 0;
+            (
+                finalGames.filter(
+                    (aGame: GameData): boolean =>
+                        aGame.game === aMeth.game && aGame.hasOval,
+                ).length > 0
+            ) ?
+                1
+            :   0;
         const newMeth = { ...aMeth };
         const gen = getGen(aMeth.game);
         if (newMeth.environment === "Masuda Method") {
@@ -559,10 +564,10 @@ export function FinalCalcs({
                     radarLocation(newMeth.location, newMeth.environment)
                 ) {
                     const isGameInserted = [...finalGames].map(
-                        (aGame: GameData): string => aGame.game
+                        (aGame: GameData): string => aGame.game,
                     );
                     const gen3Games = [...isGameInserted].filter(
-                        (aGame: string): boolean => getGen(aGame) === 3
+                        (aGame: string): boolean => getGen(aGame) === 3,
                     );
                     if (
                         (newMeth.environment.includes("FireRed") ||
@@ -574,7 +579,7 @@ export function FinalCalcs({
                     ) {
                         const filterGame = [...gen3Games].filter(
                             (aGame: string): boolean =>
-                                newMeth.environment.includes(aGame)
+                                newMeth.environment.includes(aGame),
                         );
                         if (filterGame.length > 0) {
                             newMeth.rarity = 3600 + 50 * 20;
@@ -674,7 +679,7 @@ export function FinalCalcs({
             if (newMeth.SOS !== "N/A") {
                 const getSOS = SOSCalls.filter(
                     (aCall: SOSRate): boolean =>
-                        aCall.species === target.species
+                        aCall.species === target.species,
                 );
                 let filterSOS = 100;
                 if (getSOS.length !== 0) {
@@ -822,19 +827,19 @@ export function FinalCalcs({
 
     function mapFullDex(dexList: string[]): PokemonExport[] {
         const fullMethods = dexList.map(function (
-            currentPoke: string
+            currentPoke: string,
         ): PokemonExport {
             console.log(currentPoke);
             const optimalMethod = returnTop(
                 fullDex.filter(
-                    (aPoke: Pokemon): boolean => aPoke.species == currentPoke
+                    (aPoke: Pokemon): boolean => aPoke.species == currentPoke,
                 )[0],
-                false
+                false,
             )[0];
             return {
                 species: currentPoke,
                 target: optimalMethod.species,
-                methods: [optimalMethod.methods[0]]
+                methods: [optimalMethod.methods[0]],
             };
         });
         return fullMethods;

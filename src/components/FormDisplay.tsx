@@ -6,16 +6,16 @@ import { FormObject } from "../interfaces/ShinyStatus";
 export function FormDisplay({
     formData,
     species,
-    updateFormPasser
+    updateFormPasser,
 }: {
     formData: FormObject;
     species: string;
     updateFormPasser: (
         species: string,
         formName: string,
-        newForm: boolean
+        newForm: boolean,
     ) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     function updateFormPasserPasser() {
         updateFormPasser(species, formData.formName, !formData.formValue);
     }

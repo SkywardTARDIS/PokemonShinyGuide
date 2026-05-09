@@ -1,12 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { Pokedex } from "../interfaces/ShinyStatus";
 
 export function ImportJson({
-    importAll
+    importAll,
 }: {
     importAll: (importDex: Pokedex) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     const [contents, setContents] = useState<string>("");
     const [view, toggleView] = useState<boolean>(false);
     function importFile(event: React.ChangeEvent<HTMLInputElement>) {

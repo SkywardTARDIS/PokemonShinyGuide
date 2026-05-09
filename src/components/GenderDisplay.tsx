@@ -5,11 +5,11 @@ import { ShinyStatus } from "../interfaces/ShinyStatus";
 
 export function GenderDisplay({
     status,
-    updateGender
+    updateGender,
 }: {
     status: ShinyStatus;
     updateGender: (species: string, gender: string) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     function updateGenderMale() {
         updateGender(status.species, "Male");
     }

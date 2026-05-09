@@ -1,6 +1,4 @@
 {
-    "trailingComma": "none",
-    "tabWidth": 4,
-    "semi": true,
-    "singleQuote": false
+    "experimentalTernaries": true,
+    "tabWidth": 4
 }

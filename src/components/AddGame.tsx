@@ -10,13 +10,13 @@ export function AddGame({
     currentGame,
     updateCurrent,
     gameList,
-    addGame
+    addGame,
 }: {
     currentGame: string;
     updateCurrent: (event: ChangeEvent) => void;
     gameList: string[];
     addGame: () => void;
-}): JSX.Element {
+}): React.JSX.Element {
     return (
         <div>
             <table>
@@ -27,11 +27,11 @@ export function AddGame({
                             onChange={updateCurrent}
                         >
                             {gameList.map(
-                                (game: string): JSX.Element => (
+                                (game: string): React.JSX.Element => (
                                     <option key={game} value={game}>
                                         {game}
                                     </option>
-                                )
+                                ),
                             )}
                         </Form.Select>
                     </Form.Group>

@@ -1,14 +1,16 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
+/* eslint-disable @typescript-eslint/no-confusing-void-expression */
 import React from "react";
 import { Button } from "react-bootstrap";
 import { ShinyForms, ShinyStatus } from "../interfaces/ShinyStatus";
 
 export function ExportJson({
     fullDex,
-    fullForms
+    fullForms,
 }: {
     fullDex: ShinyStatus[];
     fullForms: ShinyForms;
-}): JSX.Element {
+}): React.JSX.Element {
     function exportFile(fullDex: ShinyStatus[], fullForms: ShinyForms) {
         const toExport = { Pokedex: { ...fullDex }, Forms: { ...fullForms } };
         const exportString = JSON.stringify(toExport);
@@ -18,7 +20,7 @@ export function ExportJson({
     function downloadBlob(
         content: string,
         filename: string,
-        contentType: string
+        contentType: string,
     ) {
         // Create a blob
         const blob = new Blob([content], { type: contentType });

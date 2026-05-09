@@ -12,7 +12,7 @@ export function PokemonSelector({
     selectedPoke,
     regionSelected,
     selectPasser,
-    regionPasser
+    regionPasser,
 }: {
     options: Pokemon[];
     regions: Pokemon[];
@@ -20,12 +20,12 @@ export function PokemonSelector({
     regionSelected: string;
     selectPasser: (event: ChangeEvent) => void;
     regionPasser: (event: ChangeEvent) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     const species: string[] = options.map(
-        (poke: Pokemon): string => poke.species
+        (poke: Pokemon): string => poke.species,
     );
     const regional: string[] = regions.map(
-        (poke: Pokemon): string => poke.species
+        (poke: Pokemon): string => poke.species,
     );
 
     return (
@@ -36,11 +36,11 @@ export function PokemonSelector({
                 <Form.Label>
                     <Form.Select value={selectedPoke} onChange={selectPasser}>
                         {species.map(
-                            (choice: string): JSX.Element => (
+                            (choice: string): React.JSX.Element => (
                                 <option key={choice} value={choice}>
                                     {choice}
                                 </option>
-                            )
+                            ),
                         )}
                     </Form.Select>
                 </Form.Label>
@@ -50,11 +50,11 @@ export function PokemonSelector({
                 <Form.Label>
                     <Form.Select value={regionSelected} onChange={regionPasser}>
                         {regional.map(
-                            (choice: string): JSX.Element => (
+                            (choice: string): React.JSX.Element => (
                                 <option key={choice} value={choice}>
                                     {choice}
                                 </option>
-                            )
+                            ),
                         )}
                     </Form.Select>
                 </Form.Label>

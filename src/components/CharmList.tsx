@@ -1,14 +1,16 @@
+/* eslint-disable @typescript-eslint/no-confusing-void-expression */
+
 import React from "react";
 import { Form } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
 
 export function CharmList({
     game,
-    upCharm
+    upCharm,
 }: {
     game: GameData;
     upCharm: (game: GameData, charmID: boolean) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     return (
         <div>
             <li className="charmList">

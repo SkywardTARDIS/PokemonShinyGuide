@@ -27,7 +27,7 @@ export function LivingDexWrapper({
     importAll,
     dexStats,
     genValue,
-    filterGenerationPasser
+    filterGenerationPasser,
 }: {
     filterDex: ShinyStatus[];
     fullDex: ShinyStatus[];
@@ -44,7 +44,7 @@ export function LivingDexWrapper({
     dexStats: DexProgress;
     genValue: number;
     filterGenerationPasser: (generations: number) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     function updateCompletionNone() {
         if ((filterValue & 1) > 0) {
             filterCompletionPasser(filterValue - 1);
@@ -164,7 +164,7 @@ export function LivingDexWrapper({
                 <hr />
             </div>
             {filterDex.map(
-                (aStatus: ShinyStatus): JSX.Element => (
+                (aStatus: ShinyStatus): React.JSX.Element => (
                     <SpeciesDisplay
                         key={aStatus.species}
                         status={aStatus}
@@ -175,7 +175,7 @@ export function LivingDexWrapper({
                         updateFormPasser={updateFormPasser}
                         updateGender={updateGender}
                     ></SpeciesDisplay>
-                )
+                ),
             )}
         </div>
     );

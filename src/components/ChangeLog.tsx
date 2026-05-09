@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ChangeLog(): JSX.Element {
+export function ChangeLog(): React.JSX.Element {
     return (
         <div>
             <ul>

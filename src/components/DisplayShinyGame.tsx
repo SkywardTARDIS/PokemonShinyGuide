@@ -11,13 +11,13 @@ export function DisplayShinyGame({
     species,
     count,
     updateShinyCounts,
-    deleteGame
+    deleteGame,
 }: {
     species: string;
     count: ShinyCount;
     updateShinyCounts: (species: string, game: string, count: number) => void;
     deleteGame: (game: string, count: number) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     function updateShinies(event: ChangeEvent) {
         updateShinyCounts(species, count.game, Number(event.target.value));
     }

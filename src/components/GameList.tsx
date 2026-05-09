@@ -1,14 +1,15 @@
+/* eslint-disable @typescript-eslint/no-confusing-void-expression */
 import React from "react";
 import { Form } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
 
 export function GameList({
     game,
-    upOwned
+    upOwned,
 }: {
     game: GameData;
     upOwned: (game: GameData) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     return (
         <div>
             <li className="noBullet">

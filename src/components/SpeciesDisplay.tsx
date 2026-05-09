@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-use-before-define */
 import React, { useState } from "react";
 import "../App.css";
 import { ShinyForms, ShinyStatus } from "../interfaces/ShinyStatus";
@@ -22,7 +23,7 @@ export function SpeciesDisplay({
     updateShinyCounts,
     formDex,
     updateFormPasser,
-    updateGender
+    updateGender,
 }: {
     status: ShinyStatus;
     addShinyGame: (species: string, game: string) => void;
@@ -32,14 +33,14 @@ export function SpeciesDisplay({
     updateFormPasser: (
         species: string,
         formName: string,
-        newForm: boolean
+        newForm: boolean,
     ) => void;
     updateGender: (species: string, gender: string) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     function addGame() {
         addShinyGame(status.species, currentGame);
         const newGameList = gameList.filter(
-            (aGame: string): boolean => aGame !== currentGame
+            (aGame: string): boolean => aGame !== currentGame,
         );
         updateGames(newGameList);
         updateCurrentGame(newGameList[0]);
@@ -50,7 +51,7 @@ export function SpeciesDisplay({
             removeShinyGame(status.species, game);
             const newGamesList = [...gameList, game];
             const finalGameList = [...abbreviations].filter(
-                (aGame: string): boolean => newGamesList.includes(aGame)
+                (aGame: string): boolean => newGamesList.includes(aGame),
             );
             updateGames(finalGameList);
             updateCurrentGame(finalGameList[0]);
@@ -58,10 +59,10 @@ export function SpeciesDisplay({
     }
 
     const currentGames = status.counts.map(
-        (aCount: ShinyCount): string => aCount.game
+        (aCount: ShinyCount): string => aCount.game,
     );
     const remainingGames = [...abbreviations].filter(
-        (aGame: string): boolean => !currentGames.includes(aGame)
+        (aGame: string): boolean => !currentGames.includes(aGame),
     );
 
     const [gameList, updateGames] = useState<string[]>([...remainingGames]);
@@ -100,7 +101,7 @@ export function SpeciesDisplay({
     }
     const sLock: sLockInterface[] = shinyLock.ShinyLocked;
     const isShinyLocked: sLockInterface[] = sLock.filter(
-        (aLock: sLockInterface): boolean => aLock.species === status.species
+        (aLock: sLockInterface): boolean => aLock.species === status.species,
     );
     if (isShinyLocked.length > 0) {
         if (isShinyLocked[0].game === "All") {
@@ -137,18 +138,18 @@ export function SpeciesDisplay({
                     <table>
                         {status.forms > 1 &&
                             allForms.map(
-                                (aForm: FormObject): JSX.Element => (
+                                (aForm: FormObject): React.JSX.Element => (
                                     <tr key={aForm.formName}>
                                         <FormDisplay
                                             formData={aForm}
                                             species={status.species.replace(
                                                 "-",
-                                                ""
+                                                "",
                                             )}
                                             updateFormPasser={updateFormPasser}
                                         ></FormDisplay>
                                     </tr>
-                                )
+                                ),
                             )}
                         {status.gender === 1 && (
                             <GenderDisplay
@@ -159,7 +160,7 @@ export function SpeciesDisplay({
                     </table>
                 </td>
                 {status.counts.map(
-                    (aCount: ShinyCount): JSX.Element => (
+                    (aCount: ShinyCount): React.JSX.Element => (
                         <td
                             key={aCount.game}
                             className="gameList"
@@ -172,7 +173,7 @@ export function SpeciesDisplay({
                                 deleteGame={deleteGame}
                             ></DisplayShinyGame>
                         </td>
-                    )
+                    ),
                 )}
             </table>
             <hr />

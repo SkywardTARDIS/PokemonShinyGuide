@@ -1,3 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unnecessary-boolean-literal-compare */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-use-before-define */
+/* eslint-disable @typescript-eslint/no-restricted-types */
+/* eslint-disable @typescript-eslint/no-unnecessary-condition */
 import React, { useState } from "react";
 import "../App.css";
 import MissingNo from "../assets/images/MissingNo.png";
@@ -17,7 +23,7 @@ type ChangeEvent = React.ChangeEvent<
     HTMLTextAreaElement | HTMLInputElement | HTMLSelectElement
 >;
 
-export function CalculatorWrapper(): JSX.Element {
+export function CalculatorWrapper(): React.JSX.Element {
     const dexKey = Object.keys(Pokedex);
     const testDex: Pokemon[] = dexKey.map(function (key: string) {
         const currPokemon: Pokemon = Pokedex[key as keyof typeof Pokedex];
@@ -31,16 +37,16 @@ export function CalculatorWrapper(): JSX.Element {
                     time: method.time,
                     weather: method.weather,
                     season: method.season,
-                    SOS: method.SOS
+                    SOS: method.SOS,
                 };
                 return newEncounter;
-            }
+            },
         );
         const newPokemon: Pokemon = {
             species: currPokemon.species,
             id: currPokemon.id,
             prevolution: currPokemon.prevolution,
-            methods: [...currMethods]
+            methods: [...currMethods],
         };
         return newPokemon;
     });
@@ -58,16 +64,16 @@ export function CalculatorWrapper(): JSX.Element {
                     time: method.time,
                     weather: method.weather,
                     season: method.season,
-                    SOS: method.SOS
+                    SOS: method.SOS,
                 };
                 return newEncounter;
-            }
+            },
         );
         const newPokemon: Pokemon = {
             species: currPokemon.species,
             id: currPokemon.id,
             prevolution: currPokemon.prevolution,
-            methods: [...currMethods]
+            methods: [...currMethods],
         };
         return newPokemon;
     });
@@ -76,7 +82,7 @@ export function CalculatorWrapper(): JSX.Element {
     const [regionals] = useState<Pokemon[]>(regionDex);
     const [trueFullDex] = useState<Pokemon[]>([...dexList, ...regionals]);
     const [spriteURL, upSprite] = useState<string>(
-        "https://play.pokemonshowdown.com/sprites/ani-shiny/celebi.gif"
+        "https://play.pokemonshowdown.com/sprites/ani-shiny/celebi.gif",
     );
     //const hisuiGif = [157, 503, 570, 571, 724];
 
@@ -88,7 +94,7 @@ export function CalculatorWrapper(): JSX.Element {
     function selectPasser(event: ChangeEvent) {
         const species: string = event.target.value;
         const selection = dexList.filter(
-            (poke: Pokemon): boolean => poke.species === species
+            (poke: Pokemon): boolean => poke.species === species,
         );
         updateSelect(selection[0]);
         updateTrueSelect(selection[0]);
@@ -129,7 +135,7 @@ export function CalculatorWrapper(): JSX.Element {
     function selectRegionPasser(event: ChangeEvent) {
         const species: string = event.target.value;
         const selection = regionals.filter(
-            (poke: Pokemon): boolean => poke.species === species
+            (poke: Pokemon): boolean => poke.species === species,
         );
         updateRegionSelect(selection[0]);
         updateTrueSelect(selection[0]);
@@ -171,28 +177,28 @@ export function CalculatorWrapper(): JSX.Element {
     const [allGames, updateGames] = useState<GameData[]>(gameList);
     const [huntableGames, updateAvailable] = useState<GameData[]>([
         ...gameList.slice(0, 29),
-        ...gameList.slice(31)
+        ...gameList.slice(31),
     ]);
     const [selectedGames, updateSelected] = useState<GameData[]>([]);
 
     function possibleGames(target: Pokemon) {
         const remGen1 =
-            target.id > 151 && target.id != 808 && target.id != 809
-                ? [...allGames.slice(0, 29), ...allGames.slice(31)]
-                : [...allGames];
+            target.id > 151 && target.id != 808 && target.id != 809 ?
+                [...allGames.slice(0, 29), ...allGames.slice(31)]
+            :   [...allGames];
         const remGen2 = target.id > 251 ? [...remGen1.slice(3)] : [...remGen1];
         const remGen3 = target.id > 386 ? [...remGen2.slice(5)] : [...remGen2];
         const remGen4 =
-            target.id > 493
-                ? [...remGen3.slice(5, 19), ...remGen3.slice(21)]
-                : [...remGen3];
+            target.id > 493 ?
+                [...remGen3.slice(5, 19), ...remGen3.slice(21)]
+            :   [...remGen3];
         const remGen5 = target.id > 649 ? [...remGen4.slice(4)] : [...remGen4];
         const remGen6 = target.id > 721 ? [...remGen5.slice(4)] : [...remGen5];
         const remGen7 = target.id > 809 ? [...remGen6.slice(4)] : [...remGen6];
         const remGen8 = target.id > 898 ? [...remGen7.slice(2)] : [...remGen7];
         updateAvailable(remGen8);
         const charmList = remGen8.filter(
-            (aGame: GameData): boolean => aGame.owned
+            (aGame: GameData): boolean => aGame.owned,
         );
         updateSelected(charmList);
     }
@@ -203,17 +209,17 @@ export function CalculatorWrapper(): JSX.Element {
         }
         const newData: GameData = { ...game, owned: !game.owned };
         const newList = allGames.map((aGame: GameData) =>
-            aGame.game === game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame },
         );
         updateGames(newList);
 
         const availableList = huntableGames.map((aGame: GameData) =>
-            aGame.game === game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame },
         );
         updateAvailable(availableList);
 
         const charmList = availableList.filter(
-            (aGame: GameData): boolean => aGame.owned
+            (aGame: GameData): boolean => aGame.owned,
         );
         updateSelected(charmList);
     }
@@ -238,7 +244,7 @@ export function CalculatorWrapper(): JSX.Element {
                 return { ...aGame, owned: false };
             });
             charmList = [...availableList].filter(
-                (aGame: GameData): boolean => aGame.owned
+                (aGame: GameData): boolean => aGame.owned,
             );
         }
         updateGames(newList);
@@ -248,28 +254,29 @@ export function CalculatorWrapper(): JSX.Element {
     }
 
     function upCharm(game: GameData, charmID: boolean) {
-        const newData: GameData = charmID
-            ? { ...game, hasShiny: !game.hasShiny }
-            : { ...game, hasOval: !game.hasOval };
+        const newData: GameData =
+            charmID ?
+                { ...game, hasShiny: !game.hasShiny }
+            :   { ...game, hasOval: !game.hasOval };
 
         const newList = allGames.map((aGame: GameData) =>
-            aGame.game === game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame },
         );
         updateGames(newList);
 
         const availableList = huntableGames.map((aGame: GameData) =>
-            aGame.game === game.game ? { ...newData } : { ...aGame }
+            aGame.game === game.game ? { ...newData } : { ...aGame },
         );
         updateAvailable(availableList);
 
         const charmList = availableList.filter(
-            (aGame: GameData): boolean => aGame.owned
+            (aGame: GameData): boolean => aGame.owned,
         );
         updateSelected(charmList);
     }
 
     const imageOnErrorHandler = (
-        event: React.SyntheticEvent<HTMLImageElement, Event>
+        event: React.SyntheticEvent<HTMLImageElement, Event>,
     ) => {
         event.currentTarget.src = MissingNo;
     };

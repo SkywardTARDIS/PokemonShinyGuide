@@ -34,7 +34,11 @@ import Home from "../assets/images/Home.png";
 import Incense from "../assets/images/Incense.png";
 import Legendaries from "../assets/jsons/Legendaries.json";
 
-export function DisplayMethod({ display }: { display: Pokemon }): JSX.Element {
+export function DisplayMethod({
+    display,
+}: {
+    display: Pokemon;
+}): React.JSX.Element {
     let methodImage = MissingNo;
     let methodString = "Not Obtainable";
     if (display.methods[0].environment !== "None") {

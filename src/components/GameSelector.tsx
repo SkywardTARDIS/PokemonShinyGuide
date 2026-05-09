@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-confusing-void-expression */
 import React from "react";
 import { Form } from "react-bootstrap";
 import { GameData } from "../interfaces/GameData";
@@ -7,13 +8,13 @@ export function GameSelector({
     games,
     allSelect,
     upOwned,
-    addAll
+    addAll,
 }: {
     games: GameData[];
     allSelect: boolean;
     upOwned: (game: GameData) => void;
     addAll: (currentState: boolean) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     return (
         <div>
             Select your games:

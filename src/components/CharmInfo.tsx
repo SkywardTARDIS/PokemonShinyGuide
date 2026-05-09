@@ -4,11 +4,11 @@ import { CharmList } from "./CharmList";
 
 export function CharmInfo({
     games,
-    upCharm
+    upCharm,
 }: {
     games: GameData[];
     upCharm: (game: GameData, charmID: boolean) => void;
-}): JSX.Element {
+}): React.JSX.Element {
     return (
         <div>
             Select your charms:

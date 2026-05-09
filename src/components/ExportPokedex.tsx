@@ -1,13 +1,15 @@
+/* eslint-disable @typescript-eslint/no-confusing-void-expression */
+/* eslint-disable @typescript-eslint/no-use-before-define */
 import React from "react";
 import { Button } from "react-bootstrap";
 import pokeJSON from "../assets/exports/MethodsTableTemplate.json";
 import { PokemonExport } from "../interfaces/PokemonExport";
 
 export function ExportPokedex({
-    mapFullDex
+    mapFullDex,
 }: {
     mapFullDex: (dexList: string[]) => PokemonExport[];
-}): JSX.Element {
+}): React.JSX.Element {
     function dexToString(fullDex: PokemonExport[]) {
         const dexArray = fullDex.map(
             (aPoke: PokemonExport): string =>
@@ -15,9 +17,9 @@ export function ExportPokedex({
                 "," +
                 aPoke.target +
                 "," +
-                (aPoke.methods[0].environment.includes("Masuda")
-                    ? "Any"
-                    : aPoke.methods[0].game.replaceAll(",", "")) +
+                (aPoke.methods[0].environment.includes("Masuda") ?
+                    "Any"
+                :   aPoke.methods[0].game.replaceAll(",", "")) +
                 "," +
                 aPoke.methods[0].location +
                 "," +
@@ -30,7 +32,7 @@ export function ExportPokedex({
                 aPoke.methods[0].season +
                 "," +
                 aPoke.methods[0].SOS +
-                "\n"
+                "\n",
         );
         const dexString =
             "Species,Target As,Game,Location,Environment,Time,Weater,Season,SOS\n" +
@@ -43,14 +45,14 @@ export function ExportPokedex({
         downloadBlob(
             dexToString(fullDexMethods),
             "FullDexMethods.csv",
-            "text/csv;charset=utf-8;"
+            "text/csv;charset=utf-8;",
         );
     }
 
     function downloadBlob(
         content: string,
         filename: string,
-        contentType: string
+        contentType: string,
     ) {
         // Create a blob
         const blob = new Blob([content], { type: contentType });

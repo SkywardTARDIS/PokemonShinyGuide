@@ -1,0 +1,154 @@
+# Workflow for publishing the students' website along with additional helpful information
+
+name: Deploy main branch as website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Required permissions for Pages v4 + artifact v4
+permissions:
+  actions: read        # NEW: required by deploy-pages@v4
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    # Recommended for Pages so the URL shows on the run summary
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - id: get-repo-values
+        name: Get repository values
+        run: |
+          url=https://$(echo "${{ github.repository }}" | sed "s/\//.github.io\//")
+          echo "url=$url" >> $GITHUB_OUTPUT
+
+      - name: Update package.json homepage
+        uses: jossef/action-set-json-field@v1
+        with:
+          file: package.json
+          field: homepage
+          value: ${{ steps.get-repo-values.outputs.url }}
+
+      # create_redirects
+      - name: Create Redirects and Links
+        id: create_redirects
+        run: |
+          mkdir -p dist
+          echo "<html><head>\
+          <meta http-equiv='refresh' content='0; URL=${{github.server_url}}/${{github.repository}}' />\
+          </head><body>Redirecting to repository</body></html>" > ./dist/repo.html
+          mkdir -p docs
+          cp README.md docs/index.md
+          echo "# Quick Links" > docs/quick-links.md
+          echo "* [Repository](../repo.html)" >> docs/quick-links.md
+          echo "<html><head>\
+          <meta http-equiv='refresh' content='0; URL=docs/quick-links' />\
+          </head><body>Redirecting to quick links page</body></html>" > ./dist/quick.html
+
+      # Install node packages
+      - name: Install
+        id: install
+        run: |
+          echo "<html><body><pre>" > ./dist/installation.html
+          npm ci |& tee -a ./dist/installation.html
+          echo "</pre></body></html>" >> ./dist/installation.html
+          echo "* [Installation](../installation.html)" >> docs/quick-links.md
+
+      # Run linter (ensure your script writes dist/lint.html)
+      - name: Run Linter
+        id: lint
+        run: |
+          npm run eslint-output
+          echo "* [Linter](../lint.html)" >> docs/quick-links.md
+
+      # Build the project
+      - name: Build the project
+        id: build
+        run: |
+          echo "<html><body><pre>" > ./dist/build.html
+          npm run build |& tee -a ./dist/build.html
+          mv ./build/* ./dist
+          echo "</pre></body></html>" >> ./dist/build.html
+          echo "* [Build](../build.html)" >> docs/quick-links.md
+
+      # Run Tests
+      - name: Run Tests
+        id: test
+        run: |
+          echo "<html><body><pre>" > ./dist/tests.html
+          npm test -- --coverage |& tee -a ./dist/tests.html
+          echo "</pre></body></html>" >> ./dist/tests.html
+          echo "* [Tests](../tests.html)" >> docs/quick-links.md
+
+      # Verify Integrity
+      - name: Verify Integrity
+        if: ${{ !cancelled() }}
+        id: integrity
+        run: |
+          echo "<html><body><pre>" > ./dist/integrity.html
+          find src -type f -name "*.test.ts" -exec md5sum {} + >> ./dist/integrity.html
+          find src -type f -name "*.test.tsx" -exec md5sum {} + >> ./dist/integrity.html
+          md5sum .eslintrc.js >> ./dist/integrity.html
+          md5sum jest.config.js >> ./dist/integrity.html
+          md5sum tsconfig.json >> ./dist/integrity.html
+          md5sum .github/workflows/deploy.yml >> ./dist/integrity.html
+          echo "</pre></body></html>" >> ./dist/integrity.html
+          echo "* [Integrity](../integrity.html)" >> docs/quick-links.md
+
+      # Create GitInspector Report
+      - name: Create GitInspector Report
+        if: ${{ !cancelled() }}
+        id: gitinspector
+        run: |
+          git clone https://github.com/jpwhite3/gitinspector.git
+          python ./gitinspector/gitinspector.py ./ --grading --format=html -f tsx,ts,html,css -x ./gitinspector -x ./node_modules -x ./wbcore > ./dist/git.html
+          echo "* [Git Inspector](../git.html)" >> docs/quick-links.md
+
+      # Generate HTML from Markdown in Docs/
+      - name: Generate HTML from Markdown in Docs/
+        if: ${{ !cancelled() }}
+        id: markdown-docs
+        uses: ldeluigi/markdown-docs@latest
+        with:
+          src: docs
+          dst: dist/docs/
+
+      # Pages
+      - name: Setup Pages
+        if: ${{ !cancelled() }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact (for Pages)
+        if: ${{ !cancelled() }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "dist/"
+
+      - name: Deploy to GitHub Pages
+        if: ${{ !cancelled() }}
+        id: deployment
+        uses: actions/deploy-pages@v4
