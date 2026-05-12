@@ -91,15 +91,27 @@ function App(): React.JSX.Element {
             return newPokemon;
         });
         //console.log(importLiving);
+        const getForms = dexCookie.Forms;
+        const importForms: ShinyForms = getForms;
+        if (!("CaramelBerry" in getForms.Alcremie)) {
+            importForms.Alcremie = livingForms.Alcremie;
+        }
         livingDex = livingDex.map(function (aStatus: ShinyStatus) {
             const getImportStatus = importLiving.filter(
                 (bStatus: ShinyStatus): boolean =>
                     aStatus.species === bStatus.species,
             )[0];
             if (getImportStatus) {
+                let alcremieCorrect = getImportStatus.formsObtained;
+                if (getImportStatus.species === "Alcremie") {
+                    alcremieCorrect =
+                        !("CaramelBerry" in getForms.Alcremie) ?
+                            0
+                        :   getImportStatus.formsObtained;
+                }
                 return {
                     ...aStatus,
-                    formsObtained: getImportStatus.formsObtained,
+                    formsObtained: alcremieCorrect,
                     genderObtained: getImportStatus.genderObtained,
                     counts: [...getImportStatus.counts],
                 };
@@ -107,8 +119,6 @@ function App(): React.JSX.Element {
                 return aStatus;
             }
         });
-        const getForms = dexCookie.Forms;
-        const importForms: ShinyForms = getForms;
         livingForms = { ...livingForms, ...importForms };
     }
 
@@ -144,15 +154,27 @@ function App(): React.JSX.Element {
             return newPokemon;
         });
         //console.log(importLiving);
+        const getForms = { ...formDex, ...importDex.Forms };
+        const importForms: ShinyForms = getForms;
+        if (!("CaramelBerry" in getForms.Alcremie)) {
+            importForms.Alcremie = livingForms.Alcremie;
+        }
         importLiving = shinyDex.map(function (aStatus: ShinyStatus) {
             const getImportStatus = importLiving.filter(
                 (bStatus: ShinyStatus): boolean =>
                     aStatus.species === bStatus.species,
             )[0];
             if (getImportStatus) {
+                let alcremieCorrect = getImportStatus.formsObtained;
+                if (getImportStatus.species === "Alcremie") {
+                    alcremieCorrect =
+                        !("CaramelBerry" in getForms.Alcremie) ?
+                            0
+                        :   getImportStatus.formsObtained;
+                }
                 return {
                     ...aStatus,
-                    formsObtained: getImportStatus.formsObtained,
+                    formsObtained: alcremieCorrect,
                     genderObtained: getImportStatus.genderObtained,
                     counts: [...getImportStatus.counts],
                 };
@@ -161,8 +183,6 @@ function App(): React.JSX.Element {
             }
         });
         updateShinyDex(importLiving);
-        const getForms = { ...formDex, ...importDex.Forms };
-        const importForms: ShinyForms = getForms;
         updateForms(importForms);
         let search = searchFilter(importLiving, filterString);
         search = completionFilter(search, filterValue);
@@ -204,7 +224,7 @@ function App(): React.JSX.Element {
         //cases: box selected but no counts (use boxes), or counts but no box selected (use 1)
         //see comment mid-line in addShinyGame for formsObtained
         const newStatus: ShinyStatus = {
-            species: oldStatus.species,
+            species: newSpecies,
             id: oldStatus.id,
             forms: oldStatus.forms,
             formsObtained: Math.max(sumBools, getCounts(oldStatus) > 0 ? 1 : 0),
@@ -214,7 +234,7 @@ function App(): React.JSX.Element {
         };
         const newList = shinyDex.map(
             (aStatus: ShinyStatus): ShinyStatus =>
-                aStatus.species !== species ? aStatus : newStatus,
+                aStatus.species !== newSpecies ? aStatus : newStatus,
         );
         updateShinyDex(newList);
         let search = searchFilter(newList, filterString);

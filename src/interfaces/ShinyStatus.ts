@@ -59,7 +59,6 @@ export interface ShinyForms {
     Polteageist: Polteageist;
     Alcremie: Alcremie;
     Urshifu: Urshifu;
-    Calyrex: Calyrex;
     Ursaluna: Ursaluna;
     Maushold: Maushold;
     Squawkabilly: Squawkabilly;
@@ -297,22 +296,81 @@ export interface Polteageist {
     Antique: boolean;
 }
 export interface Alcremie {
-    Strawberry: boolean;
-    Berry: boolean;
-    Love: boolean;
-    Star: boolean;
-    Clover: boolean;
-    Flower: boolean;
-    Ribbon: boolean;
+    VanillaStrawberry: boolean;
+    VanillaBerry: boolean;
+    VanillaLove: boolean;
+    VanillaStar: boolean;
+    VanillaClover: boolean;
+    VanillaFlower: boolean;
+    VanillaRibbon: boolean;
+
+    RubyStrawberry: boolean;
+    RubyBerry: boolean;
+    RubyLove: boolean;
+    RubyStar: boolean;
+    RubyClover: boolean;
+    RubyFlower: boolean;
+    RubyRibbon: boolean;
+
+    MatchaStrawberry: boolean;
+    MatchaBerry: boolean;
+    MatchaLove: boolean;
+    MatchaStar: boolean;
+    MatchaClover: boolean;
+    MatchaFlower: boolean;
+    MatchaRibbon: boolean;
+
+    SaltedStrawberry: boolean;
+    SaltedBerry: boolean;
+    SaltedLove: boolean;
+    SaltedStar: boolean;
+    SaltedClover: boolean;
+    SaltedFlower: boolean;
+    SaltedRibbon: boolean;
+
+    LemonStrawberry: boolean;
+    LemonBerry: boolean;
+    LemonLove: boolean;
+    LemonStar: boolean;
+    LemonClover: boolean;
+    LemonFlower: boolean;
+    LemonRibbon: boolean;
+
+    MintStrawberry: boolean;
+    MintBerry: boolean;
+    MintLove: boolean;
+    MintStar: boolean;
+    MintClover: boolean;
+    MintFlower: boolean;
+    MintRibbon: boolean;
+
+    CaramelStrawberry: boolean;
+    CaramelBerry: boolean;
+    CaramelLove: boolean;
+    CaramelStar: boolean;
+    CaramelClover: boolean;
+    CaramelFlower: boolean;
+    CaramelRibbon: boolean;
+
+    RubySwirlStrawberry: boolean;
+    RubySwirlBerry: boolean;
+    RubySwirlLove: boolean;
+    RubySwirlStar: boolean;
+    RubySwirlClover: boolean;
+    RubySwirlFlower: boolean;
+    RubySwirlRibbon: boolean;
+
+    RainbowStrawberry: boolean;
+    RainbowBerry: boolean;
+    RainbowLove: boolean;
+    RainbowStar: boolean;
+    RainbowClover: boolean;
+    RainbowFlower: boolean;
+    RainbowRibbon: boolean;
 }
 export interface Urshifu {
     SingleStrike: boolean;
     RapidStrike: boolean;
-}
-export interface Calyrex {
-    Normal: boolean;
-    IceRider: boolean;
-    ShadowRider: boolean;
 }
 export interface Ursaluna {
     Normal: boolean;

@@ -472692,7 +472692,7 @@
         "methods": [
             {
                 "game": "Diamond",
-                "location": "Newmoon Island",
+                "location": "Newmoon Island (Via void glitch/ACE/DNS.  Lv.50, must forget Pursuit before Poketransporter)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472702,7 +472702,7 @@
             },
             {
                 "game": "Pearl",
-                "location": "Newmoon Island",
+                "location": "Newmoon Island (Via void glitch/ACE/DNS.  Lv.50, must forget Pursuit before Poketransporter)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472712,7 +472712,7 @@
             },
             {
                 "game": "Platinum",
-                "location": "Newmoon Island",
+                "location": "Newmoon Island (Via void glitch/ACE/DNS.  Lv.50, must forget Pursuit before Poketransporter)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472724,7 +472724,7 @@
                 "game": "Pokémon Brilliant Diamond",
                 "location": "Newmoon Island",
                 "rarity": "%",
-                "environment": "Interact",
+                "environment": "Interact (Event ended)",
                 "time": "All Day",
                 "weather": "N/A",
                 "season": "N/A",
@@ -472734,7 +472734,7 @@
                 "game": "Pokémon Shining Pearl",
                 "location": "Newmoon Island",
                 "rarity": "%",
-                "environment": "Interact",
+                "environment": "Interact (Event ended)",
                 "time": "All Day",
                 "weather": "N/A",
                 "season": "N/A",
@@ -472759,7 +472759,7 @@
         "methods": [
             {
                 "game": "Diamond",
-                "location": "Flower Paradise",
+                "location": "Flower Paradise (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472769,7 +472769,7 @@
             },
             {
                 "game": "Pearl",
-                "location": "Flower Paradise",
+                "location": "Flower Paradise (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472779,7 +472779,7 @@
             },
             {
                 "game": "Platinum",
-                "location": "Flower Paradise",
+                "location": "Flower Paradise (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472789,7 +472789,7 @@
             },
             {
                 "game": "Pokémon Brilliant Diamond",
-                "location": "Flower Paradise",
+                "location": "Flower Paradise (Event ended)",
                 "rarity": "%",
                 "environment": "Interact",
                 "time": "All Day",
@@ -472799,7 +472799,7 @@
             },
             {
                 "game": "Pokémon Shining Pearl",
-                "location": "Flower Paradise",
+                "location": "Flower Paradise (Event ended)",
                 "rarity": "%",
                 "environment": "Interact",
                 "time": "All Day",
@@ -472826,7 +472826,7 @@
         "methods": [
             {
                 "game": "Diamond",
-                "location": "Hall of Origin",
+                "location": "Hall of Origin (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472836,7 +472836,7 @@
             },
             {
                 "game": "Pearl",
-                "location": "Hall of Origin",
+                "location": "Hall of Origin (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -472846,7 +472846,7 @@
             },
             {
                 "game": "Platinum",
-                "location": "Hall of Origin",
+                "location": "Hall of Origin (not Home legal)",
                 "rarity": "- %",
                 "environment": "Interact",
                 "time": "N/A",
@@ -603984,7 +603984,7 @@
                 "game": "Let's Go, Eevee!",
                 "location": "Pokémon Home",
                 "rarity": "N/A",
-                "environment": "Deposit full Kanto Dex (Note: cannot evolve)",
+                "environment": "Deposit full Kanto Dex (Note: cannot evolve.  Melmetal must be evolved in GO, then transferred)",
                 "time": "N/A",
                 "weather": "N/A",
                 "season": "N/A",
@@ -604006,7 +604006,18 @@
         "species": "Melmetal",
         "id": 809,
         "prevolution": "Meltan",
-        "methods": []
+        "methods": [
+            {
+                "game": "Pokémon GO",
+                "location": "Event Only",
+                "rarity": "--%",
+                "environment": "Mystery Box",
+                "time": "All Day",
+                "weather": "N/A",
+                "season": "N/A",
+                "SOS": ""
+            }
+        ]
     },
     "Grookey": {
         "species": "Grookey",

@@ -38,6 +38,14 @@ export function ChangeLog(): React.JSX.Element {
                 </li>
                 <li>Addet Generation filter to Dex tracker</li>
                 <li>Addet Legends: ZA and the Mega Dimensions DLC</li>
+                <li>
+                    Added all Alcremie forms (you will need to re-check the
+                    boxes)
+                </li>
+                <li>
+                    Minor bugfixing with Tauros-Paldea counting incorrectly
+                    (uncheck and recheck one if its boxes to fix)
+                </li>
             </ul>
         </div>
     );

@@ -7815,7 +7815,7 @@
         "868": {
             "species": "Alcremie",
             "id": 869,
-            "forms": 7,
+            "forms": 63,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -8076,7 +8076,7 @@
         "897": {
             "species": "Calyrex",
             "id": 898,
-            "forms": 3,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -9957,22 +9957,81 @@
             "Antique": false
         },
         "Alcremie": {
-            "Strawberry": false,
-            "Berry": false,
-            "Love": false,
-            "Star": false,
-            "Clover": false,
-            "Flower": false,
-            "Ribbon": false
+            "VanillaStrawberry": false,
+            "VanillaBerry": false,
+            "VanillaLove": false,
+            "VanillaStar": false,
+            "VanillaClover": false,
+            "VanillaFlower": false,
+            "VanillaRibbon": false,
+
+            "RubyStrawberry": false,
+            "RubyBerry": false,
+            "RubyLove": false,
+            "RubyStar": false,
+            "RubyClover": false,
+            "RubyFlower": false,
+            "RubyRibbon": false,
+
+            "MatchaStrawberry": false,
+            "MatchaBerry": false,
+            "MatchaLove": false,
+            "MatchaStar": false,
+            "MatchaClover": false,
+            "MatchaFlower": false,
+            "MatchaRibbon": false,
+
+            "SaltedStrawberry": false,
+            "SaltedBerry": false,
+            "SaltedLove": false,
+            "SaltedStar": false,
+            "SaltedClover": false,
+            "SaltedFlower": false,
+            "SaltedRibbon": false,
+
+            "LemonStrawberry": false,
+            "LemonBerry": false,
+            "LemonLove": false,
+            "LemonStar": false,
+            "LemonClover": false,
+            "LemonFlower": false,
+            "LemonRibbon": false,
+
+            "MintStrawberry": false,
+            "MintBerry": false,
+            "MintLove": false,
+            "MintStar": false,
+            "MintClover": false,
+            "MintFlower": false,
+            "MintRibbon": false,
+
+            "CaramelStrawberry": false,
+            "CaramelBerry": false,
+            "CaramelLove": false,
+            "CaramelStar": false,
+            "CaramelClover": false,
+            "CaramelFlower": false,
+            "CaramelRibbon": false,
+
+            "RubySwirlStrawberry": false,
+            "RubySwirlBerry": false,
+            "RubySwirlLove": false,
+            "RubySwirlStar": false,
+            "RubySwirlClover": false,
+            "RubySwirlFlower": false,
+            "RubySwirlRibbon": false,
+
+            "RainbowStrawberry": false,
+            "RainbowBerry": false,
+            "RainbowLove": false,
+            "RainbowStar": false,
+            "RainbowClover": false,
+            "RainbowFlower": false,
+            "RainbowRibbon": false
         },
         "Urshifu": {
             "SingleStrike": false,
             "RapidStrike": false
-        },
-        "Calyrex": {
-            "Normal": false,
-            "IceRider": false,
-            "ShadowRider": false
         },
         "Ursaluna": {
             "Normal": false,
