@@ -137,6 +137,8 @@ export function SpeciesDisplay({
                 <td width="100px">
                     <table>
                         {status.forms > 1 &&
+                            status.species !== "Alcremie" &&
+                            status.species !== "Unown" &&
                             allForms.map(
                                 (aForm: FormObject): React.JSX.Element => (
                                     <tr key={aForm.formName}>
@@ -151,6 +153,114 @@ export function SpeciesDisplay({
                                     </tr>
                                 ),
                             )}
+                        {status.species === "Unown" && (
+                            <table width="100px">
+                                <td>
+                                    {allForms.slice(0, 14).map(
+                                        (
+                                            aForm: FormObject,
+                                        ): React.JSX.Element => (
+                                            <tr key={aForm.formName}>
+                                                <FormDisplay
+                                                    formData={aForm}
+                                                    species={status.species.replace(
+                                                        "-",
+                                                        "",
+                                                    )}
+                                                    updateFormPasser={
+                                                        updateFormPasser
+                                                    }
+                                                ></FormDisplay>
+                                            </tr>
+                                        ),
+                                    )}
+                                </td>
+                                <td>
+                                    {allForms.slice(14).map(
+                                        (
+                                            aForm: FormObject,
+                                        ): React.JSX.Element => (
+                                            <tr key={aForm.formName}>
+                                                <FormDisplay
+                                                    formData={aForm}
+                                                    species={status.species.replace(
+                                                        "-",
+                                                        "",
+                                                    )}
+                                                    updateFormPasser={
+                                                        updateFormPasser
+                                                    }
+                                                ></FormDisplay>
+                                            </tr>
+                                        ),
+                                    )}
+                                </td>
+                            </table>
+                        )}
+                        {status.species === "Alcremie" && (
+                            <table>
+                                <td>
+                                    {allForms.slice(0, 21).map(
+                                        (
+                                            aForm: FormObject,
+                                        ): React.JSX.Element => (
+                                            <tr key={aForm.formName}>
+                                                <FormDisplay
+                                                    formData={aForm}
+                                                    species={status.species.replace(
+                                                        "-",
+                                                        "",
+                                                    )}
+                                                    updateFormPasser={
+                                                        updateFormPasser
+                                                    }
+                                                ></FormDisplay>
+                                            </tr>
+                                        ),
+                                    )}
+                                </td>
+                                <td>
+                                    {allForms.slice(21, 42).map(
+                                        (
+                                            aForm: FormObject,
+                                        ): React.JSX.Element => (
+                                            <tr key={aForm.formName}>
+                                                <FormDisplay
+                                                    formData={aForm}
+                                                    species={status.species.replace(
+                                                        "-",
+                                                        "",
+                                                    )}
+                                                    updateFormPasser={
+                                                        updateFormPasser
+                                                    }
+                                                ></FormDisplay>
+                                            </tr>
+                                        ),
+                                    )}
+                                </td>
+                                <td>
+                                    {allForms.slice(42).map(
+                                        (
+                                            aForm: FormObject,
+                                        ): React.JSX.Element => (
+                                            <tr key={aForm.formName}>
+                                                <FormDisplay
+                                                    formData={aForm}
+                                                    species={status.species.replace(
+                                                        "-",
+                                                        "",
+                                                    )}
+                                                    updateFormPasser={
+                                                        updateFormPasser
+                                                    }
+                                                ></FormDisplay>
+                                            </tr>
+                                        ),
+                                    )}
+                                </td>
+                            </table>
+                        )}
                         {status.gender === 1 && (
                             <GenderDisplay
                                 status={status}
