@@ -30,9 +30,6 @@ export interface ShinyForms {
     Shellos: Shellos;
     Gastrodon: Gastrodon;
     Rotom: Rotom;
-    Dialga: Dialga;
-    Palkia: Palkia;
-    Giratina: Giratina;
     Shaymin: Shaymin;
     Basculin: Basculin;
     Deerling: Deerling;
@@ -142,18 +139,6 @@ export interface Rotom {
     Frost: boolean;
     Fan: boolean;
     Mow: boolean;
-}
-export interface Dialga {
-    Altered: boolean;
-    Origin: boolean;
-}
-export interface Palkia {
-    Altered: boolean;
-    Origin: boolean;
-}
-export interface Giratina {
-    Altered: boolean;
-    Origin: boolean;
 }
 export interface Shaymin {
     Land: boolean;

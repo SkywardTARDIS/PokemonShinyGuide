@@ -4341,7 +4341,7 @@
         "482": {
             "species": "Dialga",
             "id": 483,
-            "forms": 2,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -4350,7 +4350,7 @@
         "483": {
             "species": "Palkia",
             "id": 484,
-            "forms": 2,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -4377,7 +4377,7 @@
         "486": {
             "species": "Giratina",
             "id": 487,
-            "forms": 2,
+            "forms": 1,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -6456,7 +6456,7 @@
         "717": {
             "species": "Zygarde",
             "id": 718,
-            "forms": 3,
+            "forms": 2,
             "formsObtained": 0,
             "gender": 0,
             "genderObtained": 0,
@@ -9804,18 +9804,6 @@
             "Fan": false,
             "Mow": false
         },
-        "Dialga": {
-            "Altered": false,
-            "Origin": false
-        },
-        "Palkia": {
-            "Altered": false,
-            "Origin": false
-        },
-        "Giratina": {
-            "Altered": false,
-            "Origin": false
-        },
         "Shaymin": {
             "Land": false,
             "Sky": false
@@ -9913,8 +9901,7 @@
         },
         "Zygarde": {
             "TenPercent": false,
-            "FiftyPercent": false,
-            "Complete": false
+            "FiftyPercent": false
         },
         "Hoopa": {
             "Confined": false,
